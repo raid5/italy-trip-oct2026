@@ -87,7 +87,9 @@ async function cityCommand(nameArg: string) {
   // search, which can surface signage/maps instead of the landmark.
   log("  fetching hero photo…");
   const heroQuery = cfg.heroQuery ?? `${cfg.name} ${cfg.region} Italy`;
-  city.hero = await findPhoto(heroQuery, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200);
+  city.hero = cfg.heroFile
+    ? await findPhotoByFile(cfg.heroFile, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200)
+    : await findPhoto(heroQuery, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200);
   await sleep(250);
 
   // Per-POI Commons overrides (curated). A pinned File: wins; else a tuned

@@ -715,6 +715,272 @@ window.__ITALY__ = {
         "seaTempC": 23,
         "seaTempF": 73
       }
+    },
+    {
+      "slug": "sorrento",
+      "name": "Sorrento",
+      "region": "Bay of Naples",
+      "tagline": "Clifftop town of lemon groves, a balcony over the Bay of Naples.",
+      "intro": "Sorrento, officially Comune di Sorrento is a city and comune overlooking the Bay of Naples in Southern Italy. A popular tourist destination, Sorrento is located on the Sorrentine Peninsula at the southern terminus of a main branch of the Circumvesuviana rail network, within easy access from Naples and Pompei. The city is widely known for its small ceramics, lacework and marquetry (woodwork) shops.",
+      "lat": 40.626,
+      "lon": 14.376,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 22,
+        "avgLowC": 17,
+        "avgHighF": 72,
+        "avgLowF": 63,
+        "rainDayPct": 34,
+        "sampleYears": "2014–2024",
+        "seaTempC": 23,
+        "seaTempF": 73
+      },
+      "sun": {
+        "sunrise": "7:02 AM",
+        "sunset": "6:39 PM",
+        "goldenHourEvening": "6:03 PM"
+      },
+      "pois": [
+        {
+          "id": "sorrento-marina-grande",
+          "name": "Marina Grande",
+          "category": "coastal",
+          "blurb": "Sorrento's old fishing village, tucked below the cliffs — pastel houses on the water, beached wooden boats, and seafood trattorias where the catch comes in steps from your table. A small beach and an unhurried, lived-in feel away from the busy center.",
+          "lat": 40.6293,
+          "lon": 14.3686,
+          "photo": {
+            "file": "assets/photos/sorrento/marina-grande.webp",
+            "author": "Davidhermanns",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Grande,_Sorrento.jpg",
+            "credit": "Davidhermanns — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-cloister-of-san-francesco",
+          "name": "Cloister of San Francesco",
+          "category": "culture",
+          "blurb": "A serene 14th-century cloister of interlaced arches draped in bougainvillea, beside the church of San Francesco. Free to enter, it hosts summer concerts and weddings — one of the most photographed quiet corners in town.",
+          "lat": 40.6256,
+          "lon": 14.3724,
+          "photo": {
+            "file": "assets/photos/sorrento/cloister-of-san-francesco.webp",
+            "author": "MentNFG",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiostro_di_San_Francesco_(Sorrento)_WLM24_(04).jpg",
+            "credit": "MentNFG — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-villa-comunale",
+          "name": "Villa Comunale",
+          "category": "coastal",
+          "blurb": "A small public garden on the cliff edge with the town's best free panorama — straight across the Bay of Naples to Vesuvius, with the bathing huts of Marina Piccola directly below. The classic spot to catch the sunset before dinner.",
+          "lat": 40.6262,
+          "lon": 14.3716,
+          "photo": {
+            "file": "assets/photos/sorrento/villa-comunale.webp",
+            "author": "DimiTalen",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_beach_huts_at_the_port_of_Sorrento,_from_Villa_Comunale,_2010.jpg",
+            "credit": "DimiTalen — CC0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-piazza-tasso",
+          "name": "Piazza Tasso",
+          "category": "culture",
+          "blurb": "The social heart of Sorrento, named for the poet Torquato Tasso who was born here. Cafés spill across the square, horse-drawn carriages wait, and the evening passeggiata flows through — the place to sit with a coffee and watch the town go by.",
+          "lat": 40.6263,
+          "lon": 14.3753,
+          "photo": {
+            "file": "assets/photos/sorrento/piazza-tasso.webp",
+            "author": "Berthold Werner",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazza_Tasso_-_Sorrento_BW_2013-05-12.jpg",
+            "credit": "Berthold Werner — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-sedile-dominova",
+          "name": "Sedile Dominova",
+          "category": "culture",
+          "blurb": "A rare 15th-century open loggia at a street corner in the old town, its dome and walls covered in faded frescoes. Once the meeting seat of Sorrento's noble families, it's now a working men's club — a vivid survival of the medieval city.",
+          "lat": 40.6259,
+          "lon": 14.3742,
+          "photo": {
+            "file": "assets/photos/sorrento/sedile-dominova.webp",
+            "author": "Berthold Werner",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorrento_Sedile_Dominova_BW_2013-05-12_12-40-36.JPG",
+            "credit": "Berthold Werner — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-basilica-di-sant-antonino",
+          "name": "Basilica di Sant'Antonino",
+          "category": "culture",
+          "blurb": "The church of Sorrento's patron saint, with a crypt of votive offerings and a pair of whale ribs by the door, trophies of a local legend. A short, atmospheric stop on the way through the old quarter.",
+          "lat": 40.6266,
+          "lon": 14.3736,
+          "photo": {
+            "file": "assets/photos/sorrento/basilica-di-sant-antonino.webp",
+            "author": "Mentnafunangann",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Sant%27Antonino_1.JPG",
+            "credit": "Mentnafunangann — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-museo-correale-di-terranova",
+          "name": "Museo Correale di Terranova",
+          "category": "art",
+          "blurb": "An aristocratic villa turned museum of Neapolitan decorative arts — Capodimonte porcelain, inlaid 'intarsia' woodwork (a Sorrentine craft), and old-master paintings, set in citrus gardens with a belvedere over the gulf. A quiet, refined hour.",
+          "lat": 40.6286,
+          "lon": 14.3792,
+          "photo": {
+            "file": "assets/photos/sorrento/museo-correale-di-terranova.webp",
+            "author": "Own work",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorrento_Museo_Correale_di_Terranova.jpg",
+            "credit": "Own work — CC BY 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-o-parrucchiano-la-favorita",
+          "name": "O'Parrucchiano La Favorita",
+          "category": "food",
+          "blurb": "An institution since 1868, set inside a glass-roofed conservatory thick with lemon and orange trees. Said to be the birthplace of cannelloni; the gnocchi alla sorrentina and the greenhouse setting alone are worth the visit.",
+          "lat": 40.6271,
+          "lon": 14.3746,
+          "photo": {
+            "file": "assets/photos/sorrento/o-parrucchiano-la-favorita.webp",
+            "author": "Super nabla",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gnocchi_alla_sorrentina._Le_Scuderie,_Via_Simone_Sancasciani_1,_56125_Pizo_PI.jpg",
+            "credit": "Super nabla — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-i-giardini-di-cataldo",
+          "name": "I Giardini di Cataldo",
+          "category": "drink",
+          "blurb": "A working, family-run lemon grove a few minutes from Piazza Tasso, where giant sfusato lemons hang under chestnut-pole pergolas. Wander the rows and taste the house limoncello and lemon delizia straight from the people who make it.",
+          "lat": 40.6259,
+          "lon": 14.3771,
+          "photo": {
+            "file": "assets/photos/sorrento/i-giardini-di-cataldo.webp",
+            "author": "Elizabeth B. Thomsen",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Lemon_Grove.jpg",
+            "credit": "Elizabeth B. Thomsen — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-gelateria-david",
+          "name": "Gelateria David",
+          "category": "food",
+          "blurb": "A beloved Sorrento gelateria churning seasonal flavors built on local fruit — the lemon and the 'profumi di Sorrento' are the ones to try. A friendly stop on the evening stroll, often with a tasting before you choose.",
+          "lat": 40.6268,
+          "lon": 14.3736,
+          "photo": {
+            "file": "assets/photos/sorrento/gelateria-david.webp",
+            "author": "Basilicofresco",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gelato_artigianale_italiano,_Bertinelli.jpg",
+            "credit": "Basilicofresco — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-bagni-della-regina-giovanna",
+          "name": "Bagni della Regina Giovanna",
+          "category": "coastal",
+          "blurb": "A natural sea pool ringed by the ruins of the Roman Villa Pollio Felice, where a stone arch lets the sea wash into a sheltered basin. A scenic walk west of town rewards you with one of the coast's most atmospheric (and free) swims.",
+          "lat": 40.6346,
+          "lon": 14.3389,
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/sorrento/bagni-della-regina-giovanna.webp",
+            "author": "Stéphane Gallay from Laconnex, Switzerland",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorrento_2013_-_4_(9694529604).jpg",
+            "credit": "Stéphane Gallay from Laconnex, Switzerland — CC BY 2.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "sorrento-vallone-dei-mulini",
+          "name": "Vallone dei Mulini",
+          "category": "outdoors",
+          "blurb": "A deep green gorge slicing through the center, where an abandoned flour mill stands wrapped in ferns and humid jungle. You view it from a railing on Via Fuorimura — a startling pocket of wilderness right in the middle of town.",
+          "lat": 40.6266,
+          "lon": 14.3738,
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/sorrento/vallone-dei-mulini.webp",
+            "author": "KaiBorgeest",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorrento_Vallone_dei_Mulini.jpg",
+            "credit": "KaiBorgeest — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        }
+      ],
+      "categories": [
+        "coastal",
+        "outdoors",
+        "art",
+        "culture",
+        "food",
+        "drink"
+      ],
+      "itinerary": [],
+      "transport": [
+        "End of the Circumvesuviana line from Naples (~70 min) — the easy rail link.",
+        "Ferries and hydrofoils to Capri, Naples, and the Amalfi Coast leave from Marina Piccola.",
+        "The town center is compact and walkable; the old quarter is best on foot.",
+        "SITA buses wind south to Positano and Amalfi along the coastal road."
+      ],
+      "foodNotes": [
+        "Gnocchi alla sorrentina (with tomato, basil, and fior di latte) is the hometown dish.",
+        "Seafood pastas and the local 'spaghetti ai ricci' (sea urchin) star on coastal menus.",
+        "Limoncello was popularized here — the sfusato lemon scents desserts and after-dinner glasses.",
+        "Long lemon-grove lunches and a slow evening passeggiata are the Sorrentine rhythm."
+      ],
+      "beachNotes": [
+        "Mostly rocky platforms and small marinas; cliffside bathing clubs lower you to the water.",
+        "Marina Grande's little beach keeps an old fishing-village feel away from the center.",
+        "Bagni della Regina Giovanna is a wild natural sea pool in Roman ruins — bring water shoes.",
+        "Early-October sea is still swimmable (~73°F); ferries open up Capri and Amalfi swims."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "hero": {
+        "file": "assets/photos/sorrento/sorrento-hero.webp",
+        "author": "Bob Tan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_panorama_of_Sorrento._March_2023.jpg",
+        "credit": "Bob Tan — CC BY 4.0 (Wikimedia Commons)"
+      },
+      "map": {
+        "file": "assets/maps/sorrento.webp",
+        "z": 15,
+        "worldLeft": 4528094,
+        "worldTop": 3155896,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      }
     }
   ],
   "phrases": [

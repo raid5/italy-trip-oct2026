@@ -81,9 +81,9 @@
         h("span", { text: "Ed. October 2026" }),
       ]),
       h("h1", { class: "fg-title", text: "Southern Italy" }),
-      h("p", { class: "fg-subtitle", text: "Rome · Naples · Positano" }),
+      h("p", { class: "fg-subtitle", text: cities.map(function (c) { return c.name; }).join(" · ") }),
       h("p", { class: "fg-masthead-note", text:
-        "A compact early-October reference to three cities of the Italian south — " +
+        "A compact early-October reference to the cities of the Italian south — " +
         "their climate, how to get around, food, and a numbered " +
         "catalogue of things to see. Temperatures in Fahrenheit; distances by foot, " +
         "ferry, and rail. Select a destination from the table of contents at left." }),

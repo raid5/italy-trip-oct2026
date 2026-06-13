@@ -90,7 +90,7 @@
     }, [
       h("p", { class: "poster-kicker", text: "An Offline Travel Guide · October 2026" }),
       h("h1", { class: "poster-title poster-title--xl", text: "Southern Italy" }),
-      h("p", { class: "poster-route", text: "Rome · Naples · Positano" }),
+      h("p", { class: "poster-route", text: cities.map(function (c) { return c.name; }).join(" · ") }),
       scrollCue(ctx, "Begin"),
     ]));
 

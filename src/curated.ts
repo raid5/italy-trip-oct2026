@@ -26,6 +26,7 @@ export interface CityConfig {
   wikivoyage: string; // Wikivoyage page title
   wikipedia: string; // Wikipedia page title
   heroQuery?: string; // override the Commons search for the hero photo
+  heroFile?: string; // pin an exact Commons "File:…" hero when search is unreliable
   transport: string[];
   foodNotes: string[];
   beachNotes?: string[];
@@ -382,15 +383,138 @@ export const CITY_CONFIGS: Record<string, CityConfig> = {
     coastal: true,
     wikivoyage: "Sorrento",
     wikipedia: "Sorrento",
+    heroQuery: "Sorrento coast Bay of Naples panorama",
+    heroFile: "File:Aerial panorama of Sorrento. March 2023.jpg",
     transport: [
-      "End of the Circumvesuviana line from Naples (~70 min).",
-      "Ferries to Capri, Naples, and the Amalfi Coast leave from Marina Piccola.",
+      "End of the Circumvesuviana line from Naples (~70 min) — the easy rail link.",
+      "Ferries and hydrofoils to Capri, Naples, and the Amalfi Coast leave from Marina Piccola.",
+      "The town center is compact and walkable; the old quarter is best on foot.",
+      "SITA buses wind south to Positano and Amalfi along the coastal road.",
     ],
     foodNotes: [
-      "Gnocchi alla sorrentina and seafood pastas are local staples.",
-      "Limoncello was popularized here — sample it after dinner.",
+      "Gnocchi alla sorrentina (with tomato, basil, and fior di latte) is the hometown dish.",
+      "Seafood pastas and the local 'spaghetti ai ricci' (sea urchin) star on coastal menus.",
+      "Limoncello was popularized here — the sfusato lemon scents desserts and after-dinner glasses.",
+      "Long lemon-grove lunches and a slow evening passeggiata are the Sorrentine rhythm.",
     ],
-    beachNotes: ["Mostly rocky platforms and small marinas; bathing clubs line the cliffs."],
+    beachNotes: [
+      "Mostly rocky platforms and small marinas; cliffside bathing clubs lower you to the water.",
+      "Marina Grande's little beach keeps an old fishing-village feel away from the center.",
+      "Bagni della Regina Giovanna is a wild natural sea pool in Roman ruins — bring water shoes.",
+      "Early-October sea is still swimmable (~73°F); ferries open up Capri and Amalfi swims.",
+    ],
+    curatedPois: [
+      {
+        name: "Marina Grande",
+        category: "coastal",
+        photoFile: "File:Marina Grande, Sorrento.jpg",
+        blurb:
+          "Sorrento's old fishing village, tucked below the cliffs — pastel houses on the water, beached wooden boats, and seafood trattorias where the catch comes in steps from your table. A small beach and an unhurried, lived-in feel away from the busy center.",
+        lat: 40.6293,
+        lon: 14.3686,
+      },
+      {
+        name: "Cloister of San Francesco",
+        category: "culture",
+        photoFile: "File:Chiostro di San Francesco (Sorrento) WLM24 (04).jpg",
+        blurb:
+          "A serene 14th-century cloister of interlaced arches draped in bougainvillea, beside the church of San Francesco. Free to enter, it hosts summer concerts and weddings — one of the most photographed quiet corners in town.",
+        lat: 40.6256,
+        lon: 14.3724,
+      },
+      {
+        name: "Villa Comunale",
+        category: "coastal",
+        photoFile: "File:View of beach huts at the port of Sorrento, from Villa Comunale, 2010.jpg",
+        blurb:
+          "A small public garden on the cliff edge with the town's best free panorama — straight across the Bay of Naples to Vesuvius, with the bathing huts of Marina Piccola directly below. The classic spot to catch the sunset before dinner.",
+        lat: 40.6262,
+        lon: 14.3716,
+      },
+      {
+        name: "Piazza Tasso",
+        category: "culture",
+        photoFile: "File:Piazza Tasso - Sorrento BW 2013-05-12.jpg",
+        blurb:
+          "The social heart of Sorrento, named for the poet Torquato Tasso who was born here. Cafés spill across the square, horse-drawn carriages wait, and the evening passeggiata flows through — the place to sit with a coffee and watch the town go by.",
+        lat: 40.6263,
+        lon: 14.3753,
+      },
+      {
+        name: "Sedile Dominova",
+        category: "culture",
+        photoFile: "File:Sorrento Sedile Dominova BW 2013-05-12 12-40-36.JPG",
+        blurb:
+          "A rare 15th-century open loggia at a street corner in the old town, its dome and walls covered in faded frescoes. Once the meeting seat of Sorrento's noble families, it's now a working men's club — a vivid survival of the medieval city.",
+        lat: 40.6259,
+        lon: 14.3742,
+      },
+      {
+        name: "Basilica di Sant'Antonino",
+        category: "culture",
+        photoFile: "File:Basilica di Sant'Antonino 1.JPG",
+        blurb:
+          "The church of Sorrento's patron saint, with a crypt of votive offerings and a pair of whale ribs by the door, trophies of a local legend. A short, atmospheric stop on the way through the old quarter.",
+        lat: 40.6266,
+        lon: 14.3736,
+      },
+      {
+        name: "Museo Correale di Terranova",
+        category: "art",
+        photoFile: "File:Sorrento Museo Correale di Terranova.jpg",
+        blurb:
+          "An aristocratic villa turned museum of Neapolitan decorative arts — Capodimonte porcelain, inlaid 'intarsia' woodwork (a Sorrentine craft), and old-master paintings, set in citrus gardens with a belvedere over the gulf. A quiet, refined hour.",
+        lat: 40.6286,
+        lon: 14.3792,
+      },
+      {
+        name: "O'Parrucchiano La Favorita",
+        category: "food",
+        photoFile: "File:Gnocchi alla sorrentina. Le Scuderie, Via Simone Sancasciani 1, 56125 Pizo PI.jpg",
+        blurb:
+          "An institution since 1868, set inside a glass-roofed conservatory thick with lemon and orange trees. Said to be the birthplace of cannelloni; the gnocchi alla sorrentina and the greenhouse setting alone are worth the visit.",
+        lat: 40.6271,
+        lon: 14.3746,
+      },
+      {
+        name: "I Giardini di Cataldo",
+        category: "drink",
+        photoFile: "File:Entrance to the Lemon Grove.jpg",
+        blurb:
+          "A working, family-run lemon grove a few minutes from Piazza Tasso, where giant sfusato lemons hang under chestnut-pole pergolas. Wander the rows and taste the house limoncello and lemon delizia straight from the people who make it.",
+        lat: 40.6259,
+        lon: 14.3771,
+      },
+      {
+        name: "Gelateria David",
+        category: "food",
+        photoFile: "File:Gelato artigianale italiano, Bertinelli.jpg",
+        blurb:
+          "A beloved Sorrento gelateria churning seasonal flavors built on local fruit — the lemon and the 'profumi di Sorrento' are the ones to try. A friendly stop on the evening stroll, often with a tasting before you choose.",
+        lat: 40.6268,
+        lon: 14.3736,
+      },
+      {
+        name: "Bagni della Regina Giovanna",
+        category: "coastal",
+        photoFile: "File:Sorrento 2013 - 4 (9694529604).jpg",
+        blurb:
+          "A natural sea pool ringed by the ruins of the Roman Villa Pollio Felice, where a stone arch lets the sea wash into a sheltered basin. A scenic walk west of town rewards you with one of the coast's most atmospheric (and free) swims.",
+        lat: 40.6346,
+        lon: 14.3389,
+        hiddenGem: true,
+      },
+      {
+        name: "Vallone dei Mulini",
+        category: "outdoors",
+        photoFile: "File:Sorrento Vallone dei Mulini.jpg",
+        blurb:
+          "A deep green gorge slicing through the center, where an abandoned flour mill stands wrapped in ferns and humid jungle. You view it from a railing on Via Fuorimura — a startling pocket of wilderness right in the middle of town.",
+        lat: 40.6266,
+        lon: 14.3738,
+        hiddenGem: true,
+      },
+    ],
   },
   amalfi: {
     slug: "amalfi",
