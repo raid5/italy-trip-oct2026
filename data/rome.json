@@ -1,0 +1,292 @@
+{
+  "slug": "rome",
+  "name": "Rome",
+  "region": "Lazio",
+  "tagline": "The Eternal City — layered with three thousand years of history.",
+  "intro": "Rome is the capital city and most populated comune (municipality) of Italy. It is also the administrative centre of the Lazio region and of the Metropolitan City of Rome. A special comune named Roma Capitale with a population of 2.7 million in an area of 1,287.36 km2 (497.1 mi2), Rome is the third most populous city in the European Union by population within city limits. The Metropolitan City of Rome Capital, with a population of 4.2 million, is the most populous metropolitan city in Italy. Its metropolitan area is the third-most populous within Italy. Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber Valley. Vatican City is an independent country inside the city boundaries of Rome, the only existing example of a country within a city. Rome is often referred to as the \"City of Seven Hills\" due to its geography, and also as the \"Eternal City\". Rome is generally considered to be one of the cradles of Western civilization and Western Christian culture, and the centre of the Catholic Church.",
+  "lat": 41.89333333,
+  "lon": 12.48277778,
+  "sun": {
+    "sunrise": "7:10 AM",
+    "sunset": "6:46 PM",
+    "goldenHourEvening": "6:09 PM"
+  },
+  "pois": [
+    {
+      "id": "rome-colosseum",
+      "name": "Colosseum",
+      "category": "history",
+      "blurb": "Rome's colossal first-century amphitheater, where tens of thousands once watched gladiatorial games. The largest amphitheater ever built and the enduring symbol of Imperial Rome.",
+      "lat": 41.8902,
+      "lon": 12.4922,
+      "photo": {
+        "file": "assets/photos/rome/colosseum.webp",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome_(IT),_Kolosseum_--_2013_--_3370-3.jpg",
+        "credit": "Dietmar Rabich — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-roman-forum-palatine-hill",
+      "name": "Roman Forum & Palatine Hill",
+      "category": "history",
+      "blurb": "The political and religious heart of ancient Rome — a valley of temples, basilicas, and triumphal arches beneath the Palatine, the hill where the city was said to be founded.",
+      "lat": 41.8925,
+      "lon": 12.4853,
+      "photo": {
+        "file": "assets/photos/rome/roman-forum-palatine-hill.webp",
+        "author": "BeBo86",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forum_romanum_6k_(5760x2097).jpg",
+        "credit": "BeBo86 — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-pantheon",
+      "name": "Pantheon",
+      "category": "history",
+      "blurb": "A near-perfectly preserved Roman temple from around 125 AD, crowned by the world's largest unreinforced concrete dome with its open oculus to the sky.",
+      "lat": 41.8986,
+      "lon": 12.4769,
+      "photo": {
+        "file": "assets/photos/rome/pantheon.webp",
+        "author": "Michal Osmenda from Brussels, Belgium",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on,_Paris_(6094151642).jpg",
+        "credit": "Michal Osmenda from Brussels, Belgium — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-vatican-museums-sistine-chapel",
+      "name": "Vatican Museums & Sistine Chapel",
+      "category": "art",
+      "blurb": "Centuries of papal art collections culminating in Michelangelo's Sistine Chapel ceiling. Vast, dense, and unmissable — go early or book ahead to beat the crowds.",
+      "lat": 41.9065,
+      "lon": 12.4534,
+      "photo": {
+        "file": "assets/photos/rome/vatican-museums-sistine-chapel.webp",
+        "author": "Dennis G. Jarvis",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_ceiling_-_Deluge_(5387917576).jpg",
+        "credit": "Dennis G. Jarvis — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-st-peter-s-basilica",
+      "name": "St. Peter's Basilica",
+      "category": "history",
+      "blurb": "The grandest church of the Renaissance, raised over the apostle Peter's tomb. Climb the Michelangelo-designed dome for a sweeping view across St. Peter's Square.",
+      "lat": 41.9022,
+      "lon": 12.4533,
+      "photo": {
+        "file": "assets/photos/rome/st-peter-s-basilica.webp",
+        "author": "Livioandronico2013",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dome_of_St._Peter_view_from_Via_San_Lucio.jpg",
+        "credit": "Livioandronico2013 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-trevi-fountain",
+      "name": "Trevi Fountain",
+      "category": "culture",
+      "blurb": "Rome's most theatrical Baroque fountain — a wall of sculpted sea-gods and travertine. Tradition says a coin tossed over the shoulder ensures a return to Rome.",
+      "lat": 41.9009,
+      "lon": 12.4833,
+      "photo": {
+        "file": "assets/photos/rome/trevi-fountain.webp",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome_(IT),_Trevi-Brunnen_--_2013_--_3600.jpg",
+        "credit": "Dietmar Rabich — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-villa-borghese",
+      "name": "Villa Borghese",
+      "category": "outdoors",
+      "blurb": "Rome's great landscaped park above the Spanish Steps — shaded paths, a lake, and the Pincio terrace looking out over the rooftops. Easy to wander for an hour or a whole morning.",
+      "lat": 41.9139,
+      "lon": 12.4853,
+      "photo": {
+        "file": "assets/photos/rome/villa-borghese.webp",
+        "author": "Pierre-Selim Huard",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roma_-_2016-05-21_-_Villa_Borghese_-_0697.jpg",
+        "credit": "Pierre-Selim Huard — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-gianicolo-janiculum-terrace",
+      "name": "Gianicolo (Janiculum) Terrace",
+      "category": "outdoors",
+      "blurb": "The Janiculum hill gives the widest, most romantic panorama over Rome's domes and rooftops — a short uphill walk rewarded by golden evening light and a daily noon cannon.",
+      "lat": 41.8919,
+      "lon": 12.4615,
+      "photo": {
+        "file": "assets/photos/rome/gianicolo-janiculum-terrace.webp",
+        "author": "Sonse",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainy_Rome_Panorama,_Gianicolo_%E2%80%A2_Janiculum_Hill_(31912261767).jpg",
+        "credit": "Sonse — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-via-appia-antica",
+      "name": "Via Appia Antica",
+      "category": "outdoors",
+      "blurb": "The ancient Appian Way, now a green archaeological park you can walk or bike for miles past Roman tombs, catacombs, and umbrella pines — Rome's countryside escape.",
+      "lat": 41.8546,
+      "lon": 12.516,
+      "photo": {
+        "file": "assets/photos/rome/via-appia-antica.webp",
+        "author": "Palickap",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roma,_Via_Appia_Antica_(04).jpg",
+        "credit": "Palickap — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-pizzarium-bonci",
+      "name": "Pizzarium Bonci",
+      "category": "food",
+      "blurb": "Gabriele Bonci's famous pizza-al-taglio counter near the Vatican — thick, airy squares with inventive seasonal toppings, cut with scissors and sold by weight. Stand-up only.",
+      "photo": {
+        "file": "assets/photos/rome/pizzarium-bonci.webp",
+        "author": "Ypsilon from Finland",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizze_al_taglio_and_Peroni_at_Alice.jpg",
+        "credit": "Ypsilon from Finland — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-salumeria-roscioli",
+      "name": "Salumeria Roscioli",
+      "category": "food",
+      "blurb": "Part deli, part wine bar, part restaurant in the centro storico — a temple to the Roman pasta canon (carbonara, cacio e pepe) alongside cured meats and cheeses. Book ahead.",
+      "photo": {
+        "file": "assets/photos/rome/salumeria-roscioli.webp",
+        "author": "Javier Somoza",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg",
+        "credit": "Javier Somoza — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-da-enzo-al-29",
+      "name": "Da Enzo al 29",
+      "category": "food",
+      "blurb": "A tiny, beloved Trastevere trattoria doing the Roman classics with market ingredients — expect a queue, generous portions, and no pretense. Lunch and dinner only; cash welcome.",
+      "photo": {
+        "file": "assets/photos/rome/da-enzo-al-29.webp",
+        "author": "DC",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_cacio_e_pepe.jpg",
+        "credit": "DC — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-giolitti",
+      "name": "Giolitti",
+      "category": "food",
+      "blurb": "Rome's grand old gelateria, scooping since 1900 a few steps from the Pantheon — dozens of flavors piled high in a marble parlor that feels like another century.",
+      "photo": {
+        "file": "assets/photos/rome/giolitti.webp",
+        "author": "lazy fri13th",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_aromatic_rice_%26_pistachio_gelato.jpg",
+        "credit": "lazy fri13th — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-sant-eustachio-il-caffe",
+      "name": "Sant'Eustachio Il Caffè",
+      "category": "drink",
+      "blurb": "A historic 1938 espresso bar near the Pantheon, famed for a secret-method gran caffè served pre-sweetened and frothy. Drink it standing at the counter like a Roman.",
+      "photo": {
+        "file": "assets/photos/rome/sant-eustachio-il-caffe.webp",
+        "author": "Daniel Walker",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pellegrini%27s_at_night.jpg",
+        "credit": "Daniel Walker — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "rome-antico-caffe-greco",
+      "name": "Antico Caffè Greco",
+      "category": "drink",
+      "blurb": "Rome's oldest café, open on Via Condotti since 1760 — red velvet, gilt mirrors, and marble tables once frequented by Keats and Casanova. A coffee here is pure theater.",
+      "photo": {
+        "file": "assets/photos/rome/antico-caffe-greco.webp",
+        "author": "Carlo Raso from Naples, Italy",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domenico_Morelli_-_La_barca_della_vita_(1859)_(29901875451).jpg",
+        "credit": "Carlo Raso from Naples, Italy — Public domain (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "outdoors",
+    "history",
+    "art",
+    "culture",
+    "food",
+    "drink"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Fly into Fiumicino (FCO); the Leonardo Express train reaches Termini in ~32 min.",
+    "The Metro (lines A/B/C) plus buses cover the center; buy a 48/72-hour pass.",
+    "The historic core is walkable — most major sights are within 30 minutes on foot.",
+    "High-speed trains (Frecciarossa / Italo) link Rome to Naples in ~70 minutes."
+  ],
+  "foodNotes": [
+    "Roman pasta canon: cacio e pepe, carbonara, amatriciana, gricia.",
+    "Try supplì (fried rice croquettes) and pizza al taglio for a cheap lunch.",
+    "Casual trattorias are the heart of Roman dining — long lunches and late dinners.",
+    "Finish with a cornetto and espresso standing at a bar, like a local."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/rome/rome-hero.webp",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome_(IT),_Kolosseum_--_2013_--_3370-3.jpg",
+    "credit": "Dietmar Rabich — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/rome.webp",
+    "z": 13,
+    "worldLeft": 1120504,
+    "worldTop": 778805,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 14,
+    "avgHighF": 73,
+    "avgLowF": 57,
+    "rainDayPct": 36,
+    "sampleYears": "2014–2024"
+  }
+}

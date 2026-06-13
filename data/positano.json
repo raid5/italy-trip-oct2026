@@ -1,0 +1,208 @@
+{
+  "slug": "positano",
+  "name": "Positano",
+  "region": "Amalfi Coast",
+  "tagline": "Pastel houses cascading down cliffs to a turquoise sea.",
+  "intro": "Positano is a town and comune (municipality) on the Amalfi Coast in the Province of Salerno in the region of Campania in southern Italy, mainly in an enclave in the hills leading down to the coast. It has 3,643 inhabitants.",
+  "lat": 40.63333333,
+  "lon": 14.48333333,
+  "sun": {
+    "sunrise": "7:02 AM",
+    "sunset": "6:39 PM",
+    "goldenHourEvening": "6:02 PM"
+  },
+  "pois": [
+    {
+      "id": "positano-spiaggia-grande",
+      "name": "Spiaggia Grande",
+      "category": "coastal",
+      "blurb": "Positano's main beach, framed by the pastel amphitheater of town. A free public stretch sits beside rows of paid loungers; fishing boats and ferries share the shore. Best light is late afternoon as the cliffs glow.",
+      "lat": 40.6275,
+      "lon": 14.4847,
+      "photo": {
+        "file": "assets/photos/positano/spiaggia-grande.webp",
+        "author": "Mihael Grmek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_01.jpg",
+        "credit": "Mihael Grmek — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-fornillo-beach",
+      "name": "Fornillo Beach",
+      "category": "coastal",
+      "blurb": "A quieter pebble cove a five-minute walk west along the cliffside Via Positanesi d'America path. Calmer water, a couple of low-key beach bars, and a local feel away from the main-beach crowds.",
+      "lat": 40.6286,
+      "lon": 14.481,
+      "photo": {
+        "file": "assets/photos/positano/fornillo-beach.webp",
+        "author": "Mihael Grmek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_Fornillo_Beach.jpg",
+        "credit": "Mihael Grmek — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-path-of-the-gods-sentiero-degli-dei",
+      "name": "Path of the Gods (Sentiero degli Dei)",
+      "category": "outdoors",
+      "blurb": "The Amalfi Coast's legendary cliff-top trail, running high above the sea from Bomerano to Nocelle near Positano. Roughly two to three hours of unforgettable coastal views; bring water and proper shoes.",
+      "lat": 40.631,
+      "lon": 14.453,
+      "photo": {
+        "file": "assets/photos/positano/path-of-the-gods-sentiero-degli-dei.webp",
+        "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentiero_degli_Dei_26_sopra_Positano_Campania.jpg",
+        "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-li-galli-islands",
+      "name": "Li Galli Islands",
+      "category": "coastal",
+      "blurb": "A tiny private archipelago off Positano, mythologized as the home of Homer's sirens. You can't land, but boat tours circle the islets and anchor nearby for a swim in deep blue water.",
+      "lat": 40.5783,
+      "lon": 14.435,
+      "photo": {
+        "file": "assets/photos/positano/li-galli-islands.webp",
+        "author": "Gianfranco Vitolo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Galli_visti_da_Torca_(34577357022).jpg",
+        "credit": "Gianfranco Vitolo — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-da-vincenzo",
+      "name": "Da Vincenzo",
+      "category": "food",
+      "blurb": "A family-run Positano favorite cooking the coast's seafood and house pastas for three generations — warm, unfussy, and reliably excellent. Book ahead in season.",
+      "photo": {
+        "file": "assets/photos/positano/da-vincenzo.webp",
+        "author": "8w9d",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alle_Vongole_-_Wiki_Loves_Sicilia.jpg",
+        "credit": "8w9d — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-la-tagliata",
+      "name": "La Tagliata",
+      "category": "food",
+      "blurb": "A hillside, family-run spot high above Positano serving a no-menu parade of homemade dishes with a jaw-dropping coastal panorama. They'll shuttle you up from town and back.",
+      "photo": {
+        "file": "assets/photos/positano/la-tagliata.webp",
+        "author": "Bruno Rijsman",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_14_(50558382446).jpg",
+        "credit": "Bruno Rijsman — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-franco-s-bar",
+      "name": "Franco's Bar",
+      "category": "drink",
+      "blurb": "Le Sirenuse's cliff-edge cocktail bar — no reservations, first-come stools, and arguably the finest aperitivo view on the Amalfi Coast as the sun drops behind Li Galli.",
+      "photo": {
+        "file": "assets/photos/positano/franco-s-bar.webp",
+        "author": "JeCCo",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_Sunset.JPG",
+        "credit": "JeCCo — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-roman-archaeological-museum-and-villa-mar",
+      "name": "Roman archaeological museum and villa (MAR)",
+      "category": "history",
+      "blurb": "Nestled beneath the Church of Santa Maria Assunta in the heart of Positano is a luxurious Roman villa, dating back to the 1st century AD, which was buried under volcanic debris from the catastrophic eruption of Mount Vesuvius in 79 AD. Discovered in 2003 during restoration work following a flood, the villa was meticulously excavated and opened to the public in 2018. Visitors can explore a richly frescoed triclinium (dining room), adorned with vibrant wall paintings and intricate mosaic floors, preserved remarkably well under layers of ash and pumice.",
+      "lat": 40.628547,
+      "lon": 14.486567,
+      "photo": {
+        "file": "assets/photos/positano/roman-archaeological-museum-and-villa-mar.webp",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sculptures,_Hellenistic_and_Roman,_Archaeological_Museum_of_Milos,_152583.jpg",
+        "credit": "Zde — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "positano-collegiata-di-santa-maria-assunta",
+      "name": "Collegiata di Santa Maria Assunta",
+      "category": "history",
+      "blurb": "This is one of the most famous attractions in Positano. The old church, boasting a majestic dome, was built in the 1920s and is the location of the famous 13th-century Byzantine icon, the Madonna di Positano.",
+      "lat": 40.6284,
+      "lon": 14.486783,
+      "photo": {
+        "file": "assets/photos/positano/collegiata-di-santa-maria-assunta.webp",
+        "author": "LorenzoSan84017",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_Collegiata_di_Santa_Maria_Assunta_-_2023-09-14_10-29-29_001.jpg",
+        "credit": "LorenzoSan84017 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "food",
+    "drink"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Reach it by ferry from Naples, Sorrento, or Amalfi — the most scenic arrival.",
+    "The SITA bus winds the coastal road; driving is slow and parking scarce.",
+    "Expect lots of stairs — Positano is vertical. Wear good shoes.",
+    "Boats and water taxis hop to nearby beaches and the Li Galli islets."
+  ],
+  "foodNotes": [
+    "Seafood-forward: spaghetti alle vongole, fried anchovies, grilled local catch.",
+    "Lemons are everywhere — try delizia al limone dessert and house-made limoncello.",
+    "Cliffside terraces serve long lunches with Amalfi Coast wine and a sea view."
+  ],
+  "beachNotes": [
+    "Spiaggia Grande is the main beach below town — part free, part paid loungers.",
+    "Fornillo beach is quieter, a short cliff path west of the main beach.",
+    "Boat trips reach Arienzo ('the 300-steps beach') and hidden coves toward Praiano.",
+    "Early-October sea is still swimmable (~73–75°F); afternoons are golden for photos."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/positano/positano-hero.webp",
+    "author": "Roweromaniak",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_J03-0D.jpg",
+    "credit": "Roweromaniak — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/positano.webp",
+    "z": 13,
+    "worldLeft": 1132017,
+    "worldTop": 788719,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 22,
+    "avgLowC": 16,
+    "avgHighF": 72,
+    "avgLowF": 61,
+    "rainDayPct": 34,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  }
+}

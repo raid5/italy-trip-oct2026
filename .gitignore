@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+*.log
+
+# Build scratch (the deploy Action stitches maps/photos fresh only via `pnpm city`;
+# the committed site/ assets ARE the deployable artifact, so they are tracked).
+.maptmp/

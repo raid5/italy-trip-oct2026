@@ -1,0 +1,19 @@
+{
+  "name": "italy-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive, shareable travel guide for an early-October Southern Italy trip",
+  "type": "module",
+  "scripts": {
+    "city": "tsx src/cli.ts city",
+    "build": "tsx src/cli.ts build",
+    "package": "tsx src/cli.ts package",
+    "all": "tsx src/cli.ts all"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}

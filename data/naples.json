@@ -1,0 +1,214 @@
+{
+  "slug": "naples",
+  "name": "Naples",
+  "region": "Campania",
+  "tagline": "Raw, operatic, and the birthplace of pizza — Vesuvius on the horizon.",
+  "intro": "Naples is the regional capital of Campania, southern Italy. With a population of 905,050 within the city's administrative limits as of 2026, it is the largest city in southern Italy and the third-largest city in Italy after Rome and Milan, while its province-level municipality is the third most populous metropolitan city in Italy with a population of 2,954,847 residents. Its metropolitan area, the seventh most populous in the European Union, has a population of approximately 4.4 million and stretches beyond the boundaries of the city proper for approximately 30 kilometres. Naples also plays a key role in international diplomacy, being home to NATO's Allied Joint Force Command Naples and the Parliamentary Assembly of the Mediterranean.",
+  "lat": 40.8358,
+  "lon": 14.2486,
+  "sun": {
+    "sunrise": "7:03 AM",
+    "sunset": "6:40 PM",
+    "goldenHourEvening": "6:03 PM"
+  },
+  "pois": [
+    {
+      "id": "naples-naples-national-archaeological-museum",
+      "name": "Naples National Archaeological Museum",
+      "category": "art",
+      "blurb": "One of the world's great antiquities museums — the finest mosaics and frescoes rescued from Pompeii and Herculaneum, plus the colossal Farnese marbles.",
+      "lat": 40.8536,
+      "lon": 14.2509,
+      "photo": {
+        "file": "assets/photos/naples/naples-national-archaeological-museum.webp",
+        "author": "Carole Raddato from FRANKFURT, Germany",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detail_of_the_Alexander_Mosaic_depicting_the_Battle_of_Issus_between_Alexander_the_Great_%26_Darius_III_of_Persia,_from_the_House_of_the_Faun_in_Pompeii,_Naples_Archaeological_Museum_(14859382057).jpg",
+        "credit": "Carole Raddato from FRANKFURT, Germany — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-cappella-sansevero-veiled-christ",
+      "name": "Cappella Sansevero (Veiled Christ)",
+      "category": "art",
+      "blurb": "A small Baroque chapel housing the astonishing 'Veiled Christ', carved so the marble shroud appears translucent — among the most virtuosic sculptures in Italy.",
+      "lat": 40.8489,
+      "lon": 14.254
+    },
+    {
+      "id": "naples-lungomare-castel-dell-ovo",
+      "name": "Lungomare & Castel dell'Ovo",
+      "category": "coastal",
+      "blurb": "Naples' seafront promenade curves past the Castel dell'Ovo, a sea-girt medieval fortress on a tiny island. The classic spot for a sunset stroll with Vesuvius across the bay.",
+      "lat": 40.8281,
+      "lon": 14.247,
+      "photo": {
+        "file": "assets/photos/naples/lungomare-castel-dell-ovo.webp",
+        "author": "Bernard Gagnon",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castel_dell%27Ovo_(Naples)_02.jpg",
+        "credit": "Bernard Gagnon — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-posillipo-gaiola",
+      "name": "Posillipo & Gaiola",
+      "category": "coastal",
+      "blurb": "The leafy Posillipo headland drops to small rocky coves and the protected Gaiola marine area — clear water, swimming nooks, and sweeping views back over the bay.",
+      "lat": 40.7944,
+      "lon": 14.1872,
+      "photo": {
+        "file": "assets/photos/naples/posillipo-gaiola.webp",
+        "author": "Gianfranco Vitolo",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isoletta_della_Gaiola_(Napoli)_01.jpg",
+        "credit": "Gianfranco Vitolo — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-spaccanapoli",
+      "name": "Spaccanapoli",
+      "category": "culture",
+      "blurb": "The dead-straight, shadowed lane that slices the old city in two — the throbbing spine of historic Naples, lined with churches, workshops, and street food.",
+      "lat": 40.8497,
+      "lon": 14.2585,
+      "photo": {
+        "file": "assets/photos/naples/spaccanapoli.webp",
+        "author": "Alpha 350 from Hungary",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Napoli_-_Spaccanapoli_(17340842723).jpg",
+        "credit": "Alpha 350 from Hungary — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-mount-vesuvius",
+      "name": "Mount Vesuvius",
+      "category": "outdoors",
+      "blurb": "The brooding volcano that buried Pompeii in 79 AD. A short trail climbs to the crater rim for a startling view into the cone and out over the Bay of Naples.",
+      "lat": 40.821,
+      "lon": 14.426,
+      "photo": {
+        "file": "assets/photos/naples/mount-vesuvius.webp",
+        "author": "H.A.W.C 101",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evening_view_on_the_bay_of_Naples,_overlooking_Mount_Vesuvius.jpg",
+        "credit": "H.A.W.C 101 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-l-antica-pizzeria-da-michele",
+      "name": "L'Antica Pizzeria da Michele",
+      "category": "food",
+      "blurb": "The spartan 1870 pizzeria purists call the soul of Neapolitan pizza — essentially two pizzas, Margherita and Marinara, blistered in a wood oven. Take a number and wait.",
+      "photo": {
+        "file": "assets/photos/naples/l-antica-pizzeria-da-michele.webp",
+        "author": "myself",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizza_Napoli_Brandi.jpeg",
+        "credit": "myself — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-gino-sorbillo",
+      "name": "Gino Sorbillo",
+      "category": "food",
+      "blurb": "The most famous name on Via dei Tribunali, the pizza street of the old center — a vast, pillowy Margherita from a third-generation pizzaiolo. Expect a crowd on the pavement.",
+      "photo": {
+        "file": "assets/photos/naples/gino-sorbillo.webp",
+        "author": "Rjcastillo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizza_Tradici%C3%B3n_Napolitana.jpg",
+        "credit": "Rjcastillo — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-pasticceria-scaturchio",
+      "name": "Pasticceria Scaturchio",
+      "category": "food",
+      "blurb": "A Piazza San Domenico Maggiore institution for sfogliatella and rum-soaked babà — the classic Neapolitan sweet stop for an espresso break between sights.",
+      "photo": {
+        "file": "assets/photos/naples/pasticceria-scaturchio.webp",
+        "author": "Alpha",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sfogliatella_-_Caffe_Vini_Spuntini.jpg",
+        "credit": "Alpha — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "naples-gran-caffe-gambrinus",
+      "name": "Gran Caffè Gambrinus",
+      "category": "drink",
+      "blurb": "Naples' belle-époque café by Piazza del Plebiscito, pouring coffee since 1860 under chandeliers and stucco. Order a caffè and honor the local 'caffè sospeso' tradition.",
+      "photo": {
+        "file": "assets/photos/naples/gran-caffe-gambrinus.webp",
+        "author": "Nemo bis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8_Gambrinus_(Naples)_2016.jpg",
+        "credit": "Nemo bis — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "art",
+    "culture",
+    "food",
+    "drink"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Naples Centrale is the rail hub; Frecciarossa to Rome is ~70 min.",
+    "The Circumvesuviana regional line runs to Pompeii, Herculaneum, and Sorrento.",
+    "Ferries and hydrofoils leave from Molo Beverello for Capri, Ischia, and the Amalfi Coast.",
+    "Walk the historic center (Spaccanapoli); use funiculars up to the Vomero hill."
+  ],
+  "foodNotes": [
+    "This is the home of pizza — try a Margherita or Marinara from a wood-fired Napoletana oven.",
+    "Street snacks: fried pizza (pizza fritta), cuoppo (fried seafood cone), and frittatina.",
+    "Sweet stops: sfogliatella pastry and baba al rum with an espresso.",
+    "Seafood and the wines of Campania (Falanghina, Greco di Tufo) pair beautifully."
+  ],
+  "beachNotes": [
+    "Naples itself is a working port — for swimming, day-trip to the islands or Amalfi Coast.",
+    "Posillipo has small rocky coves and the Gaiola marine area for a quick city swim."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/naples/naples-hero.webp",
+    "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naples_from_the_Castello_Sant_Elmo_with_Abbazia_San_Martino.jpg",
+    "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. — CC BY-SA 3.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/naples.webp",
+    "z": 12,
+    "worldLeft": 565159,
+    "worldTop": 393217,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 15,
+    "avgHighF": 73,
+    "avgLowF": 59,
+    "rainDayPct": 39,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  }
+}

@@ -1,0 +1,565 @@
+/* ============================================================
+   POSTER design — full-screen immersive scroll-snap panels with
+   vintage travel-poster typography. Every selector is scoped under
+   html[data-design="poster"] so it only applies when active.
+   Palette: deep teal, sunset orange, cream.
+   ============================================================ */
+
+html[data-design="poster"] {
+  --po-teal: #0b262c;
+  --po-teal-2: #103a42;
+  --po-orange: #e8743b;
+  --po-orange-2: #d65a28;
+  --po-cream: #f4ead6;
+  --po-cream-dim: rgba(244, 234, 214, 0.78);
+  --po-gold: #f0b24a;
+  --po-header-h: 52px;
+  --po-display: "Helvetica Neue", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+
+/* ---------- shared chrome: translucent overlay header ---------- */
+html[data-design="poster"] body { background: var(--po-teal); color: var(--po-cream); }
+
+html[data-design="poster"] .site-header {
+  background: linear-gradient(180deg, rgba(7, 23, 27, 0.86) 0%, rgba(7, 23, 27, 0.18) 100%);
+  backdrop-filter: saturate(130%) blur(6px);
+  border-bottom: 1px solid rgba(244, 234, 214, 0.14);
+  color: var(--po-cream);
+}
+html[data-design="poster"] .brand-mark { color: var(--po-orange); opacity: 1; }
+html[data-design="poster"] .brand-text { color: var(--po-cream); letter-spacing: 0.06em; text-transform: uppercase; }
+html[data-design="poster"] .brand-text small { opacity: 0.7; color: var(--po-gold); }
+html[data-design="poster"] .main-nav a { color: var(--po-cream); opacity: 0.78; text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; font-weight: 600; }
+html[data-design="poster"] .main-nav a:hover { opacity: 1; background: rgba(244, 234, 214, 0.12); }
+html[data-design="poster"] .main-nav a.active { opacity: 1; background: var(--po-orange); color: #fff; }
+html[data-design="poster"] .design-switch { border-color: rgba(244, 234, 214, 0.3); }
+html[data-design="poster"] .design-switch button { color: var(--po-cream); border-left-color: rgba(244, 234, 214, 0.2); }
+html[data-design="poster"] .design-switch button:hover { background: rgba(244, 234, 214, 0.12); }
+html[data-design="poster"] .design-switch button.active { background: var(--po-orange); color: #fff; }
+
+/* Footer + helper pages get a poster treatment too */
+html[data-design="poster"] .site-footer {
+  background: var(--po-teal);
+  color: var(--po-cream-dim);
+  border-top: 1px solid rgba(244, 234, 214, 0.14);
+  margin-top: 0;
+}
+html[data-design="poster"] .site-footer a { color: var(--po-gold); }
+html[data-design="poster"] .page { background: var(--po-teal); color: var(--po-cream); min-height: 60vh; }
+html[data-design="poster"] .page .eyebrow { color: var(--po-orange); opacity: 1; }
+html[data-design="poster"] .page h1 { font-family: var(--po-display); text-transform: uppercase; letter-spacing: 0.02em; }
+html[data-design="poster"] .page .lead { color: var(--po-cream-dim); }
+html[data-design="poster"] .phrase-table th, html[data-design="poster"] .phrase-table td { border-bottom-color: rgba(244, 234, 214, 0.14); }
+html[data-design="poster"] .credit-row { border-bottom-color: rgba(244, 234, 214, 0.1); }
+html[data-design="poster"] .credit-row a, html[data-design="poster"] .phrase-table .it { color: var(--po-gold); }
+
+/* ---------- scroll-snap container ---------- */
+html[data-design="poster"] #view { display: block; }
+html[data-design="poster"] .poster-scroll {
+  scroll-snap-type: y mandatory;
+  height: calc(100vh - var(--po-header-h));
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  background: var(--po-teal);
+}
+
+/* ---------- the panel ---------- */
+html[data-design="poster"] .poster-panel {
+  position: relative;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  min-height: calc(100vh - var(--po-header-h));
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  /* fallback poster gradient (overridden when a photo is present) */
+  background-color: var(--po-teal);
+}
+/* Panels that hold a lot of content scroll internally + center their content */
+html[data-design="poster"] .poster-panel--solid,
+html[data-design="poster"] .poster-cat-panel,
+html[data-design="poster"] .poster-food-panel {
+  align-items: stretch;
+  overflow-y: auto;
+}
+html[data-design="poster"] .poster-panel--nophoto {
+  background:
+    radial-gradient(120% 90% at 50% 0%, var(--po-teal-2) 0%, var(--po-teal) 70%);
+}
+html[data-design="poster"] .poster-panel--solid {
+  background: linear-gradient(155deg, var(--po-teal-2) 0%, var(--po-teal) 60%);
+}
+html[data-design="poster"] .poster-panel--alt {
+  background: linear-gradient(155deg, #143037 0%, #0b262c 70%);
+}
+html[data-design="poster"] .poster-wx-panel {
+  background:
+    linear-gradient(160deg, rgba(232, 116, 59, 0.22) 0%, rgba(11, 38, 44, 0) 55%),
+    linear-gradient(155deg, var(--po-teal-2) 0%, var(--po-teal) 70%);
+}
+
+/* big faded emoji watermark for photo-less panels */
+html[data-design="poster"] .poster-bigmoji {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -55%);
+  font-size: clamp(160px, 38vw, 360px);
+  opacity: 0.14;
+  filter: grayscale(0.2);
+  pointer-events: none;
+  line-height: 1;
+}
+
+/* inner content wrapper */
+html[data-design="poster"] .poster-panel-inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 7vh clamp(22px, 6vw, 80px) clamp(48px, 9vh, 96px);
+}
+/* solid/scrollable panels: center horizontally, top-align vertically so that
+   when content is taller than the panel the top stays reachable. Using
+   vertical `margin:auto` here would clip the top in an overflow:auto flex
+   container, making the first lines unscrollable. */
+html[data-design="poster"] .poster-panel--solid .poster-panel-inner,
+html[data-design="poster"] .poster-cat-panel .poster-panel-inner,
+html[data-design="poster"] .poster-food-panel .poster-panel-inner {
+  margin: 0 auto;
+  padding-top: clamp(64px, 9vh, 110px);
+  padding-bottom: clamp(48px, 8vh, 90px);
+}
+
+/* photo credit chip */
+html[data-design="poster"] .poster-credit {
+  position: absolute;
+  right: 12px; bottom: 10px;
+  z-index: 3;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  color: rgba(244, 234, 214, 0.62);
+  background: rgba(7, 23, 27, 0.45);
+  padding: 3px 8px;
+  border-radius: 3px;
+  max-width: 60%;
+  text-align: right;
+}
+
+/* ---------- poster typography ---------- */
+html[data-design="poster"] .poster-kicker {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  font-size: clamp(11px, 1.4vw, 14px);
+  font-weight: 700;
+  color: var(--po-gold);
+  margin: 0 0 14px;
+}
+html[data-design="poster"] .poster-kicker.on-solid { color: var(--po-orange); }
+
+html[data-design="poster"] .poster-title {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 0.92;
+  margin: 0;
+  font-size: clamp(40px, 8vw, 88px);
+  transform: scaleY(1.08);
+  transform-origin: left bottom;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.45);
+  color: var(--po-cream);
+}
+html[data-design="poster"] .poster-title--lg { font-size: clamp(48px, 11vw, 128px); }
+html[data-design="poster"] .poster-title--xl { font-size: clamp(56px, 15vw, 180px); }
+
+html[data-design="poster"] .poster-route {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  font-size: clamp(14px, 2.4vw, 24px);
+  color: var(--po-cream);
+  margin: 22px 0 0;
+}
+html[data-design="poster"] .poster-tagline {
+  font-size: clamp(16px, 2.4vw, 24px);
+  line-height: 1.4;
+  color: var(--po-cream);
+  max-width: 22ch;
+  margin: 18px 0 0;
+  font-weight: 500;
+}
+html[data-design="poster"] .poster-prose {
+  font-size: clamp(15px, 1.8vw, 19px);
+  line-height: 1.6;
+  color: var(--po-cream-dim);
+  max-width: 64ch;
+  margin: 22px 0 0;
+}
+html[data-design="poster"] .poster-fineprint {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: rgba(244, 234, 214, 0.6);
+  margin: 18px 0 0;
+}
+html[data-design="poster"] .poster-subhead {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: clamp(16px, 2.2vw, 22px);
+  font-weight: 800;
+  color: var(--po-orange);
+  margin: 0 0 12px;
+}
+html[data-design="poster"] .poster-catcount {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--po-gold);
+  margin: 10px 0 18px;
+}
+
+/* ---------- cover & city link ---------- */
+html[data-design="poster"] .poster-citylink { text-decoration: none; display: inline-block; }
+html[data-design="poster"] .poster-citylink:hover .poster-title { color: var(--po-gold); }
+
+html[data-design="poster"] .poster-cta {
+  display: inline-block;
+  margin-top: 26px;
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  background: var(--po-orange);
+  padding: 13px 22px;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+html[data-design="poster"] .poster-cta:hover { background: var(--po-orange-2); transform: translateY(-2px); }
+
+/* scroll cue */
+html[data-design="poster"] .poster-cue {
+  margin-top: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: var(--po-cream);
+}
+html[data-design="poster"] .poster-cue-txt {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  font-weight: 700;
+}
+html[data-design="poster"] .poster-cue-arrow { font-size: 22px; animation: poster-bob 1.6s ease-in-out infinite; }
+@keyframes poster-bob { 0%, 100% { transform: translateY(0); opacity: 0.7; } 50% { transform: translateY(7px); opacity: 1; } }
+
+/* ---------- weather overview (home) ---------- */
+html[data-design="poster"] .poster-wx-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 28px 0 0;
+}
+html[data-design="poster"] .poster-wx-card {
+  background: rgba(244, 234, 214, 0.06);
+  border: 1px solid rgba(244, 234, 214, 0.18);
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+html[data-design="poster"] .poster-wx-city {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--po-orange);
+  margin: 0 0 10px;
+}
+html[data-design="poster"] .poster-wx-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid rgba(244, 234, 214, 0.1); font-size: 14px; }
+html[data-design="poster"] .poster-wx-row:last-child { border-bottom: 0; }
+html[data-design="poster"] .poster-wx-row .k { color: var(--po-cream-dim); text-transform: uppercase; letter-spacing: 0.08em; font-size: 11px; }
+html[data-design="poster"] .poster-wx-row .v { color: var(--po-cream); font-weight: 700; }
+
+/* ---------- stat strips (intro panel) ---------- */
+html[data-design="poster"] .poster-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 30px;
+  margin: 26px 0 0;
+}
+html[data-design="poster"] .poster-stats--sun { margin-top: 18px; opacity: 0.92; }
+html[data-design="poster"] .poster-stat { display: flex; flex-direction: column; }
+html[data-design="poster"] .poster-stat-v {
+  font-family: var(--po-display);
+  font-weight: 800;
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 1;
+  color: var(--po-cream);
+}
+html[data-design="poster"] .poster-stats--sun .poster-stat-v { font-size: clamp(20px, 3vw, 28px); color: var(--po-gold); }
+html[data-design="poster"] .poster-stat-k {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--po-cream-dim);
+  margin-top: 5px;
+}
+
+/* ---------- orientation ---------- */
+html[data-design="poster"] .poster-orient {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 48px);
+  align-items: start;
+  margin-top: 26px;
+}
+html[data-design="poster"] .poster-bullets { list-style: none; padding: 0; margin: 0; }
+html[data-design="poster"] .poster-bullets li {
+  position: relative;
+  padding: 0 0 0 26px;
+  margin: 0 0 14px;
+  font-size: clamp(14px, 1.7vw, 17px);
+  line-height: 1.5;
+  color: var(--po-cream-dim);
+}
+html[data-design="poster"] .poster-bullets li::before {
+  content: "➜";
+  position: absolute;
+  left: 0; top: 0;
+  color: var(--po-orange);
+  font-weight: 700;
+}
+
+/* minimap (classes emitted by map.js) */
+html[data-design="poster"] .minimap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background:
+    repeating-linear-gradient(0deg, rgba(244, 234, 214, 0.08) 0 1px, transparent 1px 30px),
+    repeating-linear-gradient(90deg, rgba(244, 234, 214, 0.08) 0 1px, transparent 1px 30px),
+    linear-gradient(160deg, #0e2f36 0%, #0b262c 100%);
+  border: 1px solid rgba(244, 234, 214, 0.2);
+  border-radius: 8px;
+}
+html[data-design="poster"] .minimap .mpin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+html[data-design="poster"] .minimap .mpin .dot {
+  display: block;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--po-orange);
+  border: 2px solid var(--po-cream);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+html[data-design="poster"] .minimap .mpin .lbl {
+  position: absolute;
+  left: 50%; bottom: 155%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--po-cream);
+  color: var(--po-teal);
+  padding: 3px 7px;
+  border-radius: 3px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+html[data-design="poster"] .minimap .mpin:hover { z-index: 5; }
+html[data-design="poster"] .minimap .mpin:hover .lbl { opacity: 1; }
+html[data-design="poster"] .minimap .mpin:hover .dot { background: var(--po-gold); }
+html[data-design="poster"] .minimap .legend {
+  position: absolute;
+  left: 10px; bottom: 10px;
+  z-index: 6;
+  font-family: var(--po-display);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(244, 234, 214, 0.65);
+  background: rgba(7, 23, 27, 0.6);
+  padding: 4px 8px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+/* zoom/fullscreen controls themed to the poster palette */
+html[data-design="poster"] .minimap .mm-btn,
+html[data-design="poster"] .minimap .mm-expand {
+  background: rgba(7, 23, 27, 0.78);
+  color: var(--po-cream);
+  border-color: rgba(244, 234, 214, 0.28);
+  font-family: var(--po-display);
+}
+html[data-design="poster"] .minimap .mm-btn:hover,
+html[data-design="poster"] .minimap .mm-expand:hover {
+  background: var(--po-orange);
+  color: #fff;
+  border-color: var(--po-orange);
+}
+/* fill the fullscreen overlay rather than staying 4/3 */
+html[data-design="poster"] .minimap-overlay .minimap--fs { aspect-ratio: auto; }
+
+/* ---------- itinerary ---------- */
+html[data-design="poster"] .poster-days { margin-top: 26px; display: grid; gap: 14px; }
+html[data-design="poster"] .poster-day {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: rgba(244, 234, 214, 0.06);
+  border: 1px solid rgba(244, 234, 214, 0.16);
+  border-left: 5px solid var(--po-orange);
+  border-radius: 6px;
+  padding: 16px 20px;
+}
+html[data-design="poster"] .poster-day-num { display: flex; flex-direction: column; align-items: center; min-width: 54px; }
+html[data-design="poster"] .poster-day-num .lab { text-transform: uppercase; letter-spacing: 0.14em; font-size: 10px; font-weight: 700; color: var(--po-gold); }
+html[data-design="poster"] .poster-day-num .n { font-family: var(--po-display); font-weight: 800; font-size: 44px; line-height: 1; color: var(--po-orange); }
+html[data-design="poster"] .poster-day-title {
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--po-cream);
+  margin: 0 0 10px;
+}
+html[data-design="poster"] .poster-day-items { display: flex; flex-wrap: wrap; gap: 8px; }
+html[data-design="poster"] .poster-chip {
+  background: rgba(244, 234, 214, 0.1);
+  border: 1px solid rgba(244, 234, 214, 0.2);
+  border-radius: 100px;
+  padding: 5px 12px;
+  font-size: 13px;
+  color: var(--po-cream);
+}
+
+/* ---------- food / notes ---------- */
+html[data-design="poster"] .poster-food-panel { align-items: flex-end; }
+html[data-design="poster"] .poster-notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(20px, 4vw, 44px);
+  margin-top: 24px;
+}
+html[data-design="poster"] .poster-notecol {
+  background: rgba(7, 23, 27, 0.55);
+  border: 1px solid rgba(244, 234, 214, 0.16);
+  border-radius: 8px;
+  padding: 20px 22px;
+  backdrop-filter: blur(2px);
+}
+
+/* ---------- POI list (category panels) ---------- */
+html[data-design="poster"] .poster-poi-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+html[data-design="poster"] .poster-poi {
+  display: flex;
+  flex-direction: column;
+  background: rgba(7, 23, 27, 0.6);
+  border: 1px solid rgba(244, 234, 214, 0.16);
+  border-radius: 10px;
+  overflow: hidden;
+  scroll-margin: 80px;
+  backdrop-filter: blur(2px);
+}
+html[data-design="poster"] .poster-poi-media { margin: 0; aspect-ratio: 16 / 10; overflow: hidden; background: #0e2f36; }
+html[data-design="poster"] .poster-poi-media img { width: 100%; height: 100%; object-fit: cover; }
+html[data-design="poster"] .poster-poi-media.is-emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  background: linear-gradient(150deg, #14454e 0%, #0b262c 100%);
+}
+html[data-design="poster"] .poster-poi-body { padding: 16px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+html[data-design="poster"] .poster-poi-cat {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--po-gold);
+  margin: 0 0 6px;
+}
+html[data-design="poster"] .poster-poi-name {
+  font-family: var(--po-display);
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--po-cream);
+  margin: 0 0 8px;
+}
+html[data-design="poster"] .poster-poi-blurb {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--po-cream-dim);
+  margin: 0 0 14px;
+  /* clamp long blurbs so cards stay tidy; full text reachable via Map link/scroll */
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+html[data-design="poster"] .poster-maplink {
+  margin-top: auto;
+  align-self: flex-start;
+  font-family: var(--po-display);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--po-teal);
+  background: var(--po-gold);
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+html[data-design="poster"] .poster-maplink:hover { background: #fff; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 720px) {
+  html[data-design="poster"] { --po-header-h: 96px; }
+  html[data-design="poster"] .poster-orient { grid-template-columns: 1fr; }
+  html[data-design="poster"] .poster-day { flex-direction: column; gap: 8px; }
+  html[data-design="poster"] .poster-day-num { flex-direction: row; align-items: baseline; gap: 8px; }
+  html[data-design="poster"] .poster-poi-list { grid-template-columns: 1fr; }
+  html[data-design="poster"] .poster-panel-inner { padding-left: 22px; padding-right: 22px; }
+}
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  html[data-design="poster"] .poster-scroll { scroll-behavior: auto; }
+  html[data-design="poster"] .poster-cue-arrow { animation: none; }
+}

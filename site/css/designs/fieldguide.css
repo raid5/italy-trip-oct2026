@@ -1,0 +1,574 @@
+/* ============================================================
+   FIELD GUIDE / ATLAS design.
+   Dense printed-guidebook feel: sticky left sidebar TOC, two-column
+   reference layout, hairline rules, mono/small-caps labels, numbered
+   entries, paper & ink palette with an oxblood accent.
+   ALL selectors scoped under html[data-design="fieldguide"].
+   ============================================================ */
+
+html[data-design="fieldguide"] {
+  --fg-paper: #fbf9f4;
+  --fg-paper-2: #f1ede1;
+  --fg-card: #ffffff;
+  --fg-ink: #20201d;
+  --fg-ink-soft: #54504a;
+  --fg-faint: #938b7c;
+  --fg-rule: #e0d9c8;
+  --fg-rule-strong: #cabf9e;
+  --fg-accent: #c8402c;      /* terracotta */
+  --fg-accent-2: #1f8a9c;    /* coastal teal, secondary marker */
+  --fg-mono: "SF Mono", "JetBrains Mono", "Roboto Mono", Menlo, Consolas, monospace;
+  --fg-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Hoefler Text", Georgia, serif;
+  --fg-header-h: 56px;
+}
+
+html[data-design="fieldguide"] body {
+  background: var(--fg-paper);
+  color: var(--fg-ink);
+  font-family: var(--fg-serif);
+}
+
+/* ---------- shared chrome tuned to paper & ink ---------- */
+html[data-design="fieldguide"] .site-header {
+  background: rgba(251, 249, 244, 0.94);
+  border-bottom: 1px solid var(--fg-rule-strong);
+  backdrop-filter: saturate(120%) blur(6px);
+}
+html[data-design="fieldguide"] .brand-text { font-family: var(--fg-mono); letter-spacing: 0.06em; }
+html[data-design="fieldguide"] .brand-mark { color: var(--fg-accent); }
+html[data-design="fieldguide"] .main-nav a {
+  font-family: var(--fg-mono);
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 0;
+}
+html[data-design="fieldguide"] .main-nav a.active {
+  background: transparent;
+  color: var(--fg-accent);
+  box-shadow: inset 0 -2px 0 var(--fg-accent);
+}
+html[data-design="fieldguide"] .design-switch { border-color: var(--fg-rule-strong); border-radius: 0; }
+html[data-design="fieldguide"] .design-switch button { font-family: var(--fg-mono); font-size: 11px; }
+html[data-design="fieldguide"] .design-switch button.active { background: var(--fg-accent); }
+
+html[data-design="fieldguide"] .site-footer {
+  background: var(--fg-paper-2);
+  border-top: 1px solid var(--fg-rule-strong);
+  font-family: var(--fg-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--fg-ink-soft);
+}
+
+/* ============================================================
+   LAYOUT: sticky sidebar + content
+   ============================================================ */
+html[data-design="fieldguide"] .fg-doc {
+  display: grid;
+  grid-template-columns: 232px minmax(0, 1fr);
+  gap: 0;
+  max-width: 1180px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+html[data-design="fieldguide"] .fg-sidebar {
+  position: sticky;
+  top: var(--fg-header-h);
+  align-self: start;
+  max-height: calc(100vh - var(--fg-header-h));
+  overflow-y: auto;
+  padding: 18px 16px 28px;
+  border-right: 1px solid var(--fg-rule-strong);
+  background: var(--fg-paper-2);
+  font-family: var(--fg-mono);
+}
+html[data-design="fieldguide"] .fg-toc-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--fg-faint);
+  margin: 0 0 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--fg-rule);
+}
+html[data-design="fieldguide"] .fg-toc-group { margin: 0 0 18px; }
+html[data-design="fieldguide"] .fg-toc-list { list-style: none; margin: 0; padding: 0; }
+html[data-design="fieldguide"] .fg-toc-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+html[data-design="fieldguide"] .fg-toc-list .fg-toc-num {
+  color: var(--fg-faint);
+  font-size: 10px;
+  min-width: 16px;
+  text-align: right;
+}
+html[data-design="fieldguide"] .fg-toc-list a,
+html[data-design="fieldguide"] .fg-toc-list button {
+  color: var(--fg-ink-soft);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 1px 0;
+  margin: 0;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  flex: 1;
+}
+html[data-design="fieldguide"] .fg-toc-list a:hover,
+html[data-design="fieldguide"] .fg-toc-list button:hover {
+  color: var(--fg-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+html[data-design="fieldguide"] .fg-toc-city {
+  display: block;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  padding: 3px 0;
+  border-bottom: 1px dotted var(--fg-rule);
+}
+html[data-design="fieldguide"] .fg-toc-city.is-current { color: var(--fg-accent); font-weight: 700; }
+
+/* ---------- main content column ---------- */
+html[data-design="fieldguide"] .fg-main {
+  padding: 22px 30px 60px;
+  min-width: 0;
+}
+
+/* ============================================================
+   MASTHEAD / COVER
+   ============================================================ */
+html[data-design="fieldguide"] .fg-masthead {
+  border: 2px solid var(--fg-ink);
+  padding: 18px 22px 16px;
+  margin-bottom: 22px;
+  position: relative;
+}
+html[data-design="fieldguide"] .fg-masthead-kicker {
+  font-family: var(--fg-mono);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--fg-accent);
+  margin: 0 0 8px;
+  display: flex;
+  justify-content: space-between;
+}
+html[data-design="fieldguide"] .fg-title {
+  font-size: clamp(34px, 6vw, 56px);
+  line-height: 0.96;
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+html[data-design="fieldguide"] .fg-subtitle {
+  font-family: var(--fg-mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-ink-soft);
+  margin: 0;
+}
+html[data-design="fieldguide"] .fg-masthead-note {
+  margin: 12px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--fg-rule);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--fg-ink-soft);
+  columns: 2;
+  column-gap: 26px;
+}
+
+/* ============================================================
+   SECTIONS & RULES
+   ============================================================ */
+html[data-design="fieldguide"] .fg-section { margin: 0 0 26px; scroll-margin-top: calc(var(--fg-header-h) + 10px); }
+html[data-design="fieldguide"] .fg-sec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--fg-ink);
+}
+html[data-design="fieldguide"] .fg-sec-num {
+  font-family: var(--fg-mono);
+  font-size: 12px;
+  color: var(--fg-accent);
+  letter-spacing: 0.05em;
+}
+html[data-design="fieldguide"] .fg-sec-title {
+  font-size: 17px;
+  margin: 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  flex: 1;
+}
+html[data-design="fieldguide"] .fg-sec-meta {
+  font-family: var(--fg-mono);
+  font-size: 10px;
+  color: var(--fg-faint);
+  letter-spacing: 0.08em;
+}
+
+/* generic two-column flow for prose-heavy sections */
+html[data-design="fieldguide"] .fg-cols { columns: 2; column-gap: 28px; column-rule: 1px solid var(--fg-rule); }
+html[data-design="fieldguide"] .fg-cols > * { break-inside: avoid; }
+html[data-design="fieldguide"] .fg-prose { font-size: 14px; line-height: 1.6; margin: 0 0 12px; color: var(--fg-ink); }
+
+/* ---------- city header block ---------- */
+html[data-design="fieldguide"] .fg-cityhead { margin-bottom: 20px; }
+html[data-design="fieldguide"] .fg-cityhead-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 3px double var(--fg-ink);
+  padding-bottom: 6px;
+}
+html[data-design="fieldguide"] .fg-region {
+  font-family: var(--fg-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-accent);
+}
+html[data-design="fieldguide"] .fg-coords {
+  font-family: var(--fg-mono);
+  font-size: 10.5px;
+  color: var(--fg-faint);
+  letter-spacing: 0.04em;
+}
+html[data-design="fieldguide"] .fg-cityname {
+  font-size: clamp(32px, 5vw, 46px);
+  margin: 6px 0 2px;
+  line-height: 1;
+  font-weight: 800;
+}
+html[data-design="fieldguide"] .fg-tagline {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--fg-ink-soft);
+  margin: 0 0 12px;
+}
+
+html[data-design="fieldguide"] .fg-figure { margin: 0 0 14px; border: 1px solid var(--fg-rule-strong); background: var(--fg-card); padding: 6px; }
+html[data-design="fieldguide"] .fg-figure img { width: 100%; height: auto; filter: saturate(0.92) contrast(1.02); }
+html[data-design="fieldguide"] .fg-caption {
+  font-family: var(--fg-mono);
+  font-size: 10px;
+  color: var(--fg-faint);
+  letter-spacing: 0.03em;
+  margin: 5px 2px 1px;
+}
+
+/* ============================================================
+   DATA TABLES (weather / sun)
+   ============================================================ */
+html[data-design="fieldguide"] .fg-datatable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--fg-mono);
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+html[data-design="fieldguide"] .fg-datatable caption {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  padding-bottom: 4px;
+}
+html[data-design="fieldguide"] .fg-datatable th,
+html[data-design="fieldguide"] .fg-datatable td {
+  text-align: left;
+  padding: 5px 10px 5px 0;
+  border-bottom: 1px solid var(--fg-rule);
+  white-space: nowrap;
+}
+html[data-design="fieldguide"] .fg-datatable thead th {
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  border-bottom: 1px solid var(--fg-rule-strong);
+}
+html[data-design="fieldguide"] .fg-datatable td.fg-city-cell { font-weight: 700; color: var(--fg-accent); font-family: var(--fg-serif); }
+html[data-design="fieldguide"] .fg-datatable .fg-num { text-align: right; }
+
+/* small key/value strip used for sun/daylight */
+html[data-design="fieldguide"] .fg-kv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0;
+  font-family: var(--fg-mono);
+  border: 1px solid var(--fg-rule-strong);
+}
+html[data-design="fieldguide"] .fg-kv > div { padding: 7px 10px; border-right: 1px solid var(--fg-rule); }
+html[data-design="fieldguide"] .fg-kv > div:last-child { border-right: 0; }
+html[data-design="fieldguide"] .fg-kv .k { display: block; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-faint); }
+html[data-design="fieldguide"] .fg-kv .v { font-size: 15px; color: var(--fg-ink); }
+
+/* weather + daylight side by side where room allows */
+html[data-design="fieldguide"] .fg-wx-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+
+/* ============================================================
+   ORIENTATION: minimap + transport
+   ============================================================ */
+html[data-design="fieldguide"] .fg-orient { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+html[data-design="fieldguide"] .minimap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 23px, rgba(120,110,80,0.10) 23px 24px),
+    repeating-linear-gradient(90deg, transparent 0 23px, rgba(120,110,80,0.10) 23px 24px),
+    var(--fg-card);
+  border: 1px solid var(--fg-rule-strong);
+}
+html[data-design="fieldguide"] .minimap .mpin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+html[data-design="fieldguide"] .minimap .mpin .dot {
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--fg-accent);
+  border: 1.5px solid var(--fg-paper);
+  box-shadow: 0 0 0 1px var(--fg-accent);
+}
+html[data-design="fieldguide"] .minimap .mpin .lbl {
+  position: absolute;
+  left: 11px;
+  top: -3px;
+  font-family: var(--fg-mono);
+  font-size: 9px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: var(--fg-ink);
+  background: rgba(255,255,255,0.85);
+  padding: 0 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s;
+}
+html[data-design="fieldguide"] .minimap .mpin:hover { z-index: 3; }
+html[data-design="fieldguide"] .minimap .mpin:hover .lbl { opacity: 1; }
+html[data-design="fieldguide"] .minimap .mpin:hover .dot { background: var(--fg-accent-2); box-shadow: 0 0 0 1px var(--fg-accent-2); }
+html[data-design="fieldguide"] .minimap .legend {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 6;
+  font-family: var(--fg-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--fg-faint);
+  background: rgba(241,237,225,0.88);
+  padding: 3px 6px;
+  border-top: 1px solid var(--fg-rule);
+  pointer-events: none;
+}
+
+/* zoom/fullscreen controls themed to the field-guide palette */
+html[data-design="fieldguide"] .minimap .mm-btn,
+html[data-design="fieldguide"] .minimap .mm-expand {
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--fg-ink);
+  border-color: var(--fg-rule-strong);
+  border-radius: 0;
+  font-family: var(--fg-mono);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+html[data-design="fieldguide"] .minimap .mm-btn:hover,
+html[data-design="fieldguide"] .minimap .mm-expand:hover {
+  background: var(--fg-accent);
+  color: #fff;
+  border-color: var(--fg-accent);
+}
+/* fill the fullscreen overlay rather than staying 4/3 */
+html[data-design="fieldguide"] .minimap-overlay .minimap--fs { aspect-ratio: auto; }
+
+/* numbered / bulleted reference lists */
+html[data-design="fieldguide"] .fg-list { list-style: none; margin: 0; padding: 0; counter-reset: fg; }
+html[data-design="fieldguide"] .fg-list li {
+  position: relative;
+  padding: 6px 0 6px 26px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  border-bottom: 1px dotted var(--fg-rule);
+}
+html[data-design="fieldguide"] .fg-list li::before {
+  counter-increment: fg;
+  content: counter(fg, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-family: var(--fg-mono);
+  font-size: 10px;
+  color: var(--fg-accent);
+}
+
+/* ============================================================
+   ITINERARY
+   ============================================================ */
+html[data-design="fieldguide"] .fg-itin { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0; border: 1px solid var(--fg-rule-strong); }
+html[data-design="fieldguide"] .fg-day { padding: 12px 14px; border-right: 1px solid var(--fg-rule); }
+html[data-design="fieldguide"] .fg-day:last-child { border-right: 0; }
+html[data-design="fieldguide"] .fg-day-no {
+  font-family: var(--fg-mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-accent);
+}
+html[data-design="fieldguide"] .fg-day-title { font-weight: 700; font-size: 14px; margin: 2px 0 8px; }
+html[data-design="fieldguide"] .fg-day ol { margin: 0; padding-left: 18px; font-size: 12.5px; line-height: 1.55; }
+
+/* ============================================================
+   THINGS TO DO — numbered POI reference entries
+   ============================================================ */
+html[data-design="fieldguide"] .fg-catblock { margin: 0 0 22px; }
+html[data-design="fieldguide"] .fg-cat-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--fg-rule-strong);
+}
+html[data-design="fieldguide"] .fg-cat-marker { font-size: 13px; filter: grayscale(0.3); }
+html[data-design="fieldguide"] .fg-cat-title {
+  font-family: var(--fg-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+  flex: 1;
+}
+html[data-design="fieldguide"] .fg-cat-count { font-family: var(--fg-mono); font-size: 10px; color: var(--fg-faint); }
+
+html[data-design="fieldguide"] .fg-pois { columns: 2; column-gap: 28px; }
+html[data-design="fieldguide"] .fg-poi {
+  break-inside: avoid;
+  display: grid;
+  grid-template-columns: 22px 56px 1fr;
+  gap: 9px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--fg-rule);
+  scroll-margin-top: calc(var(--fg-header-h) + 10px);
+}
+html[data-design="fieldguide"] .fg-poi-num {
+  font-family: var(--fg-mono);
+  font-size: 11px;
+  color: var(--fg-accent);
+  text-align: right;
+  padding-top: 1px;
+}
+html[data-design="fieldguide"] .fg-poi-thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border: 1px solid var(--fg-rule-strong);
+  background: var(--fg-paper-2);
+  filter: saturate(0.9) contrast(1.02);
+}
+html[data-design="fieldguide"] .fg-poi-marker {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  border: 1px solid var(--fg-rule-strong);
+  background: var(--fg-paper-2);
+  filter: grayscale(0.35);
+}
+html[data-design="fieldguide"] .fg-poi-name { font-weight: 700; font-size: 14px; line-height: 1.2; margin: 0; }
+html[data-design="fieldguide"] .fg-poi-cat {
+  font-family: var(--fg-mono);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg-faint);
+  margin: 1px 0 4px;
+}
+html[data-design="fieldguide"] .fg-poi-blurb { font-size: 12px; line-height: 1.45; color: var(--fg-ink-soft); margin: 0 0 4px; }
+html[data-design="fieldguide"] .fg-maplink {
+  font-family: var(--fg-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--fg-accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--fg-rule-strong);
+}
+html[data-design="fieldguide"] .fg-maplink:hover { color: var(--fg-accent-2); border-color: var(--fg-accent-2); }
+
+/* ============================================================
+   HOME weather overview table
+   ============================================================ */
+html[data-design="fieldguide"] .fg-cityindex { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+html[data-design="fieldguide"] .fg-index-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--fg-rule-strong);
+  background: var(--fg-card);
+  padding: 12px 14px;
+}
+html[data-design="fieldguide"] .fg-index-card:hover { border-color: var(--fg-accent); }
+html[data-design="fieldguide"] .fg-index-card .fg-region { display: block; margin-bottom: 2px; }
+html[data-design="fieldguide"] .fg-index-card h3 { margin: 0 0 4px; font-size: 20px; }
+html[data-design="fieldguide"] .fg-index-card p { margin: 0; font-size: 12.5px; line-height: 1.45; color: var(--fg-ink-soft); }
+
+/* ============================================================
+   RESPONSIVE — sidebar becomes a horizontal scroll bar
+   ============================================================ */
+@media (max-width: 820px) {
+  html[data-design="fieldguide"] .fg-doc { display: block; }
+  html[data-design="fieldguide"] .fg-sidebar {
+    position: sticky;
+    top: var(--fg-header-h);
+    max-height: none;
+    border-right: 0;
+    border-bottom: 1px solid var(--fg-rule-strong);
+    z-index: 20;
+    padding: 8px 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  html[data-design="fieldguide"] .fg-toc-title { display: none; }
+  html[data-design="fieldguide"] .fg-toc-group { margin: 0; display: inline-block; vertical-align: top; }
+  html[data-design="fieldguide"] .fg-toc-list { display: flex; gap: 4px; flex-wrap: nowrap; }
+  html[data-design="fieldguide"] .fg-toc-list li { white-space: nowrap; border: 1px solid var(--fg-rule); padding: 3px 7px; }
+  html[data-design="fieldguide"] .fg-toc-list .fg-toc-num { display: none; }
+  html[data-design="fieldguide"] .fg-toc-city { border: 0; padding: 0; }
+  html[data-design="fieldguide"] .fg-main { padding: 16px; }
+}
+
+@media (max-width: 560px) {
+  html[data-design="fieldguide"] .fg-masthead-note,
+  html[data-design="fieldguide"] .fg-cols,
+  html[data-design="fieldguide"] .fg-pois { columns: 1; }
+  html[data-design="fieldguide"] .fg-wx-grid,
+  html[data-design="fieldguide"] .fg-orient { grid-template-columns: 1fr; }
+  html[data-design="fieldguide"] .fg-cityhead-top { flex-direction: column; gap: 2px; }
+}
