@@ -311,7 +311,7 @@ a { color: inherit; }
 }
 .itin-card:hover { box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12); transform: translateY(-2px); }
 .itin-card-map { background: #f3efe7; padding: 12px; border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
-.itin-card-map .route-map { width: 100%; height: 150px; }
+.itin-card-map .route-map { width: 100%; height: auto; }
 .itin-card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; }
 .itin-tag { margin: 0; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; color: #c2410c; }
 .itin-card-name { margin: 0; font-size: 20px; line-height: 1.2; }
@@ -338,7 +338,7 @@ a { color: inherit; }
   padding: 18px;
   margin: 0 0 28px;
 }
-.itin-detail-map .route-map { width: 100%; height: clamp(240px, 42vw, 420px); }
+.itin-detail-map .route-map { width: 100%; height: auto; }
 .itin-stops { list-style: none; margin: 0; padding: 0; }
 .itin-stop {
   display: flex;

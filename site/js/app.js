@@ -224,36 +224,40 @@
     });
     if (!pts.length) return "";
 
+    // Itineraries are a *sequence*, and real distances vary wildly (Rome is
+    // ~200km from Naples; Positano/Amalfi/Capri sit within a few km). Plotting
+    // by true geography collapses the tight clusters into an unreadable blob.
+    // Instead, lay the stops out as an evenly-spaced journey strip: equal
+    // horizontal spacing in travel order, with vertical position driven by
+    // latitude (north = up) so it still reads like a map. Labels alternate
+    // above/below the line so they never collide.
     var lats = pts.map(function (p) { return p.lat; });
-    var lons = pts.map(function (p) { return p.lon; });
     var minLat = Math.min.apply(null, lats), maxLat = Math.max.apply(null, lats);
-    var minLon = Math.min.apply(null, lons), maxLon = Math.max.apply(null, lons);
     var latSpan = Math.max(maxLat - minLat, 0.5);
-    var lonSpan = Math.max(maxLon - minLon, 0.5);
-    // Longitude degrees compress away from the equator — correct for it so the
-    // shape isn't stretched east-west.
-    var lonScale = Math.cos(((minLat + maxLat) / 2) * Math.PI / 180) || 1;
 
-    var MX = 70, MY = 32;
-    var innerW = 240;
-    var innerH = Math.max(70, Math.min(380, innerW * latSpan / (lonSpan * lonScale)));
-    var vbW = innerW + MX * 2, vbH = innerH + MY * 2;
-    function X(lon) { return MX + ((lon - minLon) / lonSpan) * innerW; }
-    function Y(lat) { return MY + ((maxLat - lat) / latSpan) * innerH; }
+    var n = pts.length;
+    var MX = 56, MT = 42, MB = 50;
+    var STEP = 96;
+    var innerW = Math.max(240, (n - 1) * STEP);
+    var innerH = n > 1 ? 120 : 0;
+    var step = n > 1 ? innerW / (n - 1) : 0;
+    var vbW = innerW + MX * 2, vbH = innerH + MT + MB;
+    function X(i) { return MX + i * step; }
+    function Y(lat) { return MT + (latSpan ? (maxLat - lat) / latSpan : 0.5) * innerH; }
     function esc(s) { return ("" + s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
 
-    var line = "M " + pts.map(function (p) { return X(p.lon).toFixed(1) + " " + Y(p.lat).toFixed(1); }).join(" L ");
-    var nodes = pts.map(function (p) {
-      var x = X(p.lon), y = Y(p.lat);
-      var right = x < vbW / 2;
-      var lx = right ? x + 10 : x - 10;
-      var anchor = right ? "start" : "end";
+    var line = "M " + pts.map(function (p, i) { return X(i).toFixed(1) + " " + Y(p.lat).toFixed(1); }).join(" L ");
+    var nodes = pts.map(function (p, i) {
+      var x = X(i), y = Y(p.lat);
+      var above = i % 2 === 0;            // alternate to avoid label collisions
+      var nameY = above ? y - 17 : y + 20;
+      var subY = above ? y - 6 : y + 31;
       var nightTxt = p.nights + (p.nights === 1 ? " night" : " nights");
       return (
         '<circle class="route-dot" cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="7"/>' +
         '<text class="route-num" x="' + x.toFixed(1) + '" y="' + (y + 3).toFixed(1) + '" text-anchor="middle">' + p.n + '</text>' +
-        '<text class="route-label" x="' + lx.toFixed(1) + '" y="' + (y - 1.5).toFixed(1) + '" text-anchor="' + anchor + '">' + esc(p.name) + '</text>' +
-        '<text class="route-sub" x="' + lx.toFixed(1) + '" y="' + (y + 9).toFixed(1) + '" text-anchor="' + anchor + '">' + nightTxt + '</text>'
+        '<text class="route-label" x="' + x.toFixed(1) + '" y="' + nameY.toFixed(1) + '" text-anchor="middle">' + esc(p.name) + '</text>' +
+        '<text class="route-sub" x="' + x.toFixed(1) + '" y="' + subY.toFixed(1) + '" text-anchor="middle">' + nightTxt + '</text>'
       );
     }).join("");
 
