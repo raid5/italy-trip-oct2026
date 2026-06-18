@@ -268,31 +268,31 @@ html[data-design="poster"] .poster-cue-arrow { font-size: 22px; animation: poste
 @keyframes poster-bob { 0%, 100% { transform: translateY(0); opacity: 0.7; } 50% { transform: translateY(7px); opacity: 1; } }
 
 /* ---------- weather overview (home) ---------- */
-html[data-design="poster"] .poster-wx-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
+html[data-design="poster"] .poster-rough {
   margin: 28px 0 0;
+  max-width: 460px;
+  border-top: 1px solid rgba(244, 234, 214, 0.2);
 }
-html[data-design="poster"] .poster-wx-card {
-  background: rgba(244, 234, 214, 0.06);
-  border: 1px solid rgba(244, 234, 214, 0.18);
-  border-radius: 8px;
-  padding: 18px 20px;
+html[data-design="poster"] .poster-rough-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(244, 234, 214, 0.14);
 }
-html[data-design="poster"] .poster-wx-city {
-  font-family: var(--po-display);
+html[data-design="poster"] .poster-rough-row .k {
+  color: var(--po-cream-dim);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 20px;
-  font-weight: 800;
-  color: var(--po-orange);
-  margin: 0 0 10px;
+  font-size: 12px;
 }
-html[data-design="poster"] .poster-wx-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid rgba(244, 234, 214, 0.1); font-size: 14px; }
-html[data-design="poster"] .poster-wx-row:last-child { border-bottom: 0; }
-html[data-design="poster"] .poster-wx-row .k { color: var(--po-cream-dim); text-transform: uppercase; letter-spacing: 0.08em; font-size: 11px; }
-html[data-design="poster"] .poster-wx-row .v { color: var(--po-cream); font-weight: 700; }
+html[data-design="poster"] .poster-rough-row .v {
+  font-family: var(--po-display);
+  color: var(--po-gold);
+  font-weight: 800;
+  font-size: clamp(20px, 3vw, 26px);
+}
 
 /* ---------- stat strips (intro panel) ---------- */
 html[data-design="poster"] .poster-stats {

@@ -77,7 +77,15 @@
       "category": "coastal",
       "blurb": "The granite cape at Sardinia's southeasternmost point, ringed by a protected marine area prized for snorkelling and clear water. A lighthouse marks the headland above coves of seagrass-fringed shallows and tumbled boulders.",
       "lat": 39.0894,
-      "lon": 9.5169
+      "lon": 9.5169,
+      "photo": {
+        "file": "assets/photos/villasimius/capo-carbonara.webp",
+        "author": "Giorgio Galeotti",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiaggia_-_Capo_Carbonara,_Villasimius,_Cagliari,_Italia_-_28_Maggio_2026_01.jpg",
+        "credit": "Giorgio Galeotti — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "id": "villasimius-isola-dei-cavoli",
@@ -85,7 +93,15 @@
       "category": "outdoors",
       "blurb": "A low rocky islet a short boat-ride offshore, crowned by a 19th-century lighthouse and lying at the heart of the Capo Carbonara reserve. Snorkelling and diving boats circle its clear waters, home to a submerged statue of the Madonna of the Sea.",
       "lat": 39.0833,
-      "lon": 9.5333
+      "lon": 9.5333,
+      "photo": {
+        "file": "assets/photos/villasimius/isola-dei-cavoli.webp",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_lighthouse_on_the_island_of_Cavoli_(Isola_dei_Cavoli)_in_Sardinia,_Italy_(48399911771).jpg",
+        "credit": "dronepicr — CC BY 2.0 (Wikimedia Commons)"
+      }
     },
     {
       "id": "villasimius-porto-turistico-di-villasimius",
@@ -127,7 +143,15 @@
       "blurb": "A weathered Spanish-era fortress perched on a rocky promontory above transparent water, built to guard the coast against corsair raids. Its blunt stone keep and ramparts make for an evocative walk with sea views in every direction.",
       "lat": 39.0975,
       "lon": 9.5444,
-      "hiddenGem": true
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/villasimius/fortezza-vecchia.webp",
+        "author": "Olaf Tausch",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villasimius_Fortezza_Vecchia_02.jpg",
+        "credit": "Olaf Tausch — CC BY 3.0 (Wikimedia Commons)"
+      }
     },
     {
       "id": "villasimius-cala-caterina",
@@ -166,6 +190,14 @@
     "In early October the sea is still beautifully swimmable at around 72 to 74°F, warm enough for long swims with far fewer crowds than August."
   ],
   "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/villasimius/villasimius-hero.webp",
+    "author": "Massimomelis1971",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winter_in_Sardinia._Villasimius,_the_three_seas.jpg",
+    "credit": "Massimomelis1971 — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
   "map": {
     "file": "assets/maps/villasimius.webp",
     "z": 13,

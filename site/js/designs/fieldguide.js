@@ -47,8 +47,6 @@
   function renderHome(ctx) {
     var h = ctx.h;
     var cities = ctx.data.cities;
-    var withWx = cities.filter(function (c) { return ctx.weather(c.weather); });
-    var anySea = withWx.some(function (c) { return ctx.weather(c.weather).sea; });
 
     // ----- sidebar TOC -----
     var cityItems = cities.map(function (c) {
@@ -57,7 +55,7 @@
       ]);
     });
     var sections = [
-      ["§1", "Climate Table", "fg-home-weather"],
+      ["§1", "Rough weather", "fg-home-weather"],
       ["§2", "Region Index", "fg-home-index"],
       ["§3", "About this guide", "fg-home-about"],
     ];
@@ -90,36 +88,28 @@
         "ferry, and rail. Select a destination from the table of contents at left." }),
     ]);
 
-    // ----- §1 climate table -----
-    var headCells = [
-      h("th", {}, ["City"]),
-      h("th", { class: "fg-num" }, ["High"]),
-      h("th", { class: "fg-num" }, ["Low"]),
-      h("th", { class: "fg-num" }, ["Rain days"]),
-    ];
-    if (anySea) headCells.push(h("th", { class: "fg-num" }, ["Sea"]));
-    headCells.push(h("th", {}, ["Sample"]));
-
-    var bodyRows = withWx.map(function (c) {
-      var w = ctx.weather(c.weather);
-      var cells = [
-        h("td", { class: "fg-city-cell", text: c.name }),
-        h("td", { class: "fg-num", text: w.high }),
-        h("td", { class: "fg-num", text: w.low }),
-        h("td", { class: "fg-num", text: w.rain }),
-      ];
-      if (anySea) cells.push(h("td", { class: "fg-num", text: w.sea || "—" }));
-      cells.push(h("td", { text: w.years }));
-      return h("tr", {}, cells);
-    });
+    // ----- §1 rough weather (one trip-wide estimate; weather isn't the point) -----
+    var rw = ctx.roughWeather();
+    var roughDefs = rw ? [
+      ["Daytime high", ctx.degRange(rw.high)],
+      ["Overnight low", ctx.degRange(rw.low)],
+    ] : [];
+    if (rw && rw.sea) roughDefs.push(["Sea", ctx.degRange(rw.sea)]);
+    if (rw) roughDefs.push(["Rain", "~" + rw.rain + "% of days"]);
 
     var climate = h("section", { class: "fg-section", id: "fg-home-weather" }, [
-      sectionHead(ctx, "§1", "Climate Table", "Early October · °F"),
-      h("table", { class: "fg-datatable" }, [
-        h("caption", { text: "Average daily high / low, rain-day probability, sea temperature where coastal." }),
-        h("thead", {}, [h("tr", {}, headCells)]),
-        h("tbody", {}, bodyRows),
-      ]),
+      sectionHead(ctx, "§1", "Rough weather", "Sep 30 – Oct 16 · °F"),
+      rw
+        ? h("table", { class: "fg-datatable fg-rough" }, [
+            h("caption", { text: "Very rough averages across all stops" + (rw.years ? " · " + rw.years : "") + " — early autumn in the south: warm days, mild evenings." }),
+            h("tbody", {}, roughDefs.map(function (d) {
+              return h("tr", {}, [
+                h("td", { class: "fg-city-cell", text: d[0] }),
+                h("td", { class: "fg-num", text: d[1] }),
+              ]);
+            })),
+          ])
+        : h("p", { class: "fg-prose", text: "Weather estimate unavailable." }),
     ]);
 
     // ----- §2 region index -----

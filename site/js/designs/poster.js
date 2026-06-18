@@ -95,31 +95,25 @@
       scrollCue(ctx, "Begin"),
     ]));
 
-    // ---- weather overview panel (Fahrenheit only) ----
-    var wxCards = [];
-    var years = null;
-    cities.forEach(function (c) {
-      var w = ctx.weather(c.weather);
-      if (!w) return;
-      if (!years) years = w.years;
-      var rows = [["High", w.high], ["Low", w.low], ["Rain", w.rain]];
-      if (w.sea) rows.push(["Sea", w.sea]);
-      wxCards.push(h("div", { class: "poster-wx-card" }, [
-        h("h3", { class: "poster-wx-city", text: c.name }),
-        h("div", { class: "poster-wx-rows" }, rows.map(function (r) {
-          return h("div", { class: "poster-wx-row" }, [
+    // ---- rough weather panel (one trip-wide estimate; weather isn't the point) ----
+    var rw = ctx.roughWeather();
+    if (rw) {
+      var rwRows = [
+        ["Daytime high", ctx.degRange(rw.high)],
+        ["Overnight low", ctx.degRange(rw.low)],
+      ];
+      if (rw.sea) rwRows.push(["Sea", ctx.degRange(rw.sea)]);
+      rwRows.push(["Rain", "~" + rw.rain + "% of days"]);
+      scroll.appendChild(panel(ctx, { tone: "solid", extraClass: "poster-wx-panel" }, [
+        h("p", { class: "poster-kicker on-solid", text: "Sep 30 – Oct 16" }),
+        h("h2", { class: "poster-title", text: "Rough weather" }),
+        h("div", { class: "poster-rough" }, rwRows.map(function (r) {
+          return h("div", { class: "poster-rough-row" }, [
             h("span", { class: "k", text: r[0] }),
             h("span", { class: "v", text: r[1] }),
           ]);
         })),
-      ]));
-    });
-    if (wxCards.length) {
-      scroll.appendChild(panel(ctx, { tone: "solid", extraClass: "poster-wx-panel" }, [
-        h("p", { class: "poster-kicker on-solid", text: "Early October" }),
-        h("h2", { class: "poster-title", text: "Weather at a glance" }),
-        h("div", { class: "poster-wx-grid" }, wxCards),
-        h("p", { class: "poster-fineprint", text: "Average highs & lows, rain-day chance and sea temperature · " + (years || "recent years") + ". Fahrenheit." }),
+        h("p", { class: "poster-fineprint", text: "Very rough averages across all stops" + (rw.years ? " · " + rw.years : "") + ". Warm days, mild evenings — pack layers for the south in early autumn." }),
       ]));
     }
 
