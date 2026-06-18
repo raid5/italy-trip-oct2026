@@ -78,6 +78,7 @@ a { color: inherit; }
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   box-shadow: 0 12px 38px rgba(0, 0, 0, 0.18);
+  color: #1f2430;
 }
 .nav-menu-panel[hidden] { display: none; }
 .nav-menu-group { display: flex; flex-direction: column; gap: 2px; }
@@ -89,16 +90,18 @@ a { color: inherit; }
   text-transform: uppercase;
   opacity: 0.5;
 }
-.nav-menu-panel a {
+.main-nav .nav-menu-panel a {
   text-decoration: none;
-  color: inherit;
+  color: #1f2430;
   font-size: 13.5px;
   padding: 4px 8px;
   border-radius: 7px;
   opacity: 0.82;
+  text-transform: none;
+  letter-spacing: normal;
 }
-.nav-menu-panel a:hover { opacity: 1; background: rgba(0, 0, 0, 0.06); }
-.nav-menu-panel a.active { opacity: 1; background: rgba(0, 0, 0, 0.1); font-weight: 600; }
+.main-nav .nav-menu-panel a:hover { opacity: 1; color: #1f2430; background: rgba(0, 0, 0, 0.06); }
+.main-nav .nav-menu-panel a.active { opacity: 1; color: #1f2430; background: rgba(0, 0, 0, 0.1); font-weight: 600; }
 
 .header-tools { display: flex; align-items: center; gap: 10px; }
 .design-switch { display: inline-flex; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 9px; overflow: hidden; }
