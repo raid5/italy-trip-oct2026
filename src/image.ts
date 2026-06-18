@@ -3,7 +3,7 @@ import { rm } from "node:fs/promises";
 
 /**
  * Downscale an image to `cap` px on its longest side and convert it to WebP, to
- * keep the shareable zip small. WebP at ~q72 is ~90% smaller than the full-res
+ * keep page weight low. WebP at ~q72 is ~90% smaller than the full-res
  * JPEGs Commons serves and works from file:// in every modern browser.
  *
  * macOS `sips` can't actually emit WebP (exits 13), so we downscale with `sips`

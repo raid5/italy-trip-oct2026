@@ -192,7 +192,7 @@ async function downloadAndDescribe(
     return undefined;
   }
 
-  // Downscale + convert to WebP to keep the shareable zip small. The helper
+  // Downscale + convert to WebP to keep page weight low. The helper
   // returns a .webp path on success, or the downscaled original otherwise.
   const optimized = await downscaleToWebp(abs, width);
   if (optimized) {

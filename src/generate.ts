@@ -1,10 +1,25 @@
 import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
 import { join } from "node:path";
 import type { City, SiteData } from "./schema.js";
-import { PHRASES, PACKING_LIST } from "./curated.js";
 
 /** Order cities by the trip's intended sequence; unknown cities go last. */
-const CITY_ORDER = ["rome", "naples", "positano", "sorrento", "amalfi", "pompeii"];
+const CITY_ORDER = [
+  "rome",
+  "naples",
+  "positano",
+  "sorrento",
+  "amalfi",
+  "pompeii",
+  "procida",
+  "capri",
+  "tropea",
+  "bagnara",
+  "scilla",
+  "catania",
+  "cagliari",
+  "alghero",
+  "villasimius",
+];
 
 export async function buildSiteData(dataDir: string): Promise<SiteData> {
   let files: string[] = [];
@@ -25,12 +40,7 @@ export async function buildSiteData(dataDir: string): Promise<SiteData> {
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
   });
 
-  return {
-    builtLabel: "Italy · Early October 2026",
-    cities,
-    phrases: PHRASES,
-    packingList: PACKING_LIST,
-  };
+  return { cities };
 }
 
 export async function writeDataBundle(data: SiteData, siteJsDir: string): Promise<void> {

@@ -1,0 +1,299 @@
+{
+  "slug": "cagliari",
+  "name": "Cagliari",
+  "region": "Sardinia",
+  "tagline": "A limestone citadel above turquoise water, where Roman ruins, flamingo lagoons, and a city beach all share one golden horizon.",
+  "intro": "Cagliari is a municipality and the capital and largest city of the island of Sardinia, an autonomous region of Italy. It has about 145,981 inhabitants, while its metropolitan city, including 69 other nearby municipalities, has about 536,245 inhabitants. According to Eurostat, the population of the functional urban area, the commuting zone of Cagliari, rises to 476,975. Cagliari is the 27th largest city in Italy.",
+  "lat": 39.22777778,
+  "lon": 9.11111111,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 24,
+    "avgLowC": 17,
+    "avgHighF": 75,
+    "avgLowF": 63,
+    "rainDayPct": 15,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  },
+  "sun": {
+    "sunrise": "7:22 AM",
+    "sunset": "7:01 PM",
+    "goldenHourEvening": "6:25 PM"
+  },
+  "pois": [
+    {
+      "id": "cagliari-il-castello",
+      "name": "Il Castello",
+      "category": "history",
+      "blurb": "Cagliari's walled hilltop quarter, a tangle of pastel palazzi, ramparts and watchtowers crowning the city. Its limestone lanes open onto sudden terraces over the rooftops and the sea beyond.",
+      "lat": 39.2167,
+      "lon": 9.1167,
+      "photo": {
+        "file": "assets/photos/cagliari/il-castello.webp",
+        "author": "Municipality of Cagliari",
+        "license": "CC BY-SA 3.0 it",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/it/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castello_(Cagliari).jpg",
+        "credit": "Municipality of Cagliari — CC BY-SA 3.0 it (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-bastione-di-saint-remy",
+      "name": "Bastione di Saint Remy",
+      "category": "culture",
+      "blurb": "A monumental neoclassical staircase and terrace built into the old bastions, all honey-coloured limestone and sweeping arches. The panoramic promenade at the top is the city's favourite place to watch the light soften over the harbour.",
+      "lat": 39.2156,
+      "lon": 9.1186,
+      "photo": {
+        "file": "assets/photos/cagliari/bastione-di-saint-remy.webp",
+        "author": "Ryan Hodnett",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bastione_di_Saint_Remy_-_Cagliari,_Italy_2024-03-28.jpg",
+        "credit": "Ryan Hodnett — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-cattedrale-di-santa-maria",
+      "name": "Cattedrale di Santa Maria",
+      "category": "history",
+      "blurb": "Cagliari's cathedral wears a Pisan-Romanesque facade of pale stone with a separate bell tower, glowing amber at sunset. Inside lie a baroque crypt of martyrs and an Aragonese pulpit carved in the 12th century.",
+      "lat": 39.2153,
+      "lon": 9.1183,
+      "photo": {
+        "file": "assets/photos/cagliari/cattedrale-di-santa-maria.webp",
+        "author": "Unukorno",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duomo_di_Cagliari_Sardegna.jpg",
+        "credit": "Unukorno — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-torre-dell-elefante",
+      "name": "Torre dell'Elefante",
+      "category": "history",
+      "blurb": "A 1307 Pisan defensive tower named for the small carved elephant on its flank, its raw stone open at the rear in the Pisan fashion. Climb its wooden galleries for one of the best views down over the old town and port.",
+      "lat": 39.2161,
+      "lon": 9.1158,
+      "photo": {
+        "file": "assets/photos/cagliari/torre-dell-elefante.webp",
+        "author": "trolvag",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_dell%27Elefante_-_panoramio.jpg",
+        "credit": "trolvag — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-anfiteatro-romano",
+      "name": "Anfiteatro Romano",
+      "category": "history",
+      "blurb": "A 2nd-century amphitheatre carved partly straight into the living rock of a hillside just below Castello. Worn tiers of seating and tunnel mouths hint at the gladiatorial games once staged within sight of the sea.",
+      "lat": 39.2186,
+      "lon": 9.1131,
+      "photo": {
+        "file": "assets/photos/cagliari/anfiteatro-romano.webp",
+        "author": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Cagliari_2024_27.jpg",
+        "credit": "Photograph by Mike Peel (www.mikepeel.net). — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-poetto-beach",
+      "name": "Poetto Beach",
+      "category": "coastal",
+      "blurb": "The city's long ribbon of pale sand and luminous turquoise shallows, framed by the dark Sella del Diavolo headland. Lidos, kiosks and free stretches make it equal parts swim spot and evening passeggiata.",
+      "lat": 39.205,
+      "lon": 9.175
+    },
+    {
+      "id": "cagliari-molentargius-salt-pans",
+      "name": "Molentargius Salt Pans",
+      "category": "outdoors",
+      "blurb": "A protected wetland of former salt pans between the city and Poetto, home to hundreds of resident pink flamingos. Boardwalks and cycle paths thread the reed-fringed pools where the birds wade and feed year-round.",
+      "lat": 39.235,
+      "lon": 9.153,
+      "photo": {
+        "file": "assets/photos/cagliari/molentargius-salt-pans.webp",
+        "author": "Ryan Hodnett",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_Flamingos_(Fenicottero_Rosa)_(Phoenicopterus_roseus)_-_Cagliari,_Italy_2024-04-01_(01).jpg",
+        "credit": "Ryan Hodnett — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-piazza-yenne-the-marina",
+      "name": "Piazza Yenne & the Marina",
+      "category": "culture",
+      "blurb": "The lively lower-town square where cafe terraces spread under palms below the Castello ramparts. From here the Marina district's narrow lanes run down toward the port, packed with seafood trattorie and aperitivo spots.",
+      "lat": 39.2147,
+      "lon": 9.1133,
+      "photo": {
+        "file": "assets/photos/cagliari/piazza-yenne-the-marina.webp",
+        "author": "Carlos Llamas",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazza_Yenne_from_largo_Carlo_Felice.jpg",
+        "credit": "Carlos Llamas — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-fregola-con-arselle",
+      "name": "Fregola con arselle",
+      "category": "food",
+      "blurb": "Toasted semolina pearls simmered with clams, mussels and tomato until they soak up all the briny broth. It is the dish that most tastes of Cagliari's harbour, best eaten in a Marina trattoria.",
+      "lat": 39.2133,
+      "lon": 9.1147,
+      "photo": {
+        "file": "assets/photos/cagliari/fregola-con-arselle.webp",
+        "author": "Jorgehdezalonso",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregola_sarda_de_Chef_koketo.jpg",
+        "credit": "Jorgehdezalonso — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-malloreddus-alla-campidanese",
+      "name": "Malloreddus alla campidanese",
+      "category": "food",
+      "blurb": "Ridged saffron-tinted gnocchetti dressed in a slow sausage-and-tomato sugo and grated pecorino. The everyday Sunday pasta of the Campidano plain around Cagliari.",
+      "lat": 39.215,
+      "lon": 9.114,
+      "photo": {
+        "file": "assets/photos/cagliari/malloreddus-alla-campidanese.webp",
+        "author": "Popo le Chien",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malloreddus_mound.jpg",
+        "credit": "Popo le Chien — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-culurgiones",
+      "name": "Culurgiones",
+      "category": "food",
+      "blurb": "Hand-pleated pasta parcels sealed in a wheat-ear pattern and stuffed with potato, pecorino and mint. Served simply in tomato sauce, they are one of Sardinia's most distinctive comfort dishes.",
+      "lat": 39.2155,
+      "lon": 9.1145,
+      "photo": {
+        "file": "assets/photos/cagliari/culurgiones.webp",
+        "author": "Marica Massaro",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Culurgiones_Ogliastra.jpg",
+        "credit": "Marica Massaro — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-vermentino-di-sardegna",
+      "name": "Vermentino di Sardegna",
+      "category": "drink",
+      "blurb": "Sardinia's crisp, citrus-and-sea-breeze white, poured chilled all along the Cagliari waterfront. It is the natural partner to the city's seafood, from raw bottarga to a bowl of fregola.",
+      "lat": 39.214,
+      "lon": 9.113,
+      "photo": {
+        "file": "assets/photos/cagliari/vermentino-di-sardegna.webp",
+        "author": "Roberto Ventre",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermentino_di_Sardegna.jpg",
+        "credit": "Roberto Ventre — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-torre-di-san-pancrazio",
+      "name": "Torre di San Pancrazio",
+      "category": "history",
+      "blurb": "The taller of Cagliari's two surviving Pisan towers guards the northern gate into Castello, its city-facing side left dramatically open. From the summit the whole sweep of the gulf and the salt lagoons unfolds.",
+      "lat": 39.2172,
+      "lon": 9.1172,
+      "hiddenGem": true
+    },
+    {
+      "id": "cagliari-sella-del-diavolo",
+      "name": "Sella del Diavolo",
+      "category": "outdoors",
+      "blurb": "The 'Devil's Saddle' is a limestone promontory closing off the Poetto bay, ribbed with Mediterranean scrub and ringed by hidden coves. A short trail past ruined towers leads to clifftop views over both the city and the open sea.",
+      "lat": 39.1944,
+      "lon": 9.1719,
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/cagliari/sella-del-diavolo.webp",
+        "author": "Ryan Hodnett",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sella_del_Diavolo_-_Cagliari,_Italy_2024-03-27_(03).jpg",
+        "credit": "Ryan Hodnett — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "cagliari-calamosca",
+      "name": "Calamosca",
+      "category": "coastal",
+      "blurb": "A small sheltered cove tucked beneath the Sella del Diavolo, watched over by a Spanish-era tower and a candy-striped lighthouse. Clear, calm water and rocky edges make it a quieter, snorkel-friendly alternative to Poetto.",
+      "lat": 39.19,
+      "lon": 9.1644,
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/cagliari/calamosca.webp",
+        "author": "Cristiano Cani from Cagliari, Italia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_e_faro_di_Calamosca.jpg",
+        "credit": "Cristiano Cani from Cagliari, Italia — CC BY 2.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "culture",
+    "food",
+    "drink"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Cagliari Elmas airport sits 15 minutes from the centre, with a direct train link to Cagliari Centrale station.",
+    "The historic core is walkable, but Castello's hill is steep; the free Bastione lift and the via Santa Croce escalators save the climb.",
+    "CTM city buses and a light-metro line cover the wider city; line PF/PQ buses run out to Poetto beach in summer.",
+    "Skip a car for the old town - parking is scarce and ZTL-restricted; use it only for day trips along the coast."
+  ],
+  "foodNotes": [
+    "Fregola, toasted semolina pearls, is the local signature - order it 'con arselle' (with clams) or with seafood at a Marina trattoria.",
+    "Malloreddus alla campidanese (ridged gnocchetti in sausage-and-saffron tomato sugo) and stuffed culurgiones are the must-try pastas.",
+    "Bottarga di muggine (cured grey-mullet roe) is grated over spaghetti or shaved raw with olive oil; seadas, the fried cheese pastry under warm honey, closes the meal.",
+    "Eat seafood in the Marina district's lanes and around the Mercato di San Benedetto; pair with a chilled Vermentino di Sardegna."
+  ],
+  "beachNotes": [
+    "Poetto stretches roughly five miles of fine pale sand along the city's eastern edge, with calm, shallow, swimmable water and easy bus access.",
+    "In early October the sea is still warm at around 72°F, comfortable for long swims well after the summer crowds thin out.",
+    "Calamosca is a smaller sheltered cove beneath the Sella del Diavolo headland, good for snorkelling over clear, rocky-edged shallows.",
+    "Free beach stretches alternate with lidos renting umbrellas and loungers; mornings are calmest before the afternoon sea breeze picks up."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/cagliari/cagliari-hero.webp",
+    "author": "Bella MIao",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cagliari,_Sardinia,_Italy_-_Flickr_-_Bella_MIao.jpg",
+    "credit": "Bella MIao — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/cagliari.webp",
+    "z": 14,
+    "worldLeft": 2202887,
+    "worldTop": 1599185,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

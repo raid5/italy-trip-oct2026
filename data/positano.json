@@ -6,6 +6,17 @@
   "intro": "Positano is a town and comune (municipality) on the Amalfi Coast in the Province of Salerno in the region of Campania in southern Italy, mainly in an enclave in the hills leading down to the coast. It has 3,643 inhabitants.",
   "lat": 40.63333333,
   "lon": 14.48333333,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 22,
+    "avgLowC": 16,
+    "avgHighF": 72,
+    "avgLowF": 61,
+    "rainDayPct": 34,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  },
   "sun": {
     "sunrise": "7:02 AM",
     "sunset": "6:39 PM",
@@ -193,16 +204,5 @@
     "w": 1600,
     "h": 1200,
     "attribution": "© OpenStreetMap contributors"
-  },
-  "weather": {
-    "label": "Early October",
-    "avgHighC": 22,
-    "avgLowC": 16,
-    "avgHighF": 72,
-    "avgLowF": 61,
-    "rainDayPct": 34,
-    "sampleYears": "2014–2024",
-    "seaTempC": 23,
-    "seaTempF": 73
   }
 }

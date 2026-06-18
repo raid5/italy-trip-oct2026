@@ -1,0 +1,147 @@
+{
+  "slug": "amalfi",
+  "name": "Amalfi",
+  "region": "Amalfi Coast",
+  "tagline": "Once a maritime republic, now the coast's namesake jewel.",
+  "intro": "Amalfi is a town and comune in the province of Salerno, in the region of Campania, Italy, on the Gulf of Salerno. It lies at the mouth of a deep ravine, at the foot of Monte Cerreto, surrounded by dramatic cliffs and coastal scenery. The town of Amalfi was the capital of the maritime republic known as the Duchy of Amalfi, an important trading power in the Mediterranean between 839 and around 1200. It has 4,611 inhabitants.",
+  "lat": 40.63367,
+  "lon": 14.60262,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 16,
+    "avgHighF": 73,
+    "avgLowF": 61,
+    "rainDayPct": 35,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  },
+  "sun": {
+    "sunrise": "7:01 AM",
+    "sunset": "6:38 PM",
+    "goldenHourEvening": "6:02 PM"
+  },
+  "pois": [
+    {
+      "id": "amalfi-santa-maria-del-bando",
+      "name": "Santa Maria del Bando",
+      "category": "history",
+      "blurb": "Santa Maria del Bando is a small, scenic chapel perched high above Amalfi, near the ancient watchtower of Pontone. Dating back to the 12th century, it is named after a legend in which the Virgin Mary saved a man wrongfully sentenced to death by publicly banning, or proclaiming his innocence. The chapel is accessible via a steep footpath and rewards visitors with sweeping views of the Amalfi Coast, the Valle delle Ferriere, and the Gulf of Salerno.",
+      "lat": 40.636611,
+      "lon": 14.605972
+    },
+    {
+      "id": "amalfi-that-s-amore-cycling-excursion",
+      "name": "That's Amore Cycling Excursion",
+      "category": "outdoors",
+      "blurb": "Offer in every season exclusive guided and customized cycling exploration of the coast : short and easier route and a longer or more demanding route for the keener cyclists. Booking Required."
+    },
+    {
+      "id": "amalfi-charter-la-dolce-vita",
+      "name": "Charter La Dolce Vita",
+      "category": "outdoors",
+      "blurb": "Offer private luxury daily, weekly or overnight motor-yacht charter tours,"
+    },
+    {
+      "id": "amalfi-cloister-of-paradise",
+      "name": "Cloister of Paradise",
+      "category": "history",
+      "blurb": "Next to the cathedral, was also built in the 13th century. It is home to old mosaics and paintings, and 120 columns built in the Arabic style.",
+      "lat": 40.63477,
+      "lon": 14.60317
+    },
+    {
+      "id": "amalfi-arsenal-of-amalfi",
+      "name": "Arsenal of Amalfi",
+      "category": "art",
+      "blurb": "A former shipyard from the medieval Republic of Amalfi, it now houses a museum about the republic’s history.",
+      "lat": 40.633897,
+      "lon": 14.60212,
+      "photo": {
+        "file": "assets/photos/amalfi/arsenal-of-amalfi.webp",
+        "author": "Marynolli",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porta_arsenale.jpg",
+        "credit": "Marynolli — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "amalfi-amalfi-cathedral",
+      "name": "Amalfi Cathedral",
+      "category": "history",
+      "blurb": "Built in the 13th century. You can see its magnificent bell tower from the harbour.",
+      "lat": 40.634444,
+      "lon": 14.603056,
+      "photo": {
+        "file": "assets/photos/amalfi/amalfi-cathedral.webp",
+        "author": "Marco Ober",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Cathedral_-_Duomo_di_Amalfi_(4908).jpg",
+        "credit": "Marco Ober — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "amalfi-angelo-fusco-jewellery",
+      "name": "Angelo Fusco Jewellery",
+      "category": "culture",
+      "blurb": "Unique handcrafted fine jewels, corals and cameos.",
+      "lat": 40.633923,
+      "lon": 14.602584
+    },
+    {
+      "id": "amalfi-paper-mill-museum",
+      "name": "Paper Mill Museum",
+      "category": "art",
+      "blurb": "",
+      "lat": 40.63971,
+      "lon": 14.600144,
+      "photo": {
+        "file": "assets/photos/amalfi/paper-mill-museum.webp",
+        "author": "Johan Gørbitz",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johan_G%C3%B8rbitz_-_The_Valley_of_the_Mills_near_Amalfi_-_NMK.2005.0036_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+        "credit": "Johan Gørbitz — Public domain (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "outdoors",
+    "history",
+    "art",
+    "culture"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Ferry hub for the coast — connections to Positano, Salerno, and Capri.",
+    "SITA buses link Amalfi to Ravello and along the coastal road."
+  ],
+  "foodNotes": [
+    "Scialatielli ai frutti di mare (fresh pasta with seafood) is the signature dish.",
+    "Sfusato lemons flavor everything from pasta to granita."
+  ],
+  "beachNotes": [
+    "The town beach sits right by the ferry dock; nearby Atrani is quieter."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/amalfi/amalfi-hero.webp",
+    "author": "Mайкл Гиммельфарб",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast,_Italy_Panoramic.jpg",
+    "credit": "Mайкл Гиммельфарб — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/amalfi.webp",
+    "z": 16,
+    "worldLeft": 9068360,
+    "worldTop": 6311981,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

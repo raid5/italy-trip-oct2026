@@ -1,0 +1,277 @@
+{
+  "slug": "alghero",
+  "name": "Alghero",
+  "region": "Sardinia",
+  "tagline": "A walled Catalan city on Sardinia's Coral Riviera, where Algherese is still spoken and the sea laps golden ramparts.",
+  "intro": "Alghero is a city and comune (municipality) in the Metropolitan City of Sassari in the northwest of the autonomous island region of Sardinia in Italy, next to the Mediterranean Sea. With a population of 41,765, it is the 5th-largest city in Sardinia.",
+  "lat": 40.56,
+  "lon": 8.315,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 17,
+    "avgHighF": 73,
+    "avgLowF": 63,
+    "rainDayPct": 25,
+    "sampleYears": "2014–2024",
+    "seaTempC": 21,
+    "seaTempF": 70
+  },
+  "sun": {
+    "sunrise": "7:26 AM",
+    "sunset": "7:03 PM",
+    "goldenHourEvening": "6:27 PM"
+  },
+  "pois": [
+    {
+      "id": "alghero-centro-storico-old-town",
+      "name": "Centro Storico (Old Town)",
+      "category": "culture",
+      "blurb": "A labyrinth of cobbled lanes inside the walls where shop signs read in Catalan and balconies trail bougainvillea. Whimsical strung-up birdcages and lanterns make the narrow streets feel like an open-air stage.",
+      "lat": 40.5589,
+      "lon": 8.3155,
+      "photo": {
+        "file": "assets/photos/alghero/centro-storico-old-town.webp",
+        "author": "Mattambo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Ferret_Street_in_Alghero.jpg",
+        "credit": "Mattambo — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-bastioni-sea-walls",
+      "name": "Bastioni (Sea Walls)",
+      "category": "history",
+      "blurb": "Honey-coloured 16th-century ramparts rise straight from the rocks, their broad promenade hanging over the surf. It is Alghero's living room, where the whole town strolls at sunset above the breaking waves.",
+      "lat": 40.5582,
+      "lon": 8.3128
+    },
+    {
+      "id": "alghero-cattedrale-di-santa-maria",
+      "name": "Cattedrale di Santa Maria",
+      "category": "history",
+      "blurb": "The cathedral hides a Catalan-Gothic interior behind a stately neoclassical portico of fluted columns. Climb its octagonal bell tower for a rooftop panorama over the terracotta old town and the bay.",
+      "lat": 40.559,
+      "lon": 8.3146
+    },
+    {
+      "id": "alghero-chiesa-di-san-michele",
+      "name": "Chiesa di San Michele",
+      "category": "art",
+      "blurb": "The Jesuit church's glory is outside: a great dome sheathed in glazed majolica tiles laid in a dizzying diamond of red, green, yellow, and blue. It glints above the rooftops as Alghero's most photographed silhouette.",
+      "lat": 40.5586,
+      "lon": 8.316
+    },
+    {
+      "id": "alghero-torre-di-sulis",
+      "name": "Torre di Sulis",
+      "category": "history",
+      "blurb": "A squat, massive cylindrical tower anchoring the southern bastions, built to repel corsairs and later a prison. Its piazza is one of the old town's best vantage points over the open sea.",
+      "lat": 40.5575,
+      "lon": 8.314,
+      "photo": {
+        "file": "assets/photos/alghero/torre-di-sulis.webp",
+        "author": "Alexkom000",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-10-09_Alghero,_Torre_di_Sulis_1.jpg",
+        "credit": "Alexkom000 — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-torre-di-porta-terra",
+      "name": "Torre di Porta Terra",
+      "category": "history",
+      "blurb": "The great landward gate-tower once sealed the only entrance through the walls, its stone scorched amber by centuries of sun. Known as the Jewish Tower, it recalls the medieval community that helped build it.",
+      "lat": 40.5601,
+      "lon": 8.3171
+    },
+    {
+      "id": "alghero-porto-di-alghero-marina",
+      "name": "Porto di Alghero (Marina)",
+      "category": "coastal",
+      "blurb": "A forest of sailboat masts and bobbing fishing gozzi fills the harbour beneath the old-town walls. It is the launch point for coastal cruises and the place to watch the catch come in at dusk.",
+      "lat": 40.561,
+      "lon": 8.312
+    },
+    {
+      "id": "alghero-capo-caccia",
+      "name": "Capo Caccia",
+      "category": "outdoors",
+      "blurb": "A vast limestone headland that rears out of the sea in sheer white cliffs, crowned by a lighthouse. The promontory shelters nesting griffon vultures and frames the Coral Riviera's most cinematic seascape.",
+      "lat": 40.564,
+      "lon": 8.168
+    },
+    {
+      "id": "alghero-grotta-di-nettuno-neptune-s-grotto",
+      "name": "Grotta di Nettuno (Neptune's Grotto)",
+      "category": "outdoors",
+      "blurb": "A spectacular sea cave at the foot of Capo Caccia, where floodlit stalactites and an emerald saltwater lake mirror the dripping vaults. Reach it by boat from the port or by descending the cliff staircase.",
+      "lat": 40.5586,
+      "lon": 8.1576,
+      "photo": {
+        "file": "assets/photos/alghero/grotta-di-nettuno-neptune-s-grotto.webp",
+        "author": "JYB Devot",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotta_di_Nettuno_873-874mod.jpg",
+        "credit": "JYB Devot — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-spiaggia-di-maria-pia",
+      "name": "Spiaggia di Maria Pia",
+      "category": "coastal",
+      "blurb": "A long crescent of pale sand backed by a fragrant umbrella-pine forest and low dunes. Its shallow, gently shelving water makes it the most relaxed swim close to town.",
+      "lat": 40.578,
+      "lon": 8.292,
+      "photo": {
+        "file": "assets/photos/alghero/spiaggia-di-maria-pia.webp",
+        "author": "Gianni Careddu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alghero,_spiaggia_di_Maria_Pia_(01).jpg",
+        "credit": "Gianni Careddu — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-sella-mosca-vermentino",
+      "name": "Sella & Mosca / Vermentino",
+      "category": "drink",
+      "blurb": "Alghero's wine identity centres on crisp Vermentino and the rare Torbato, much of it from the historic Sella & Mosca estate north of town. A chilled glass beside grilled fish is the essential local ritual.",
+      "lat": 40.5933,
+      "lon": 8.2667,
+      "photo": {
+        "file": "assets/photos/alghero/sella-mosca-vermentino.webp",
+        "author": "Roberto Ventre",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermentino_di_Sardegna.jpg",
+        "credit": "Roberto Ventre — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-fregola-ai-frutti-di-mare",
+      "name": "Fregola ai frutti di mare",
+      "category": "food",
+      "blurb": "Toasted semolina pearls simmered with mussels, clams, and prawns in a saffron-gold broth, Sardinia's answer to a seafood risotto. It captures the island's grain-and-sea cooking in one bowl.",
+      "lat": 40.5589,
+      "lon": 8.3148,
+      "photo": {
+        "file": "assets/photos/alghero/fregola-ai-frutti-di-mare.webp",
+        "author": "Simon Legner (User:simon04)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregola_ai_frutti_di_mare_(IMG_20260515_203730).jpg",
+        "credit": "Simon Legner (User:simon04) — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-escala-del-cabirol",
+      "name": "Escala del Cabirol",
+      "category": "outdoors",
+      "blurb": "A vertiginous staircase of 654 steps that zigzags down the sheer face of Capo Caccia to the grotto's mouth. The descent past the open Mediterranean is as breathtaking as the cave below.",
+      "lat": 40.5595,
+      "lon": 8.159,
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/alghero/escala-del-cabirol.webp",
+        "author": "Falk2",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:14_639_Escala_de_Cabirol.jpg",
+        "credit": "Falk2 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-le-bombarde",
+      "name": "Le Bombarde",
+      "category": "coastal",
+      "blurb": "The locals' beach near Fertilia, with brilliant turquoise shallows and fine sand sheltered by a rocky point. Clear water and easy entry make it ideal for swimming and snorkeling.",
+      "lat": 40.5944,
+      "lon": 8.2386,
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/alghero/le-bombarde.webp",
+        "author": "Silvia Franceschetti",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Bombarde_-_panoramio.jpg",
+        "credit": "Silvia Franceschetti — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-spiaggia-del-lazzaretto",
+      "name": "Spiaggia del Lazzaretto",
+      "category": "coastal",
+      "blurb": "A small, sheltered cove tucked into green hills just past Le Bombarde, named for the old quarantine tower above. Calm and scenic, it rewards anyone willing to wander a little farther up the coast.",
+      "lat": 40.598,
+      "lon": 8.233,
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/alghero/spiaggia-del-lazzaretto.webp",
+        "author": "Gianni Careddu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alghero,_spiaggia_del_Lazzaretto_(01).jpg",
+        "credit": "Gianni Careddu — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "alghero-spaghetti-ai-ricci-di-mare",
+      "name": "Spaghetti ai ricci di mare",
+      "category": "food",
+      "blurb": "Spaghetti tossed with the briny orange roe of freshly opened sea urchins, a delicacy harvested along this coast in the cooler months. Simple, intense, and unmistakably Algherese.",
+      "lat": 40.5592,
+      "lon": 8.3152,
+      "hiddenGem": true
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "art",
+    "culture",
+    "food",
+    "drink"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Alghero-Fertilia airport (AHO) sits 6 miles north; the local ASP/ARST bus and shared minibuses run into town, or it's a quick taxi.",
+    "The historic centre is car-free and entirely walkable; park outside the walls near the port or Via Garibaldi and explore on foot.",
+    "ARST buses connect Alghero to Sassari, Bosa, and the beaches at Fertilia, Maria Pia, and Le Bombarde in summer.",
+    "Reach Grotta di Nettuno by boat from the port (scenic ~45-min coastal cruise) or by car to Capo Caccia plus the cliff staircase."
+  ],
+  "foodNotes": [
+    "Aragosta alla catalana is the signature splurge: poached spiny lobster dressed simply with tomato, sweet onion, and olive oil, a Catalan legacy.",
+    "Order fregola ai frutti di mare (toasted Sardinian pasta-pearls in a saffron seafood broth) and spaghetti ai ricci di mare when sea urchins are in season.",
+    "Drink local whites from the Sella & Mosca estate just outside town: crisp Vermentino and the rare, aromatic Torbato grown almost only here.",
+    "Eat along the Bastioni or in the old-town lanes; finish with seadas, the fried pastry of soft cheese drizzled with bitter Sardinian honey."
+  ],
+  "beachNotes": [
+    "Spiaggia di Maria Pia, just southwest of town behind a pine-and-dune belt, has soft white sand and shallow, kid-friendly water.",
+    "Le Bombarde and the adjacent Lazzaretto cove (toward Fertilia) are the locals' favourites for clear turquoise swimming and snorkeling.",
+    "Early October is prime: thinning crowds and a sea still warm at around 72-73°F, comfortable for long swims.",
+    "The dramatic limestone cliffs of Capo Caccia drop straight into deep blue water, ideal for boat trips and viewing the Coral Riviera rather than sunbathing."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "map": {
+    "file": "assets/maps/alghero.webp",
+    "z": 13,
+    "worldLeft": 1095762,
+    "worldTop": 788926,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "hero": {
+    "file": "assets/photos/alghero/alghero-hero.webp",
+    "author": "Basilicofresco",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bastioni_di_Alghero_e_il_campanile_di_Santa_Maria.jpg",
+    "credit": "Basilicofresco — CC BY-SA 4.0 (Wikimedia Commons)"
+  }
+}

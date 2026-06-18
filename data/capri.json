@@ -1,0 +1,257 @@
+{
+  "slug": "capri",
+  "name": "Capri",
+  "region": "Bay of Naples",
+  "tagline": "Limestone cliffs, blue caves, and lemon-scented terraces above an impossibly turquoise sea.",
+  "intro": "Capri is an island located in the Tyrrhenian Sea off the Sorrento Peninsula, on the south side of the Gulf of Naples in the Campania region of Italy. A resort destination since the time of the Roman Republic, it is known for its natural beauty, historic sites, and tourism industry.",
+  "lat": 40.55,
+  "lon": 14.23333333,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 21,
+    "avgLowC": 19,
+    "avgHighF": 70,
+    "avgLowF": 66,
+    "rainDayPct": 33,
+    "sampleYears": "2014–2024",
+    "seaTempC": 24,
+    "seaTempF": 75
+  },
+  "sun": {
+    "sunrise": "7:03 AM",
+    "sunset": "6:40 PM",
+    "goldenHourEvening": "6:03 PM"
+  },
+  "pois": [
+    {
+      "id": "capri-grotta-azzurra-blue-grotto",
+      "name": "Grotta Azzurra (Blue Grotto)",
+      "category": "coastal",
+      "blurb": "Sunlight refracting through an underwater opening floods this sea cave with an electric, otherworldly blue. You enter lying flat in a tiny rowboat that slips through a low mouth in the cliff.",
+      "lat": 40.5606,
+      "lon": 14.205,
+      "photo": {
+        "file": "assets/photos/capri/grotta-azzurra-blue-grotto.webp",
+        "author": "Seko Naotomo",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotta_Azzurra_-_panoramio_-_Seko_Naotomo.jpg",
+        "credit": "Seko Naotomo — CC BY 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-i-faraglioni",
+      "name": "I Faraglioni",
+      "category": "coastal",
+      "blurb": "Three towering limestone sea stacks rise straight from the water off Capri's southeastern tip, the island's signature silhouette. Boats glide through the natural arch pierced in the middle rock for luck.",
+      "lat": 40.536,
+      "lon": 14.24,
+      "photo": {
+        "file": "assets/photos/capri/i-faraglioni.webp",
+        "author": "sneakerdog",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Faraglioni,_Capri,_Italy.jpg",
+        "credit": "sneakerdog — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-marina-grande",
+      "name": "Marina Grande",
+      "category": "coastal",
+      "blurb": "Capri's working harbor is a tumble of pastel houses and bobbing boats beneath the green cliffs, where every visitor first sets foot. Fishing skiffs share the quay with hydrofoils and grotto tour boats.",
+      "lat": 40.5556,
+      "lon": 14.2403,
+      "photo": {
+        "file": "assets/photos/capri/marina-grande.webp",
+        "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Grande_Capri.jpg",
+        "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-marina-piccola",
+      "name": "Marina Piccola",
+      "category": "coastal",
+      "blurb": "This south-facing cove is the island's swimming heart, with sun-warmed rocks, ladders into clear water, and lidos under the gaze of the Faraglioni. Legend places the rock of the Sirens just offshore.",
+      "lat": 40.5394,
+      "lon": 14.231,
+      "photo": {
+        "file": "assets/photos/capri/marina-piccola.webp",
+        "author": "Cezar Suceveanu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portul_Marina_Piccola_vazut_din_Gradinile_lui_Augustus_din_Capri.jpg",
+        "credit": "Cezar Suceveanu — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-piazzetta-piazza-umberto-i",
+      "name": "Piazzetta (Piazza Umberto I)",
+      "category": "culture",
+      "blurb": "Capri town's tiny central square is a stage of café umbrellas, a clock tower, and the eternal flow of people-watching. Order an aperitivo and watch the island's famously theatrical passeggiata unfold.",
+      "lat": 40.5508,
+      "lon": 14.2425,
+      "photo": {
+        "file": "assets/photos/capri/piazzetta-piazza-umberto-i.webp",
+        "author": "Ekrem Canli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazzetta_(Capri),_2016.jpg",
+        "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-giardini-di-augusto-via-krupp",
+      "name": "Giardini di Augusto & Via Krupp",
+      "category": "outdoors",
+      "blurb": "Terraced flower gardens open onto a postcard panorama of the Faraglioni and Marina Piccola far below. From their edge the hairpin switchbacks of Via Krupp tumble dramatically down the cliff to the sea.",
+      "lat": 40.5483,
+      "lon": 14.2378,
+      "photo": {
+        "file": "assets/photos/capri/giardini-di-augusto-via-krupp.webp",
+        "author": "Hervé Simon",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Via_Krupp,_Capri,_Italia.jpg",
+        "credit": "Hervé Simon — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-villa-san-michele-anacapri",
+      "name": "Villa San Michele (Anacapri)",
+      "category": "art",
+      "blurb": "Swedish doctor Axel Munthe built this villa of marble loggias, antique fragments, and a colonnaded pergola on the cliffs above Anacapri. From its terrace the view sweeps across the whole bay to Vesuvius and the Sorrento peninsula.",
+      "lat": 40.5556,
+      "lon": 14.2128,
+      "photo": {
+        "file": "assets/photos/capri/villa-san-michele-anacapri.webp",
+        "author": "Miguel Hermoso Cuesta",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_San_Michele_Anacapri_27.JPG",
+        "credit": "Miguel Hermoso Cuesta — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-monte-solaro-chairlift-anacapri",
+      "name": "Monte Solaro Chairlift (Anacapri)",
+      "category": "outdoors",
+      "blurb": "A single-seat chairlift glides up over gardens and vineyards to Capri's highest point, 589 meters above the sea. The summit unfolds a 360-degree view of the island, the bay, and the mountains of the mainland.",
+      "lat": 40.5497,
+      "lon": 14.2122,
+      "photo": {
+        "file": "assets/photos/capri/monte-solaro-chairlift-anacapri.webp",
+        "author": "Tango7174",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campania_Capri2_tango7174.jpg",
+        "credit": "Tango7174 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-torta-caprese",
+      "name": "Torta Caprese",
+      "category": "food",
+      "blurb": "Capri's emblematic dessert is a dense, fudgy cake of dark chocolate and ground almonds, born from a baker's happy mistake of forgetting the flour. Dusted with powdered sugar, it is rich, moist, and naturally gluten-free.",
+      "lat": 40.5508,
+      "lon": 14.2422,
+      "photo": {
+        "file": "assets/photos/capri/torta-caprese.webp",
+        "author": "Aron and Gianina",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torta_caprese_with_Faraglioni.png",
+        "credit": "Aron and Gianina — CC BY 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-insalata-caprese",
+      "name": "Insalata Caprese",
+      "category": "food",
+      "blurb": "The island gave its name to the simplest of Italian plates: tomatoes, fresh mozzarella, and basil in the colors of the flag. Eaten at a terrace table with local oil and bread, it tastes of a Campanian summer.",
+      "lat": 40.551,
+      "lon": 14.242,
+      "photo": {
+        "file": "assets/photos/capri/insalata-caprese.webp",
+        "author": "Victorgrigas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Insalata_Caprese_Shallow_Focus.jpg",
+        "credit": "Victorgrigas — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "capri-belvedere-di-tragara",
+      "name": "Belvedere di Tragara",
+      "category": "coastal",
+      "blurb": "A walk along bougainvillea-draped Via Tragara ends at a panoramic terrace looking straight down on the Faraglioni and the sailboats anchored beneath them. It is the island's most photographed vantage, and the light is best in late afternoon.",
+      "lat": 40.543,
+      "lon": 14.237,
+      "hiddenGem": true
+    },
+    {
+      "id": "capri-arco-naturale",
+      "name": "Arco Naturale",
+      "category": "outdoors",
+      "blurb": "A massive limestone arch, the remnant of a collapsed sea cave, frames the open Tyrrhenian through pine and holm oak. The footpath to it threads quiet woods far from the Piazzetta crowds.",
+      "lat": 40.5505,
+      "lon": 14.2625,
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/capri/arco-naturale.webp",
+        "author": "Jerzy Strzelecki",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arco_Naturale_(Capri)_03_(js).jpg",
+        "credit": "Jerzy Strzelecki — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "art",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Ferries and faster hydrofoils run from Naples (Molo Beverello, ~50 min) and Sorrento (~25 min) into Marina Grande; buy ahead and check the last return in October, as sailings thin out.",
+    "From Marina Grande the funicular climbs to Capri town's Piazzetta in four minutes; a separate bus network serves Anacapri and the cliff roads.",
+    "Cars are effectively banned for visitors — get around on foot, by orange convertible taxi, or by the open-top island buses.",
+    "Book the Grotta Azzurra by sea from Marina Grande or by bus to the cliff-top entrance, then transfer to a rowboat; both depend on calm seas, so go early."
+  ],
+  "foodNotes": [
+    "Ravioli capresi — fresh pasta pillows filled with caciotta cheese and marjoram in a light tomato sauce — is the island's defining first course.",
+    "Insalata caprese was born here: ripe tomatoes, milky fior di latte mozzarella, basil, and a thread of local olive oil, eaten at a shaded table.",
+    "Save room for torta caprese, the flourless chocolate-and-almond cake with a crackly sugar-dusted crust, often paired with an espresso.",
+    "End the meal with a chilled shot of limoncello made from fat Sorrento-Capri lemons; family-run trattorie off the Piazzetta pour the best."
+  ],
+  "beachNotes": [
+    "Marina Piccola is the main swimming cove, with pebble strips, ladders into deep water, and lidos renting loungers beneath the Faraglioni.",
+    "Boats from Marina Grande let you swim out near the Faraglioni and pass under the natural arch in the middle stack, a rite of passage.",
+    "The shore is rock and pebble rather than sand, so bring water shoes; the water is famously clear and best entered from lido platforms or low rocks.",
+    "By early October the sea is still a swimmable 72-75°F, warmer than the cooling air, so afternoons remain ideal for a dip."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/capri/capri-hero.webp",
+    "author": "Michael Karavanov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capri_Island,_view_to_Faraglioni_-_panoramio.jpg",
+    "credit": "Michael Karavanov — CC BY-SA 3.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/capri.webp",
+    "z": 14,
+    "worldLeft": 2262187,
+    "worldTop": 1578903,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

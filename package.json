@@ -2,12 +2,11 @@
   "name": "italy-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Interactive, shareable travel guide for an early-October Southern Italy trip",
+  "description": "Interactive travel guide for an early-October Southern Italy trip, hosted on GitHub Pages",
   "type": "module",
   "scripts": {
     "city": "tsx src/cli.ts city",
     "build": "tsx src/cli.ts build",
-    "package": "tsx src/cli.ts package",
     "all": "tsx src/cli.ts all"
   },
   "dependencies": {

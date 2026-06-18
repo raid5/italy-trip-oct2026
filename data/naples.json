@@ -6,6 +6,17 @@
   "intro": "Naples is the regional capital of Campania, southern Italy. With a population of 905,050 within the city's administrative limits as of 2026, it is the largest city in southern Italy and the third-largest city in Italy after Rome and Milan, while its province-level municipality is the third most populous metropolitan city in Italy with a population of 2,954,847 residents. Its metropolitan area, the seventh most populous in the European Union, has a population of approximately 4.4 million and stretches beyond the boundaries of the city proper for approximately 30 kilometres. Naples also plays a key role in international diplomacy, being home to NATO's Allied Joint Force Command Naples and the Parliamentary Assembly of the Mediterranean.",
   "lat": 40.8358,
   "lon": 14.2486,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 15,
+    "avgHighF": 73,
+    "avgLowF": 59,
+    "rainDayPct": 39,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  },
   "sun": {
     "sunrise": "7:03 AM",
     "sunset": "6:40 PM",
@@ -176,7 +187,9 @@
     "This is the home of pizza — try a Margherita or Marinara from a wood-fired Napoletana oven.",
     "Street snacks: fried pizza (pizza fritta), cuoppo (fried seafood cone), and frittatina.",
     "Sweet stops: sfogliatella pastry and baba al rum with an espresso.",
-    "Seafood and the wines of Campania (Falanghina, Greco di Tufo) pair beautifully."
+    "Seafood and the wines of Campania (Falanghina, Greco di Tufo) pair beautifully.",
+    "Pizza pilgrimage: Pizzeria Carmnella dal 1892 (off in a workaday quarter, but a local legend) and 10 Diego Vitagliano in Santa Lucia.",
+    "For a proper sit-down: seafood at Scicchitano on the Lungomare, or old-city home cooking at La Locanda Gesù Vecchio."
   ],
   "beachNotes": [
     "Naples itself is a working port — for swimming, day-trip to the islands or Amalfi Coast.",
@@ -199,16 +212,5 @@
     "w": 1600,
     "h": 1200,
     "attribution": "© OpenStreetMap contributors"
-  },
-  "weather": {
-    "label": "Early October",
-    "avgHighC": 23,
-    "avgLowC": 15,
-    "avgHighF": 73,
-    "avgLowF": 59,
-    "rainDayPct": 39,
-    "sampleYears": "2014–2024",
-    "seaTempC": 23,
-    "seaTempF": 73
   }
 }

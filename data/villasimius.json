@@ -1,0 +1,178 @@
+{
+  "slug": "villasimius",
+  "name": "Villasimius",
+  "region": "Sardinia",
+  "tagline": "Turquoise coves and white-sand beaches at the wild southeast tip of Sardinia.",
+  "intro": "Villasimius, is a comune (municipality) in the Metropolitan City of Cagliari in the Italian region of Sardinia, located about 35 kilometres (22 mi) east of Cagliari.",
+  "lat": 39.1408,
+  "lon": 9.5219,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 25,
+    "avgLowC": 18,
+    "avgHighF": 77,
+    "avgLowF": 64,
+    "rainDayPct": 18,
+    "sampleYears": "2014–2024",
+    "seaTempC": 22,
+    "seaTempF": 72
+  },
+  "sun": {
+    "sunrise": "7:21 AM",
+    "sunset": "6:59 PM",
+    "goldenHourEvening": "6:24 PM"
+  },
+  "pois": [
+    {
+      "id": "villasimius-spiaggia-di-porto-giunco",
+      "name": "Spiaggia di Porto Giunco",
+      "category": "coastal",
+      "blurb": "A long ribbon of pale sand backed by the Stagno di Notteri lagoon, watched over by a 16th-century Spanish watchtower on the headland. Climb to the tower for the postcard view of beach, lagoon and turquoise bay all at once.",
+      "lat": 39.1106,
+      "lon": 9.5306,
+      "photo": {
+        "file": "assets/photos/villasimius/spiaggia-di-porto-giunco.webp",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_beach_of_Porto_Giunco_(Spiaggia_di_Porto_Giunco)_and_the_nearby_lake_Stagno_di_Notteri_in_Sardinia,_Italy_(48402731012).jpg",
+        "credit": "dronepicr — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "villasimius-punta-molentis",
+      "name": "Punta Molentis",
+      "category": "coastal",
+      "blurb": "A jewel of a cove where a sandy spit threads between sculpted granite boulders and two arcs of water, each a different shade of blue. The intimate scale and clarity make it one of the most photographed spots on the whole southeast coast.",
+      "lat": 39.1019,
+      "lon": 9.5719,
+      "photo": {
+        "file": "assets/photos/villasimius/punta-molentis.webp",
+        "author": "dronepicr",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_from_the_sea_to_the_beach_of_Punta_Molentis_in_Sardinia,_Italy_(48399487286).jpg",
+        "credit": "dronepicr — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "villasimius-spiaggia-di-simius",
+      "name": "Spiaggia di Simius",
+      "category": "coastal",
+      "blurb": "The town's nearest and longest beach, a broad sweep of fine white sand sloping into shallow turquoise water. Low dunes and scrub at the back keep it feeling natural despite its easy reach from Villasimius centre.",
+      "lat": 39.1278,
+      "lon": 9.5236,
+      "photo": {
+        "file": "assets/photos/villasimius/spiaggia-di-simius.webp",
+        "author": "Olaf Tausch",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiaggia_di_Simius_02.jpg",
+        "credit": "Olaf Tausch — CC BY 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "villasimius-capo-carbonara",
+      "name": "Capo Carbonara",
+      "category": "coastal",
+      "blurb": "The granite cape at Sardinia's southeasternmost point, ringed by a protected marine area prized for snorkelling and clear water. A lighthouse marks the headland above coves of seagrass-fringed shallows and tumbled boulders.",
+      "lat": 39.0894,
+      "lon": 9.5169
+    },
+    {
+      "id": "villasimius-isola-dei-cavoli",
+      "name": "Isola dei Cavoli",
+      "category": "outdoors",
+      "blurb": "A low rocky islet a short boat-ride offshore, crowned by a 19th-century lighthouse and lying at the heart of the Capo Carbonara reserve. Snorkelling and diving boats circle its clear waters, home to a submerged statue of the Madonna of the Sea.",
+      "lat": 39.0833,
+      "lon": 9.5333
+    },
+    {
+      "id": "villasimius-porto-turistico-di-villasimius",
+      "name": "Porto Turistico di Villasimius",
+      "category": "culture",
+      "blurb": "A tidy modern marina set among pine woods where sailing yachts and excursion boats moor for the season. It's the departure point for trips out to the marine reserve and a pleasant spot for an evening passeggiata and aperitivo.",
+      "lat": 39.1042,
+      "lon": 9.5392
+    },
+    {
+      "id": "villasimius-fregola-con-arselle",
+      "name": "Fregola con arselle",
+      "category": "food",
+      "blurb": "Toasted Sardinian semolina pearls, fregola, simmered with the tiny local clams known as arselle until they soak up all the briny broth. It's the signature first course of this coast and turns up on nearly every trattoria menu.",
+      "lat": 39.1408,
+      "lon": 9.5219
+    },
+    {
+      "id": "villasimius-seadas",
+      "name": "Seadas",
+      "category": "food",
+      "blurb": "Warm fried pastry pockets filled with fresh tangy cheese and drizzled with bitter Sardinian honey, the island's beloved sweet-savoury dessert. Hand-shaped and crimped before frying, they are best eaten the moment they reach the table.",
+      "lat": 39.1408,
+      "lon": 9.5219
+    },
+    {
+      "id": "villasimius-stagno-di-notteri",
+      "name": "Stagno di Notteri",
+      "category": "outdoors",
+      "blurb": "A shallow coastal lagoon pinched between Porto Giunco beach and the bay, where pink flamingos stalk the brackish water through much of the year. A short walk from the sand turns a beach day into a quiet bit of birdwatching.",
+      "lat": 39.1138,
+      "lon": 9.5283,
+      "hiddenGem": true
+    },
+    {
+      "id": "villasimius-fortezza-vecchia",
+      "name": "Fortezza Vecchia",
+      "category": "history",
+      "blurb": "A weathered Spanish-era fortress perched on a rocky promontory above transparent water, built to guard the coast against corsair raids. Its blunt stone keep and ramparts make for an evocative walk with sea views in every direction.",
+      "lat": 39.0975,
+      "lon": 9.5444,
+      "hiddenGem": true
+    },
+    {
+      "id": "villasimius-cala-caterina",
+      "name": "Cala Caterina",
+      "category": "coastal",
+      "blurb": "A small sheltered bay tucked beneath the Capo Carbonara peninsula, fringed by Mediterranean scrub and pine. Quieter than the big-name beaches, it rewards anyone who seeks out its calm, glassy shallows.",
+      "lat": 39.0997,
+      "lon": 9.5189,
+      "hiddenGem": true
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Roughly an hour's drive (about 50 km) east from Cagliari and its Elmas airport along the scenic SP17/SS125 coast road — a car is by far the easiest way in and out.",
+    "In summer the ARST bus line connects Cagliari to Villasimius town; service thins out sharply off-season, so check timetables before relying on it.",
+    "A car (or scooter) is essential for reaching the scattered beaches — Punta Molentis, Porto Giunco and Cala Caterina each have their own car parks, several of them paid in high season.",
+    "The Porto Turistico marina runs seasonal boat excursions out to the Capo Carbonara marine reserve and Isola dei Cavoli, a relaxed way to see the coast from the water."
+  ],
+  "foodNotes": [
+    "Seafood is the star: look for fregola con arselle (toasted Sardinian semolina pasta-pearls simmered with tiny local clams) on almost every trattoria menu.",
+    "Bottarga di muggine — cured grey-mullet roe, grated over pasta or sliced thin with olive oil — is a Sardinian delicacy that turns up all along this coast.",
+    "Splurge on the day's catch and, in season, fresh ricci di mare (sea urchins) eaten raw with bread, paired with a crisp Sardinian Vermentino.",
+    "Finish with seadas, the warm fried pastry pockets of fresh cheese drizzled with bitter Sardinian honey, and a glass of red Cannonau."
+  ],
+  "beachNotes": [
+    "This stretch is some of Sardinia's most spectacular swimming water — clear, shallow turquoise shallows at Spiaggia di Simius and Porto Giunco that stay calm on most days.",
+    "Punta Molentis is the showstopper: a sheltered sand spit between granite boulders, but the small car park fills early and access is regulated in peak summer.",
+    "The Capo Carbonara headland is a protected marine area — exceptional snorkelling over seagrass and rock, with the Isola dei Cavoli reserve just offshore.",
+    "In early October the sea is still beautifully swimmable at around 72 to 74°F, warm enough for long swims with far fewer crowds than August."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "map": {
+    "file": "assets/maps/villasimius.webp",
+    "z": 13,
+    "worldLeft": 1103376,
+    "worldTop": 800047,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

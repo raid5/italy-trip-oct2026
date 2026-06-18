@@ -80,15 +80,6 @@ export interface City {
   generatedFrom: string; // attribution: "Wikivoyage / Wikipedia (CC BY-SA)"
 }
 
-export interface Phrase {
-  it: string;
-  en: string;
-  say: string; // rough pronunciation
-}
-
 export interface SiteData {
-  builtLabel: string;
   cities: City[];
-  phrases: { group: string; items: Phrase[] }[];
-  packingList: string[];
 }

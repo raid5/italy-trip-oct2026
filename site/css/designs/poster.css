@@ -49,9 +49,8 @@ html[data-design="poster"] .page { background: var(--po-teal); color: var(--po-c
 html[data-design="poster"] .page .eyebrow { color: var(--po-orange); opacity: 1; }
 html[data-design="poster"] .page h1 { font-family: var(--po-display); text-transform: uppercase; letter-spacing: 0.02em; }
 html[data-design="poster"] .page .lead { color: var(--po-cream-dim); }
-html[data-design="poster"] .phrase-table th, html[data-design="poster"] .phrase-table td { border-bottom-color: rgba(244, 234, 214, 0.14); }
 html[data-design="poster"] .credit-row { border-bottom-color: rgba(244, 234, 214, 0.1); }
-html[data-design="poster"] .credit-row a, html[data-design="poster"] .phrase-table .it { color: var(--po-gold); }
+html[data-design="poster"] .credit-row a { color: var(--po-gold); }
 
 /* ---------- scroll-snap container ---------- */
 html[data-design="poster"] #view { display: block; }

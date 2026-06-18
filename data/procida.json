@@ -1,0 +1,229 @@
+{
+  "slug": "procida",
+  "name": "Procida",
+  "region": "Bay of Naples",
+  "tagline": "A pocket-size island of pastel fishermen's houses and lemon gardens.",
+  "intro": "Procida is one of the Phlegraean Islands off the coast of Naples in southern Italy. The island is between Cape Miseno and the island of Ischia. With its tiny satellite island of Vivara, it is a comune (municipality) of the Metropolitan City of Naples, in the region of Campania.",
+  "lat": 40.758333,
+  "lon": 14.016667,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 22,
+    "avgLowC": 18,
+    "avgHighF": 72,
+    "avgLowF": 64,
+    "rainDayPct": 36,
+    "sampleYears": "2014–2024",
+    "seaTempC": 23,
+    "seaTempF": 73
+  },
+  "sun": {
+    "sunrise": "7:04 AM",
+    "sunset": "6:41 PM",
+    "goldenHourEvening": "6:04 PM"
+  },
+  "pois": [
+    {
+      "id": "procida-marina-corricella",
+      "name": "Marina Corricella",
+      "category": "coastal",
+      "blurb": "Procida's oldest fishing harbor — a sun-faded tumble of ochre, pink, and blue houses stacked above bobbing boats. Carless and impossibly photogenic, it's the postcard image of the island, best caught at golden hour from the steps above.",
+      "lat": 40.7607,
+      "lon": 14.026,
+      "photo": {
+        "file": "assets/photos/procida/marina-corricella.webp",
+        "author": "Repuli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procidamarina.jpg",
+        "credit": "Repuli — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-marina-grande",
+      "name": "Marina Grande",
+      "category": "coastal",
+      "blurb": "The ferry harbor and lived-in heart of the island, fronted by a pastel wall of facades, café tables, and tackle shops. Your first and last view of Procida — and a fine spot for an aperitivo as the boats come and go.",
+      "lat": 40.766,
+      "lon": 14.041,
+      "photo": {
+        "file": "assets/photos/procida/marina-grande.webp",
+        "author": "Ekrem Canli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Grande_(Procida)_2016_(2).jpg",
+        "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-marina-di-chiaiolella",
+      "name": "Marina di Chiaiolella",
+      "category": "coastal",
+      "blurb": "A rounded natural harbor on the island's quieter west side, ringed by seafood restaurants and moored sailboats, with the Vivara reserve arching off one end. The go-to for a long, unhurried lunch by the water.",
+      "lat": 40.7536,
+      "lon": 14.0125,
+      "photo": {
+        "file": "assets/photos/procida/marina-di-chiaiolella.webp",
+        "author": "User:Matthias Süßen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida-Chiaiolella098.jpg",
+        "credit": "User:Matthias Süßen — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-cala-del-pozzo-vecchio",
+      "name": "Cala del Pozzo Vecchio",
+      "category": "coastal",
+      "blurb": "A dark-sand cove under crumbling tufa cliffs, immortalized as the beach in the film 'Il Postino'. Sheltered and atmospheric, it has the kind of faded, end-of-season beauty that defines Procida.",
+      "lat": 40.7635,
+      "lon": 14.0145,
+      "photo": {
+        "file": "assets/photos/procida/cala-del-pozzo-vecchio.webp",
+        "author": "Porfirio",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cala_Pozzo_Vecchio_-_Procida.jpg",
+        "credit": "Porfirio — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-terra-murata",
+      "name": "Terra Murata",
+      "category": "history",
+      "blurb": "The fortified medieval citadel crowning the island's highest point — a maze of walls and tufa lanes raised against pirate raids. Its terraces give the definitive view straight down over Corricella's painted harbor.",
+      "lat": 40.7616,
+      "lon": 14.0291,
+      "photo": {
+        "file": "assets/photos/procida/terra-murata.webp",
+        "author": "Ekrem Canli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra_Murata_(Procida),_2016.jpg",
+        "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-palazzo-d-avalos",
+      "name": "Palazzo d'Avalos",
+      "category": "history",
+      "blurb": "A 16th-century palace that became a royal residence and then, for nearly two centuries, the island's prison. Now open for atmospheric tours, it broods over Terra Murata with sweeping views across the bay.",
+      "lat": 40.7622,
+      "lon": 14.03,
+      "photo": {
+        "file": "assets/photos/procida/palazzo-d-avalos.webp",
+        "author": "Bernard Gagnon",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_d%27Avalos_(Procida)_01.jpg",
+        "credit": "Bernard Gagnon — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-abbazia-di-san-michele-arcangelo",
+      "name": "Abbazia di San Michele Arcangelo",
+      "category": "culture",
+      "blurb": "The island's spiritual anchor, a 16th-century abbey on the Terra Murata cliffs with a gilded coffered ceiling and a warren of catacombs and hidden chapels below. Dedicated to Procida's protector, the Archangel Michael.",
+      "lat": 40.7619,
+      "lon": 14.0296,
+      "photo": {
+        "file": "assets/photos/procida/abbazia-di-san-michele-arcangelo.webp",
+        "author": "User:Matthias Süßen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida-Abbazia_San_Michele_Arcangelo925.jpg",
+        "credit": "User:Matthias Süßen — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-chiesa-di-santa-maria-delle-grazie",
+      "name": "Chiesa di Santa Maria delle Grazie",
+      "category": "culture",
+      "blurb": "A pale-domed church above Corricella whose terrace is one of the best perches for taking in the painted harbor below. A quiet, luminous pause on the climb up to Terra Murata.",
+      "lat": 40.7606,
+      "lon": 14.027,
+      "photo": {
+        "file": "assets/photos/procida/chiesa-di-santa-maria-delle-grazie.webp",
+        "author": "Ekrem Canli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_Santa_Maria_delle_Grazie_(1),_Procida.jpg",
+        "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-vivara",
+      "name": "Vivara",
+      "category": "outdoors",
+      "blurb": "A crescent islet linked to Procida by a footbridge — now a protected reserve of Mediterranean scrub and seabirds over an ancient volcanic crater. A short, wild escape from the harbors (check the open days before you go).",
+      "lat": 40.7475,
+      "lon": 14.008,
+      "photo": {
+        "file": "assets/photos/procida/vivara.webp",
+        "author": "Saverio.G",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_di_Vivara.jpg",
+        "credit": "Saverio.G — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "procida-insalata-di-limoni",
+      "name": "Insalata di limoni",
+      "category": "food",
+      "blurb": "Procida's enormous, thick-pith lemons become the island's signature dish — a salad of sliced lemon flesh dressed with chilli, garlic, mint, and oil. Bright, unexpected, and served all over the island.",
+      "photo": {
+        "file": "assets/photos/procida/insalata-di-limoni.webp",
+        "author": "liz west from Boxborough, MA, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemons_-_Flickr_-_Muffet_(1).jpg",
+        "credit": "liz west from Boxborough, MA, USA — CC BY 2.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Ferries and hydrofoils from Naples (Molo Beverello / Calata Porta di Massa) reach Procida in ~40 min.",
+    "Boats also hop to Ischia in ~15 min — easy to pair the two islands.",
+    "The island is tiny — walk the harbors, or take the small buses and micro-taxis from Marina Grande.",
+    "No car needed; the lanes are narrow and the center is best explored on foot."
+  ],
+  "foodNotes": [
+    "Sea-to-table classics: spaghetti ai ricci (sea urchin), fritto misto, and the day's grilled catch.",
+    "The giant Procida lemon stars in 'insalata di limoni', a refreshing lemon-and-chilli salad.",
+    "'Lingua di bue' — a tongue-shaped lemon-cream pastry — is the island's sweet signature.",
+    "Cool the evening with a chilled Campanian Falanghina or a glass of local limoncello."
+  ],
+  "beachNotes": [
+    "Chiaiolella and Ciraccio on the west side have the widest sand and the best sunsets.",
+    "Cala del Pozzo Vecchio ('Il Postino' beach) is a dark-sand cove framed by tufa cliffs.",
+    "Spiaggia della Chiaia, down a long staircase, stays calm and family-friendly.",
+    "Early-October sea is still swimmable (~74°F) and the summer crowds have thinned."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/procida/procida-hero.webp",
+    "author": "Velvet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida_Marina_Corricella.jpg",
+    "credit": "Velvet — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/procida.webp",
+    "z": 15,
+    "worldLeft": 4520299,
+    "worldTop": 3152004,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "slug": "tropea",
+  "name": "Tropea",
+  "region": "Calabria",
+  "tagline": "A cliff-top old town above a sweep of white sand and turquoise sea.",
+  "intro": "Tropea is a resort town in the province of Vibo Valentia, in the Italian region of Calabria. It is one of I Borghi più belli d'Italia. It has 5,661 inhabitants.",
+  "lat": 38.67538,
+  "lon": 15.89479,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 18,
+    "avgHighF": 73,
+    "avgLowF": 64,
+    "rainDayPct": 40,
+    "sampleYears": "2014–2024",
+    "seaTempC": 24,
+    "seaTempF": 75
+  },
+  "sun": {
+    "sunrise": "6:55 AM",
+    "sunset": "6:34 PM",
+    "goldenHourEvening": "5:59 PM"
+  },
+  "pois": [
+    {
+      "id": "tropea-santa-maria-dell-isola",
+      "name": "Santa Maria dell'Isola",
+      "category": "coastal",
+      "blurb": "A medieval sanctuary perched on its own rocky islet between the town cliff and the beach — Tropea's defining image. Climb the cut-stone stairs through terraced gardens for a Tyrrhenian panorama in every direction.",
+      "lat": 38.6757,
+      "lon": 15.8967,
+      "photo": {
+        "file": "assets/photos/tropea/santa-maria-dell-isola.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Santa_Maria_dell%27Isola_-_1.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-spiaggia-della-rotonda",
+      "name": "Spiaggia della Rotonda",
+      "category": "coastal",
+      "blurb": "The luminous white-sand beach directly below the old town, lapped by water so clear it looks tropical. The classic spot to swim with the cliff, the cathedral, and Santa Maria dell'Isola rising overhead.",
+      "lat": 38.677,
+      "lon": 15.8975,
+      "photo": {
+        "file": "assets/photos/tropea/spiaggia-della-rotonda.webp",
+        "author": "Norbert Nagel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_in_Tropea_-_Calabria_-_Italy_-_July_17th_2013_-_02.jpg",
+        "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-capo-vaticano",
+      "name": "Capo Vaticano",
+      "category": "coastal",
+      "blurb": "A granite headland just south of town, ranked among Italy's finest beaches — a string of turquoise coves and white-sand pockets reached by paths down the cliffs. A short trip for a wilder, postcard swim.",
+      "lat": 38.6189,
+      "lon": 15.8281,
+      "photo": {
+        "file": "assets/photos/tropea/capo-vaticano.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ricadi_-_Capo_Vaticano_-_02.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-porto-di-tropea",
+      "name": "Porto di Tropea",
+      "category": "coastal",
+      "blurb": "The small marina at the foot of the cliffs, where fishing boats and pleasure craft tie up beneath the floodlit old town. A relaxed place for a sunset passeggiata and a seafood dinner by the water.",
+      "lat": 38.6797,
+      "lon": 15.8955,
+      "photo": {
+        "file": "assets/photos/tropea/porto-di-tropea.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Porto_al_tramonto.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-cattedrale-di-tropea",
+      "name": "Cattedrale di Tropea",
+      "category": "history",
+      "blurb": "The Norman cathedral at the town's core, founded in the 12th century and rebuilt after earthquakes, guarding a venerated Byzantine icon and two undetonated WWII bombs by the door. A cool, solemn stop among the lanes.",
+      "lat": 38.6772,
+      "lon": 15.8989,
+      "photo": {
+        "file": "assets/photos/tropea/cattedrale-di-tropea.webp",
+        "author": "Maurizio Moro5153",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duomo_di_Tropea.jpg",
+        "credit": "Maurizio Moro5153 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-corso-vittorio-emanuele",
+      "name": "Corso Vittorio Emanuele",
+      "category": "culture",
+      "blurb": "The old town's pedestrian spine, lined with noble palazzi, gelaterias, and shops braiding the famous red onions into garlands. The stage for Tropea's evening stroll, ending at the cliff-edge belvederes.",
+      "lat": 38.6775,
+      "lon": 15.8983,
+      "photo": {
+        "file": "assets/photos/tropea/corso-vittorio-emanuele.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Corso_Vittorio_Emanuele.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-veduta-da-via-carmine",
+      "name": "Veduta da Via Carmine",
+      "category": "culture",
+      "blurb": "The cliff-top viewpoint where the town meets the void — pastel houses balanced on the tufa edge above the sea, with Santa Maria dell'Isola below. One of the most photographed panoramas on the whole coast.",
+      "lat": 38.6779,
+      "lon": 15.8978,
+      "photo": {
+        "file": "assets/photos/tropea/veduta-da-via-carmine.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Veduta_da_Via_Carmine_-_3.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-belvedere-del-cannone",
+      "name": "Belvedere del Cannone",
+      "category": "outdoors",
+      "blurb": "A small clifftop terrace built around an old cannon, framing the islet sanctuary and the bay in a single sweep. The prime perch for sunset, when the whole coast turns gold and rose.",
+      "lat": 38.6764,
+      "lon": 15.8973,
+      "photo": {
+        "file": "assets/photos/tropea/belvedere-del-cannone.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Belvedere_del_Cannone_-_2.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-cipolla-rossa-di-tropea",
+      "name": "Cipolla rossa di Tropea",
+      "category": "food",
+      "blurb": "Tropea's prized sweet red onion, an IGP product so mild it's eaten raw, candied into marmalade, and even churned into gelato. You'll see it braided in every shop window — buy a string to take home.",
+      "photo": {
+        "file": "assets/photos/tropea/cipolla-rossa-di-tropea.webp",
+        "author": "Maaimpex",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_Red_Onion.jpg",
+        "credit": "Maaimpex — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-nduja-calabrese",
+      "name": "'Nduja calabrese",
+      "category": "food",
+      "blurb": "Calabria's soft, fiery, spreadable salami, shot through with the region's hot peppers. Smear it on warm bread, stir it into pasta, or melt it over pizza — the unmistakable taste of the Calabrian table.",
+      "photo": {
+        "file": "assets/photos/tropea/nduja-calabrese.webp",
+        "author": "Alice Wiegand",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nduja_mit_Brot.jpg",
+        "credit": "Alice Wiegand — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "tropea-tartufo-di-pizzo",
+      "name": "Tartufo di Pizzo",
+      "category": "food",
+      "blurb": "In nearby Pizzo, the tartufo is a hand-formed ball of hazelnut and chocolate gelato with a molten cocoa heart, dusted in cocoa. A short trip up the coast for one of Calabria's great sweet rituals.",
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/tropea/tartufo-di-pizzo.webp",
+        "author": "Filipa Gonçalves",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tartufo_nero_di_Pizzo.jpg",
+        "credit": "Filipa Gonçalves — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Tropea has its own rail station on the Tyrrhenian coastal line; trains link Lamezia Terme and Reggio Calabria.",
+    "Lamezia Terme (SUF) is the nearest airport, about an hour north by car or train.",
+    "The historic center sits on the cliff and is walkable; long staircases drop to the beach below.",
+    "Summer boats run to Capo Vaticano's coves and along the Coast of the Gods."
+  ],
+  "foodNotes": [
+    "The sweet 'cipolla rossa di Tropea' (red onion) flavors everything from marmalade to gelato.",
+    "'Nduja, Calabria's fiery spreadable salami, turns up on bread, pasta, and pizza.",
+    "Swordfish, anchovies, and 'fileja' pasta with pork ragù are coastal-Calabrian staples.",
+    "Just up the coast in Pizzo, the 'tartufo' chocolate-and-hazelnut gelato bomb is a must."
+  ],
+  "beachNotes": [
+    "The main town beach below Santa Maria dell'Isola has fine white sand and clear, shallow water.",
+    "Spiaggia della Rotonda and the marina beaches sit right under the old-town cliff.",
+    "Capo Vaticano, a short hop south, hides some of Calabria's most beautiful coves.",
+    "Early-October sea stays warm (~75°F) with far fewer crowds than August."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/tropea/tropea-hero.webp",
+    "author": "Benjamin Smith",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Santa_Maria_dell%27Isola_al_tramonto.jpg",
+    "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/tropea.webp",
+    "z": 13,
+    "worldLeft": 1140188,
+    "worldTop": 803510,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

@@ -78,14 +78,15 @@
     var masthead = h("section", { class: "fg-masthead" }, [
       h("p", { class: "fg-masthead-kicker" }, [
         h("span", { text: "Field Guide / Atlas" }),
-        h("span", { text: "Ed. October 2026" }),
+        h("span", { text: "Sep 30 – Oct 16, 2026" }),
       ]),
       h("h1", { class: "fg-title", text: "Southern Italy" }),
       h("p", { class: "fg-subtitle", text: cities.map(function (c) { return c.name; }).join(" · ") }),
       h("p", { class: "fg-masthead-note", text:
         "A compact early-October reference to the cities of the Italian south — " +
         "their climate, how to get around, food, and a numbered " +
-        "catalogue of things to see. Temperatures in Fahrenheit; distances by foot, " +
+        "catalogue of things to see. The dates and destinations here are proposed " +
+        "ideas to react to, not a booked itinerary. Temperatures in Fahrenheit; distances by foot, " +
         "ferry, and rail. Select a destination from the table of contents at left." }),
     ]);
 

@@ -1,0 +1,189 @@
+{
+  "slug": "pompeii",
+  "name": "Pompeii",
+  "region": "Campania",
+  "tagline": "A Roman city frozen in 79 AD by Vesuvius — the ultimate day trip.",
+  "intro": "Pompeii was a city in what is now the municipality of Pompei, near Naples, in the Campania region of Italy. Along with Herculaneum, Stabiae, and many surrounding villas, it was buried under 4 to 6 m of volcanic ash and pumice in the eruption of Mount Vesuvius in 79 AD.",
+  "lat": 40.75,
+  "lon": 14.48611111,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 15,
+    "avgHighF": 73,
+    "avgLowF": 59,
+    "rainDayPct": 36,
+    "sampleYears": "2014–2024"
+  },
+  "sun": {
+    "sunrise": "7:02 AM",
+    "sunset": "6:39 PM",
+    "goldenHourEvening": "6:02 PM"
+  },
+  "pois": [
+    {
+      "id": "pompeii-amphitheatre",
+      "name": "Amphitheatre",
+      "category": "history",
+      "blurb": "This is in the most easterly corner of the excavated area, near the Sarno Gate entrance. It was completed in 80 BC, measures 135 x 104 metres and could hold about 20,000 people. It is the earliest surviving permanent amphitheatre in Italy and one of the best preserved anywhere. It was used for gladiator battles, other sports and spectacles involving wild animals.",
+      "lat": 40.7515,
+      "lon": 14.4947,
+      "photo": {
+        "file": "assets/photos/pompeii/amphitheatre.webp",
+        "author": "Norbert Nagel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_02.jpg",
+        "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "pompeii-house-of-the-vettii",
+      "name": "House of the Vettii",
+      "category": "art",
+      "blurb": "This is believed to have been the home of two brothers who were freed slaves and became very affluent. It contains many frescoes. In the vestibule there is a striking fresco of a well-endowed Priapus, God of Fertility and among the frescos in other parts of the building are illustrations of couples making love, of cupids and of mythological characters.",
+      "lat": 40.752,
+      "lon": 14.4847,
+      "photo": {
+        "file": "assets/photos/pompeii/house-of-the-vettii.webp",
+        "author": "Argo Navis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_of_the_Vettii,_Pompeii,_20230623_133502_09.jpg",
+        "credit": "Argo Navis — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "pompeii-shrine-of-the-virgin-of-the-rosary-of-pompei",
+      "name": "Shrine of the Virgin of the Rosary of Pompei",
+      "category": "history",
+      "blurb": "A church which is a place of pilgrimage for Roman Catholics. For others, it is not a must-see, but should you arrive or leave via the Pompei Santuario station on the Circumvesuviana, rather than Pompei Scavi, you may find it worth at least a brief look inside at this place of veneration of the Virgin Mary.",
+      "lat": 40.75,
+      "lon": 14.500556,
+      "photo": {
+        "file": "assets/photos/pompeii/shrine-of-the-virgin-of-the-rosary-of-pompei.webp",
+        "author": "The Banner",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Our_Lady_Star_of_the_Sea_Quilty.jpg",
+        "credit": "The Banner — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "pompeii-baths",
+      "name": "Baths",
+      "category": "history",
+      "blurb": "There are several baths to be inspected. The Forum Baths are just north of the forum and close to the restaurant. They are well-preserved and roofed. Be careful not to miss them as the entranceway is a long passage with no indication of the delights inside. The Central Baths occupy a much larger area but are less well-preserved. Close to these are the Stabian baths which have some interesting decorations and give a good idea of how baths used to function in Roman times.",
+      "photo": {
+        "file": "assets/photos/pompeii/baths.webp",
+        "author": "Adam Harangozó",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suburban_Baths,_Pompeii_03.jpg",
+        "credit": "Adam Harangozó — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "pompeii-temple-of-apollo",
+      "name": "Temple of Apollo",
+      "category": "history",
+      "blurb": "This is to the north of the Basilica on the western side of the Forum. It has the oldest remains discovered, with some, including Etruscan items, dating back to 575BC, although the layout we see now was later than that.",
+      "lat": 40.7492,
+      "lon": 14.4844,
+      "photo": {
+        "file": "assets/photos/pompeii/temple-of-apollo.webp",
+        "author": "Marco Ober",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Apollo_-_Tempio_di_Apollo,_Pompeii_(5139).jpg",
+        "credit": "Marco Ober — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "pompeii-lupanar",
+      "name": "Lupanar",
+      "category": "history",
+      "blurb": "An ancient brothel with pornographic frescoes over the entrance to each room, presumably indicating the services on offer. Even allowing for the smaller size of ancient Romans the beds seem rather small.",
+      "lat": 40.7503,
+      "lon": 14.4868
+    },
+    {
+      "id": "pompeii-villa-dei-misteri",
+      "name": "Villa dei Misteri",
+      "category": "history",
+      "blurb": "One of the \"suburban houses\", with curious frescoes, perhaps of women being initiated into the Cult of Dionysus. Contains one of the finest fresco cycles in Italy, as well as humorous ancient graffiti.",
+      "lat": 40.7537,
+      "lon": 14.4774
+    },
+    {
+      "id": "pompeii-great-palaestra",
+      "name": "Great Palaestra",
+      "category": "history",
+      "blurb": "This occupies a large area opposite the Amphitheatre. The central area was used for sporting activities and there was a pool in the middle. On three sides are lengthy internal porticos or colonnades.",
+      "lat": 40.750722,
+      "lon": 14.493875
+    },
+    {
+      "id": "pompeii-house-of-the-faun",
+      "name": "House of the Faun",
+      "category": "culture",
+      "blurb": "This is named after a statue of a dancing faun found on the site. It is considered to be an excellent example of the fusion of Italian and Greek architectural styles, and occupies an entire block.",
+      "lat": 40.7513,
+      "lon": 14.4845,
+      "photo": {
+        "file": "assets/photos/pompeii/house-of-the-faun.webp",
+        "author": "Gary Todd from Xinzheng, China",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_House_of_the_Faun_(48443668886).jpg",
+        "credit": "Gary Todd from Xinzheng, China — Public domain (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "pompeii-theatre",
+      "name": "Theatre",
+      "category": "outdoors",
+      "blurb": "Theatre built in the hollow of a hill for acoustic advantage; it seated 5,000.",
+      "photo": {
+        "file": "assets/photos/pompeii/theatre.webp",
+        "author": "Sylvhem",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Th%C3%A9%C3%A2tre_de_Pomp%C3%A9i.JPG",
+        "credit": "Sylvhem — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "outdoors",
+    "history",
+    "art",
+    "culture"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Circumvesuviana from Naples or Sorrento stops at Pompei Scavi.",
+    "Allow at least half a day; the archaeological site is vast."
+  ],
+  "foodNotes": [
+    "Eat in modern Pompei town or pack water and snacks — the site is huge and hot."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/pompeii/pompeii-hero.webp",
+    "author": "Norbert Nagel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_08.jpg",
+    "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/pompeii.webp",
+    "z": 15,
+    "worldLeft": 4531122,
+    "worldTop": 3152167,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

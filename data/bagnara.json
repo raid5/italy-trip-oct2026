@@ -1,0 +1,163 @@
+{
+  "slug": "bagnara",
+  "name": "Bagnara Calabra",
+  "region": "Calabria",
+  "tagline": "A swordfishing town on the violet-hued Costa Viola.",
+  "intro": "Bagnara Calabra is a municipality in the Province of Reggio Calabria in Calabria, Southern Italy. It is located in the hills facing the Tyrrhenian Sea on the southern tip of the region, about 100 kilometres (62 mi) southwest of Catanzaro and about 25 kilometres (16 mi) northeast of Reggio Calabria. It has a population of 9,164.",
+  "lat": 38.287,
+  "lon": 15.808,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 18,
+    "avgHighF": 73,
+    "avgLowF": 64,
+    "rainDayPct": 44,
+    "sampleYears": "2014–2024",
+    "seaTempC": 24,
+    "seaTempF": 75
+  },
+  "sun": {
+    "sunrise": "6:55 AM",
+    "sunset": "6:35 PM",
+    "goldenHourEvening": "5:59 PM"
+  },
+  "pois": [
+    {
+      "id": "bagnara-spiaggia-di-bagnara",
+      "name": "Spiaggia di Bagnara",
+      "category": "coastal",
+      "blurb": "The town beach unspools along the seafront promenade, a broad ribbon of sand and pebble backed by pastel houses and the headland. Easy, in-town swimming with the mountains tumbling almost to the water.",
+      "lat": 38.2875,
+      "lon": 15.808,
+      "photo": {
+        "file": "assets/photos/bagnara/spiaggia-di-bagnara.webp",
+        "author": "Jacopo Werther",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungomare_di_Bagnara_Calabra_-_Province_of_Reggio_Calabria,_Italy_-_18_Oct._2014_-_(1).jpg",
+        "credit": "Jacopo Werther — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "bagnara-costa-viola",
+      "name": "Costa Viola",
+      "category": "coastal",
+      "blurb": "The 'Violet Coast' between Bagnara and Scilla, where steep terraced cliffs drop to a sea that glows purple at sunset. Some of Calabria's most dramatic shoreline, threaded by old fishermen's paths.",
+      "lat": 38.27,
+      "lon": 15.79,
+      "photo": {
+        "file": "assets/photos/bagnara/costa-viola.webp",
+        "author": "Martuna.22",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Costa_viola.jpg",
+        "credit": "Martuna.22 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "bagnara-torre-aragonese",
+      "name": "Torre Aragonese",
+      "category": "history",
+      "blurb": "The squat coastal watchtower, also called the Torre Ruggiero, raised to spot raiders approaching from the sea. A weathered survivor of the town's fortified past, looking out over the gulf.",
+      "lat": 38.2845,
+      "lon": 15.8035,
+      "photo": {
+        "file": "assets/photos/bagnara/torre-aragonese.webp",
+        "author": "Antonina Dattola",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_Aragonese_(Bagnara).jpg",
+        "credit": "Antonina Dattola — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "bagnara-chiesa-di-maria-ss-del-carmelo",
+      "name": "Chiesa di Maria SS. del Carmelo",
+      "category": "culture",
+      "blurb": "Bagnara's grand parish church, rebuilt after the region's devastating earthquakes, with a richly worked interior honoring the Madonna del Carmine. The focus of the town's feast-day processions.",
+      "lat": 38.288,
+      "lon": 15.8085,
+      "photo": {
+        "file": "assets/photos/bagnara/chiesa-di-maria-ss-del-carmelo.webp",
+        "author": "Domgio82",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bagnara_Calabra_(RC)_-_chiesa_di_Maria_Santissima_del_Carmelo_-_02.jpg",
+        "credit": "Domgio82 — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "bagnara-pesce-spada-alla-bagnarese",
+      "name": "Pesce spada alla bagnarese",
+      "category": "food",
+      "blurb": "Swordfish is Bagnara's identity — hunted for centuries from long-prowed 'passerelle' boats in the strait. Eaten grilled, rolled into involtini, or with pasta, it's the dish that defines the town.",
+      "photo": {
+        "file": "assets/photos/bagnara/pesce-spada-alla-bagnarese.webp",
+        "author": "Emőke Dénes",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Xiphias_gladius_-_1.jpg",
+        "credit": "Emőke Dénes — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "bagnara-torrone-di-bagnara",
+      "name": "Torrone di Bagnara",
+      "category": "food",
+      "blurb": "An IGP almond nougat made here since the 1800s, in a hard 'martiniana' version and a soft, cocoa-and-spice 'torrefatto'. A sweet souvenir traditionally made by the town's women.",
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/bagnara/torrone-di-bagnara.webp",
+        "author": "Nonolili",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nougat_artisanal.JPG",
+        "credit": "Nonolili — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "history",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Bagnara sits on the Tyrrhenian rail line between Reggio Calabria and Tropea; the station is a short walk from the seafront.",
+    "The A2 'Autostrada del Mediterraneo' passes just above town for drivers.",
+    "It's an easy day-trip pairing with Scilla, a few minutes south along the Costa Viola.",
+    "The center hugs the shore — flat and walkable along the lungomare."
+  ],
+  "foodNotes": [
+    "This is a historic swordfish port — 'pesce spada' grilled, in rolls (involtini), or with pasta.",
+    "Bagnara's almond 'torrone' is an IGP nougat, both the hard and the soft, cocoa-dusted kind.",
+    "Sea-urchin and anchovy pastas show up on summer menus along the coast.",
+    "Pair with a crisp Calabrian white or a sip of bergamot liqueur from down the coast."
+  ],
+  "beachNotes": [
+    "The long pebble-and-sand beach runs the length of the lungomare, right in town.",
+    "The Costa Viola's clear, deep water takes on a violet sheen at dusk — the coast's namesake.",
+    "Quieter coves hide north toward Palmi beneath the cliffs.",
+    "Early-October swimming is still pleasant (~74°F) with the beaches near-empty."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/bagnara/bagnara-hero.webp",
+    "author": "Jacopo Werther",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungomare_di_Bagnara_Calabra_-_Province_of_Reggio_Calabria,_Italy_-_18_Oct._2014.jpg",
+    "credit": "Jacopo Werther — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/bagnara.webp",
+    "z": 15,
+    "worldLeft": 4561653,
+    "worldTop": 3226861,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

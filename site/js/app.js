@@ -1,7 +1,7 @@
 /* Core renderer. Loads window.__ITALY__ (from data.js) and dispatches the Home
    and City views to the ACTIVE DESIGN (window.DESIGNS[id]). Each design owns the
-   full layout of those views; the helper pages (phrasebook, packing, credits)
-   are shared and styled by each design's CSS. No build step, no network: plain
+   full layout of those views; the shared credits page is styled by each
+   design's CSS. No build step, no network: plain
    DOM, works from file://. No favorites. */
 (function () {
   var DATA = window.__ITALY__;
@@ -87,35 +87,6 @@
   };
 
   // ---------- shared helper-page renderers ----------
-  function viewPhrases() {
-    var groups = DATA.phrases.map(function (g) {
-      var rows = g.items.map(function (p) {
-        return h("tr", {}, [h("td", { class: "it" }, [p.it]), h("td", {}, [p.en]), h("td", { class: "say" }, [p.say])]);
-      });
-      return h("div", { class: "phrase-group" }, [
-        h("h3", {}, [g.group]),
-        h("table", { class: "phrase-table" }, [
-          h("thead", {}, [h("tr", {}, [h("th", {}, ["Italian"]), h("th", {}, ["English"]), h("th", {}, ["Say it"])])]),
-          h("tbody", {}, rows),
-        ]),
-      ]);
-    });
-    return h("section", { class: "page page-phrases" }, [h("div", { class: "page-wrap" }, [
-      h("p", { class: "eyebrow" }, ["Parla un po' d'italiano"]),
-      h("h1", {}, ["Phrasebook"]),
-      h("p", { class: "lead" }, ["A handful of phrases goes a long way. Pronunciations are rough but friendly."]),
-    ].concat(groups))]);
-  }
-
-  function viewPacking() {
-    return h("section", { class: "page page-packing" }, [h("div", { class: "page-wrap" }, [
-      h("p", { class: "eyebrow" }, ["Before you zip the bag"]),
-      h("h1", {}, ["Packing list"]),
-      h("p", { class: "lead" }, ["Tuned for early-October Southern Italy: warm days, cooler coastal evenings, a chance of a shower."]),
-      h("ul", { class: "packing-list" }, DATA.packingList.map(function (t) { return h("li", {}, [t]); })),
-    ])]);
-  }
-
   function viewCredits() {
     var entries = [];
     DATA.cities.forEach(function (c) {
@@ -151,8 +122,6 @@
     DATA.cities.forEach(function (c) {
       nav.appendChild(h("a", { href: "#/city/" + c.slug, "data-nav": "" }, [c.name]));
     });
-    nav.appendChild(h("a", { href: "#/phrases", "data-nav": "" }, ["Phrasebook"]));
-    nav.appendChild(h("a", { href: "#/packing", "data-nav": "" }, ["Packing"]));
   }
   function setActive(hash) {
     document.querySelectorAll("#main-nav a").forEach(function (a) {
@@ -168,9 +137,7 @@
     if (hash.indexOf("#/city/") === 0) {
       var city = cityBySlug(hash.slice("#/city/".length));
       node = city ? design.renderCity(city, ctx) : design.renderHome(ctx);
-    } else if (hash === "#/phrases") node = viewPhrases();
-    else if (hash === "#/packing") node = viewPacking();
-    else if (hash === "#/credits") node = viewCredits();
+    } else if (hash === "#/credits") node = viewCredits();
     else node = design.renderHome(ctx);
     view.appendChild(node);
     setActive(hash);

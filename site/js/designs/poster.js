@@ -88,9 +88,10 @@
       credit: cover.hero ? cover.hero.credit : null,
       extraClass: "poster-cover",
     }, [
-      h("p", { class: "poster-kicker", text: "An Offline Travel Guide · October 2026" }),
+      h("p", { class: "poster-kicker", text: "A Travel Guide · Sep 30 – Oct 16, 2026" }),
       h("h1", { class: "poster-title poster-title--xl", text: "Southern Italy" }),
       h("p", { class: "poster-route", text: cities.map(function (c) { return c.name; }).join(" · ") }),
+      h("p", { class: "poster-fineprint", text: "Proposed dates & destinations — ideas to react to, nothing booked." }),
       scrollCue(ctx, "Begin"),
     ]));
 

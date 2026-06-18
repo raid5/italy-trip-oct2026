@@ -1,0 +1,276 @@
+{
+  "slug": "catania",
+  "name": "Catania",
+  "region": "Sicily",
+  "tagline": "A baroque city of black lava and gold, in the shadow of Etna.",
+  "intro": "Catania is the second-largest city in the autonomous island region of Sicily in Italy, after Palermo, both by area and by population. Despite being the second largest city of the island, Catania is the centre of the most densely populated Sicilian conurbation, which is among the largest in Italy. It has important road and rail transport infrastructures, and hosts the main airport of Sicily. The city is located on Sicily's east coast, facing the Ionian Sea at the base of the active volcano Mount Etna. It is the capital of the 58-municipality province known as the Metropolitan City of Catania, which is the seventh-largest metropolitan area in Italy. The population of the city proper is 296,984, while the population of the metropolitan city is 1,067,550.",
+  "lat": 37.5,
+  "lon": 15.09027778,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 25,
+    "avgLowC": 18,
+    "avgHighF": 77,
+    "avgLowF": 64,
+    "rainDayPct": 27,
+    "sampleYears": "2014–2024",
+    "seaTempC": 25,
+    "seaTempF": 77
+  },
+  "sun": {
+    "sunrise": "6:58 AM",
+    "sunset": "6:38 PM",
+    "goldenHourEvening": "6:03 PM"
+  },
+  "pois": [
+    {
+      "id": "catania-piazza-del-duomo-fontana-dell-elefante",
+      "name": "Piazza del Duomo & Fontana dell'Elefante",
+      "category": "culture",
+      "blurb": "The baroque heart of Catania, paved in black-and-white lava and marble, centered on the smiling lava-stone elephant ('u Liotru') that is the city's emblem. The natural starting point for any wander.",
+      "lat": 37.5024,
+      "lon": 15.0874,
+      "photo": {
+        "file": "assets/photos/catania/piazza-del-duomo-fontana-dell-elefante.webp",
+        "author": "Antony-22",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fontana_dell%27Elefante_2024b.jpg",
+        "credit": "Antony-22 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-cattedrale-di-sant-agata",
+      "name": "Cattedrale di Sant'Agata",
+      "category": "history",
+      "blurb": "The cathedral of Catania's beloved patron saint, rebuilt in florid baroque after the 1693 earthquake, its facade banded in lava and pale stone. Home to the composer Bellini's tomb and the great February feast of Sant'Agata.",
+      "lat": 37.5019,
+      "lon": 15.0876,
+      "photo": {
+        "file": "assets/photos/catania/cattedrale-di-sant-agata.webp",
+        "author": "Pymouss",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catania_-_Cattedrale_di_Sant%27Agata_20240104-19.jpg",
+        "credit": "Pymouss — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-castello-ursino",
+      "name": "Castello Ursino",
+      "category": "history",
+      "blurb": "A blunt 13th-century Swabian castle, once on the shore until a 1669 lava flow pushed the sea back and left it inland. Today it guards the city's civic museum of art and antiquities.",
+      "lat": 37.4977,
+      "lon": 15.0844,
+      "photo": {
+        "file": "assets/photos/catania/castello-ursino.webp",
+        "author": "Cayambe",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castello_Ursino,_Catania_2024.jpg",
+        "credit": "Cayambe — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-monastero-dei-benedettini",
+      "name": "Monastero dei Benedettini",
+      "category": "history",
+      "blurb": "One of Europe's largest Benedictine monasteries, a UNESCO-listed baroque colossus built over earlier lava flows and now part of the university. Its cloisters and buried ruins reward a guided wander.",
+      "lat": 37.5028,
+      "lon": 15.0833,
+      "photo": {
+        "file": "assets/photos/catania/monastero-dei-benedettini.webp",
+        "author": "Carmelovunque",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catania,_ex_Monastero_dei_Benedettini_1.jpg",
+        "credit": "Carmelovunque — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-teatro-massimo-bellini",
+      "name": "Teatro Massimo Bellini",
+      "category": "culture",
+      "blurb": "Catania's gilded 19th-century opera house, named for native son Vincenzo Bellini and famed for its acoustics. The piazza around it fills with café tables and aperitivo crowds come evening.",
+      "lat": 37.5039,
+      "lon": 15.0905,
+      "photo": {
+        "file": "assets/photos/catania/teatro-massimo-bellini.webp",
+        "author": "Julian Lupyan",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teatro_Massimo_Bellini,_Catania.jpg",
+        "credit": "Julian Lupyan — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-via-etnea",
+      "name": "Via Etnea",
+      "category": "culture",
+      "blurb": "The grand shopping street that runs dead-straight from the Duomo toward Etna, framing the volcano at its end. Lined with baroque palazzi, pastry shops, and the green oasis of the Villa Bellini gardens.",
+      "lat": 37.5065,
+      "lon": 15.0866,
+      "photo": {
+        "file": "assets/photos/catania/via-etnea.webp",
+        "author": "Cosal",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catania_Via_Etnea.jpg",
+        "credit": "Cosal — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-la-pescheria",
+      "name": "La Pescheria",
+      "category": "culture",
+      "blurb": "Catania's roaring morning fish market behind the Duomo — a theatre of glistening tuna, swordfish, and shouting vendors in a maze of stalls. The most vivid slice of the city's daily life, and a street-food feast.",
+      "lat": 37.5016,
+      "lon": 15.0879,
+      "photo": {
+        "file": "assets/photos/catania/la-pescheria.webp",
+        "author": "Carlo Pelagalli",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catania,_il_mercato_del_pesce._-_panoramio_(4).jpg",
+        "credit": "Carlo Pelagalli — CC BY-SA 3.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-mount-etna",
+      "name": "Mount Etna",
+      "category": "outdoors",
+      "blurb": "Europe's largest active volcano looms over the city, its summit often smoking or snow-streaked. Cable cars and guided 4x4s climb the lava fields toward the craters — a startling, otherworldly day out.",
+      "lat": 37.751,
+      "lon": 14.9934,
+      "photo": {
+        "file": "assets/photos/catania/mount-etna.webp",
+        "author": "Cayambe",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Etna_2024_04.jpg",
+        "credit": "Cayambe — CC BY 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-san-giovanni-li-cuti",
+      "name": "San Giovanni Li Cuti",
+      "category": "coastal",
+      "blurb": "A pocket cove of black lava rock and bright fishing boats tucked into the city's seafront, with a small pebble beach. A favorite local spot for a swim, a sunbathe, or fresh fish at the water's edge.",
+      "lat": 37.5189,
+      "lon": 15.1004,
+      "photo": {
+        "file": "assets/photos/catania/san-giovanni-li-cuti.webp",
+        "author": "Auregann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volcanic_rock_beach_in_San_Giovanni_li_Cuti,_Catania.jpg",
+        "credit": "Auregann — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-faraglioni-dei-ciclopi-aci-trezza",
+      "name": "Faraglioni dei Ciclopi (Aci Trezza)",
+      "category": "coastal",
+      "blurb": "Just up the Riviera dei Ciclopi, jagged basalt stacks rise from the sea — the rocks Homer's blinded Cyclops is said to have hurled at Odysseus. A scenic short trip for lava-rock swimming and a seafood lunch.",
+      "lat": 37.5586,
+      "lon": 15.1606,
+      "photo": {
+        "file": "assets/photos/catania/faraglioni-dei-ciclopi-aci-trezza.webp",
+        "author": "gnuckx",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acitrezza_Faraglioni_Moon_Rise_Sicilia_Italy_Italia_-_Creative_Commons_by_gnuckx_(4839699549).jpg",
+        "credit": "gnuckx — CC BY 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-arancino-al-ragu",
+      "name": "Arancino al ragù",
+      "category": "food",
+      "blurb": "The crisp fried rice ball, stuffed with ragù, peas, and cheese — in Catania it's pointed ('a punta', shaped like Etna) and masculine, 'arancinu'. The essential first bite of Catanese street food.",
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/catania/arancino-al-ragu.webp",
+        "author": "Alan Stanton",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Don_Arancini_Sicilian_Street_Food.jpg",
+        "credit": "Alan Stanton — CC BY-SA 2.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-granita-e-brioche",
+      "name": "Granita e brioche",
+      "category": "food",
+      "blurb": "The Sicilian summer breakfast — almond, pistachio, or mulberry granita scooped into or beside a soft, fluffy brioche. Locals dip the brioche straight in; do as they do, ideally before the morning heat.",
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/catania/granita-e-brioche.webp",
+        "author": "Eli6179",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granita_brioche_cornetto.jpg",
+        "credit": "Eli6179 — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "catania-pasta-alla-norma",
+      "name": "Pasta alla Norma",
+      "category": "food",
+      "blurb": "Catania's own dish — pasta with tomato, fried aubergine, basil, and a snow of salted ricotta — said to be named for Bellini's opera 'Norma'. Simple, generous, and on every traditional menu in town.",
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/catania/pasta-alla-norma.webp",
+        "author": "8w9d",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg",
+        "credit": "8w9d — CC0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Catania-Fontanarossa (CTA) is Sicily's busiest airport, just south of the center.",
+    "Trains and the Etna-circling Ferrovia Circumetnea radiate from Catania Centrale.",
+    "A small metro and city buses serve the center; the historic core is walkable.",
+    "Ferries and trains along the coast reach Messina, Syracuse, and the Ionian towns."
+  ],
+  "foodNotes": [
+    "Pasta alla Norma — tomato, fried aubergine, basil, and salted ricotta — was born here.",
+    "Street food rules: arancini, the horse-meat 'cavallo', and 'cipollina' pastries.",
+    "Granita with a warm brioche is the classic Sicilian breakfast, almond and pistachio especially.",
+    "Etna's volcanic-soil reds and whites (Nerello Mascalese, Carricante) pair with the seafood."
+  ],
+  "beachNotes": [
+    "San Giovanni Li Cuti is a tiny black-lava cove right in the city, ringed by fishing boats.",
+    "The long sandy beaches of La Plaia stretch south of the port, with summer lidos.",
+    "North along the Riviera dei Ciclopi, Aci Trezza and Aci Castello offer lava-rock swimming.",
+    "Early-October sea stays warm (~76°F) and the Ionian light is at its best."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/catania/catania-hero.webp",
+    "author": "Cayambe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo,_Catania_2024.jpg",
+    "credit": "Cayambe — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/catania.webp",
+    "z": 11,
+    "worldLeft": 283301,
+    "worldTop": 202325,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

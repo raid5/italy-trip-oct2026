@@ -1,0 +1,212 @@
+{
+  "slug": "scilla",
+  "name": "Scilla",
+  "region": "Calabria",
+  "tagline": "A castle, a fishing quarter on the rocks, and Homer's legendary strait.",
+  "intro": "Scilla is a town and comune in Calabria, Italy, administratively part of the Metropolitan City of Reggio Calabria. It is the traditional site of the sea monster Scylla of Greek mythology.",
+  "lat": 38.25067,
+  "lon": 15.71899,
+  "weather": {
+    "label": "Early October",
+    "avgHighC": 23,
+    "avgLowC": 17,
+    "avgHighF": 73,
+    "avgLowF": 63,
+    "rainDayPct": 39,
+    "sampleYears": "2014–2024",
+    "seaTempC": 24,
+    "seaTempF": 75
+  },
+  "sun": {
+    "sunrise": "6:56 AM",
+    "sunset": "6:35 PM",
+    "goldenHourEvening": "6:00 PM"
+  },
+  "pois": [
+    {
+      "id": "scilla-castello-ruffo",
+      "name": "Castello Ruffo",
+      "category": "history",
+      "blurb": "The cliff-top castle splitting the village in two, raised on the rock the ancients tied to the monster Scylla. Long a fortress and lighthouse, its ramparts give a commanding sweep over the strait toward Sicily.",
+      "lat": 38.2527,
+      "lon": 15.7148,
+      "photo": {
+        "file": "assets/photos/scilla/castello-ruffo.webp",
+        "author": "Cesare Barillà",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Castello_Ruffo_-_202208301303_3.jpg",
+        "credit": "Cesare Barillà — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-chianalea",
+      "name": "Chianalea",
+      "category": "coastal",
+      "blurb": "Scilla's ancient fishermen's quarter — a 'little Venice' of tall houses rising straight from the sea, divided by alleys and tiny landings where boats are still moored at the doorsteps. The most enchanting corner of town.",
+      "lat": 38.2543,
+      "lon": 15.7165,
+      "photo": {
+        "file": "assets/photos/scilla/chianalea.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Chianalea_-_1.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-spiaggia-di-marina-grande",
+      "name": "Spiaggia di Marina Grande",
+      "category": "coastal",
+      "blurb": "The village's broad sand beach, curving below the castle with the strait shimmering ahead. Sheltered and shallow, it's the heart of summer life and an unbeatable place to swim under a fortress.",
+      "lat": 38.2533,
+      "lon": 15.7135,
+      "photo": {
+        "file": "assets/photos/scilla/spiaggia-di-marina-grande.webp",
+        "author": "Dega180",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiaggia_di_Scilla.JPG",
+        "credit": "Dega180 — CC0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-strait-of-messina",
+      "name": "Strait of Messina",
+      "category": "coastal",
+      "blurb": "The narrow channel between Calabria and Sicily, home in myth to the monsters Scylla and Charybdis. Its swirling currents and the silhouette of Etna across the water make for hypnotic gazing from the shore.",
+      "lat": 38.24,
+      "lon": 15.65,
+      "photo": {
+        "file": "assets/photos/scilla/strait-of-messina.webp",
+        "author": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated. This image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strait_of_Messina_13.jpg",
+        "credit": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated. This image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license. — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-chiesa-di-san-rocco",
+      "name": "Chiesa di San Rocco",
+      "category": "culture",
+      "blurb": "The village's hillside church, dedicated to the protector against plague, set on a small piazza that doubles as one of Scilla's finest free viewpoints over the rooftops and sea.",
+      "lat": 38.2531,
+      "lon": 15.7158,
+      "photo": {
+        "file": "assets/photos/scilla/chiesa-di-san-rocco.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Chiesa_di_San_Rocco_-_1.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-vista-da-via-de-nava",
+      "name": "Vista da Via de Nava",
+      "category": "culture",
+      "blurb": "The overlook on the town's upper road, where Chianalea, the castle, and the beach line up in a single, perfect frame. The picture every visitor stops to take on the way down to the water.",
+      "lat": 38.2538,
+      "lon": 15.716,
+      "photo": {
+        "file": "assets/photos/scilla/vista-da-via-de-nava.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Vista_da_Via_de_Nava.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-belvedere-di-piazza-san-rocco",
+      "name": "Belvedere di Piazza San Rocco",
+      "category": "outdoors",
+      "blurb": "A panoramic terrace high above the village that takes in the whole sweep of the strait, with Sicily and Etna on the horizon. The spot to linger as the Costa Viola turns violet at dusk.",
+      "lat": 38.253,
+      "lon": 15.7157,
+      "photo": {
+        "file": "assets/photos/scilla/belvedere-di-piazza-san-rocco.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Vista_dalla_piazza_San_Rocco_-_1.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-spaghetti-con-pesce-spada",
+      "name": "Spaghetti con pesce spada",
+      "category": "food",
+      "blurb": "Swordfish from the strait is Scilla's signature, harpooned in season from tall-masted 'passerella' boats. Served as pasta, in light involtini, or simply grilled — best eaten waterside in Chianalea.",
+      "photo": {
+        "file": "assets/photos/scilla/spaghetti-con-pesce-spada.webp",
+        "author": "Emőke Dénes",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Xiphias_gladius_-_1.jpg",
+        "credit": "Emőke Dénes — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    },
+    {
+      "id": "scilla-tramonto-sulla-costa-viola",
+      "name": "Tramonto sulla Costa Viola",
+      "category": "coastal",
+      "blurb": "The reason the coast is called 'Violet' — the sun sinking behind the Sicilian mountains turns the sea and cliffs through shades of rose and purple. Watch it from the beach with the castle blazing above.",
+      "hiddenGem": true,
+      "photo": {
+        "file": "assets/photos/scilla/tramonto-sulla-costa-viola.webp",
+        "author": "AkakiBalanchivadze",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Scilla_Beach.jpg",
+        "credit": "AkakiBalanchivadze — CC BY-SA 4.0 (Wikimedia Commons)"
+      }
+    }
+  ],
+  "categories": [
+    "coastal",
+    "outdoors",
+    "history",
+    "culture",
+    "food"
+  ],
+  "itinerary": [],
+  "transport": [
+    "Scilla has a station on the Tyrrhenian line; Reggio Calabria is about 30 minutes south.",
+    "It's the southern anchor of the Costa Viola, an easy pairing with Bagnara just north.",
+    "Ferries across the Strait of Messina to Sicily leave from nearby Villa San Giovanni.",
+    "The village is steep and walkable; stairs link the castle, the beach, and the Chianalea lanes."
+  ],
+  "foodNotes": [
+    "Swordfish rules the menus — 'spaghetti con pesce spada' and grilled steaks fresh off the strait.",
+    "Chianalea's tiny seafood trattorias serve the day's catch with their feet almost in the water.",
+    "Anchovies, sea urchin, and bergamot from the Reggio coast flavor local cooking.",
+    "Finish with a Calabrian gelato or a glass of crisp local white by the harbor."
+  ],
+  "beachNotes": [
+    "Marina Grande is a wide sand beach right below the castle, the village's main swimming spot.",
+    "The water of the Costa Viola is deep, clear, and famously clean.",
+    "Boats run from the beach to coves and along the violet cliffs toward Bagnara.",
+    "Early-October sea is still warm (~74°F) and the village is blissfully quiet."
+  ],
+  "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+  "hero": {
+    "file": "assets/photos/scilla/scilla-hero.webp",
+    "author": "Martuna.22",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_dal_belvedere.jpg",
+    "credit": "Martuna.22 — CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "map": {
+    "file": "assets/maps/scilla.webp",
+    "z": 14,
+    "worldLeft": 2279075,
+    "worldTop": 1613603,
+    "w": 1600,
+    "h": 1200,
+    "attribution": "© OpenStreetMap contributors"
+  }
+}

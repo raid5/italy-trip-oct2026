@@ -1,7 +1,6 @@
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { writeFile, readFile, mkdir, rm } from "node:fs/promises";
-import { spawn } from "node:child_process";
+import { writeFile, readFile, mkdir, access } from "node:fs/promises";
 
 import { CITY_CONFIGS } from "./curated.js";
 import { fetchCityBasics } from "./sources/wikipedia.js";
@@ -12,7 +11,6 @@ import { buildStaticMap } from "./sources/staticmap.js";
 import { sunTimes } from "./sun.js";
 import { transform } from "./transform.js";
 import { buildSiteData, writeDataBundle } from "./generate.js";
-import { sleep } from "./http.js";
 import type { City } from "./schema.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -28,13 +26,46 @@ const FALLBACK_COORDS: Record<string, [number, number]> = {
   sorrento: [40.626, 14.376],
   amalfi: [40.634, 14.602],
   pompeii: [40.7497, 14.4869],
+  procida: [40.7585, 14.0244],
+  tropea: [38.6776, 15.8986],
+  bagnara: [38.287, 15.808],
+  scilla: [38.253, 15.715],
+  catania: [37.5023, 15.0873],
+  capri: [40.5508, 14.2425],
+  cagliari: [39.2238, 9.1217],
+  alghero: [40.5589, 8.3155],
+  villasimius: [39.1408, 9.5219],
 };
 
-// How many photos to fetch per category (keeps the zip a sensible size).
+// How many photos to fetch per category (keeps the page weight sensible).
 const PHOTOS_PER_CATEGORY = 4;
 
 function log(...a: unknown[]) {
   console.log("›", ...a);
+}
+
+async function fileExists(p: string): Promise<boolean> {
+  try {
+    await access(p);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+// Run async thunks with a bounded concurrency limit. The http layer already
+// backs off on 429/503, so a small pool keeps us polite to Wikimedia while
+// fetching a city's photos in parallel instead of one-at-a-time.
+async function runPool(tasks: Array<() => Promise<unknown>>, limit: number): Promise<void> {
+  let next = 0;
+  const workers = Array.from({ length: Math.min(limit, tasks.length) }, async () => {
+    while (true) {
+      const i = next++;
+      if (i >= tasks.length) break;
+      await tasks[i]();
+    }
+  });
+  await Promise.all(workers);
 }
 
 async function cityCommand(nameArg: string) {
@@ -59,7 +90,16 @@ async function cityCommand(nameArg: string) {
   const lat = basics.lat ?? flat;
   const lon = basics.lon ?? flon;
 
-  const { listings, lead } = await fetchCityListings(cfg.wikivoyage);
+  // Wikivoyage only scrapes supplementary "fill" sights; some small towns
+  // (e.g. Bagnara, Scilla) have no English Wikivoyage article at all. A miss
+  // must not abort a fully hand-curated city — fall back to no listings.
+  let listings: Awaited<ReturnType<typeof fetchCityListings>>["listings"] = [];
+  let lead = "";
+  try {
+    ({ listings, lead } = await fetchCityListings(cfg.wikivoyage));
+  } catch (e) {
+    log(`  wikivoyage unavailable (${(e as Error).message}); using curated POIs only`);
+  }
   log(`  ${listings.length} listings from Wikivoyage (incl. district subpages)`);
 
   let weather = await fetchOctoberWeather(lat, lon, cfg.coastal).catch((e) => {
@@ -83,15 +123,6 @@ async function cityCommand(nameArg: string) {
   const city: City = transform(cfg, basics, listings, lead, weather, sun, lat, lon);
   log(`  ${city.pois.length} curated POIs across ${city.categories.length} categories`);
 
-  // Hero photo. A hand-tuned heroQuery beats the generic "<city> <region>"
-  // search, which can surface signage/maps instead of the landmark.
-  log("  fetching hero photo…");
-  const heroQuery = cfg.heroQuery ?? `${cfg.name} ${cfg.region} Italy`;
-  city.hero = cfg.heroFile
-    ? await findPhotoByFile(cfg.heroFile, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200)
-    : await findPhoto(heroQuery, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200);
-  await sleep(250);
-
   // Per-POI Commons overrides (curated). A pinned File: wins; else a tuned
   // search query; else the default "<name> <city>" search.
   const photoQueries = new Map<string, string>();
@@ -101,33 +132,54 @@ async function cityCommand(nameArg: string) {
     if (c.photoFile) photoFiles.set(c.name, c.photoFile);
   }
 
-  // POI photos: top N per category.
+  // Decide which POIs get a photo (top N per category), preserving order. This
+  // selection is deterministic and independent of fetch order, so the actual
+  // downloads can run in parallel.
   const counts: Record<string, number> = {};
-  let fetched = 0;
-  for (const poi of city.pois) {
+  const toFetch = city.pois.filter((poi) => {
     counts[poi.category] = counts[poi.category] ?? 0;
-    if (counts[poi.category] >= PHOTOS_PER_CATEGORY) continue;
+    if (counts[poi.category] >= PHOTOS_PER_CATEGORY) return false;
     counts[poi.category]++;
-    const pinned = photoFiles.get(poi.name);
-    const query = photoQueries.get(poi.name) ?? `${poi.name} ${cfg.name}`;
-    const photo = pinned
-      ? await findPhotoByFile(pinned, cfg.slug, poi.name, SITE_DIR, 800)
-      : await findPhoto(query, cfg.slug, poi.name, SITE_DIR, 800);
-    if (photo) {
-      poi.photo = photo;
-      fetched++;
-    }
-    await sleep(200);
-  }
-  log(`  downloaded ${fetched} POI photos${city.hero ? " + hero" : ""}`);
-
-  // Real OSM basemap for the orientation minimap (stitched offline at build).
-  log("  rendering basemap…");
-  city.map = await buildStaticMap(city.pois, cfg.slug, SITE_DIR, join(DIST_DIR, ".maptmp")).catch((e) => {
-    log(`  basemap failed: ${e.message}`);
-    return undefined;
+    return true;
   });
-  if (city.map) log(`  basemap z${city.map.z} → ${city.map.file}`);
+
+  // Hero photo + POI photos + OSM basemap all run concurrently through a small
+  // pool. The http layer backs off on 429/503, so we no longer hand-throttle
+  // with per-photo sleeps. A hand-tuned heroQuery beats the generic search,
+  // which can surface signage/maps instead of the landmark.
+  const heroQuery = cfg.heroQuery ?? `${cfg.name} ${cfg.region} Italy`;
+  log(`  fetching hero + ${toFetch.length} POI photos + basemap…`);
+
+  const tasks: Array<() => Promise<unknown>> = [
+    async () => {
+      city.hero = cfg.heroFile
+        ? await findPhotoByFile(cfg.heroFile, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200)
+        : await findPhoto(heroQuery, cfg.slug, `${cfg.slug}-hero`, SITE_DIR, 1200);
+    },
+    // Real OSM basemap for the orientation minimap (stitched offline at build).
+    async () => {
+      city.map = await buildStaticMap(city.pois, cfg.slug, SITE_DIR, join(DIST_DIR, ".maptmp")).catch((e) => {
+        log(`  basemap failed: ${e.message}`);
+        return undefined;
+      });
+    },
+    ...toFetch.map((poi) => async () => {
+      const pinned = photoFiles.get(poi.name);
+      const query = photoQueries.get(poi.name) ?? `${poi.name} ${cfg.name}`;
+      const photo = pinned
+        ? await findPhotoByFile(pinned, cfg.slug, poi.name, SITE_DIR, 800)
+        : await findPhoto(query, cfg.slug, poi.name, SITE_DIR, 800);
+      if (photo) poi.photo = photo;
+    }),
+  ];
+
+  await runPool(tasks, 6);
+
+  const fetched = toFetch.filter((poi) => poi.photo).length;
+  log(
+    `  downloaded ${fetched} POI photos${city.hero ? " + hero" : ""}` +
+      `${city.map ? ` + basemap z${city.map.z}` : ""}`
+  );
 
   await mkdir(DATA_DIR, { recursive: true });
   await writeFile(join(DATA_DIR, `${cfg.slug}.json`), JSON.stringify(city, null, 2), "utf8");
@@ -140,27 +192,6 @@ async function buildCommand() {
   const data = await buildSiteData(DATA_DIR);
   await writeDataBundle(data, join(SITE_DIR, "js"));
   log(`Wrote site/js/data.js (${data.cities.length} cities: ${data.cities.map((c) => c.name).join(", ")}).`);
-}
-
-async function packageCommand(): Promise<void> {
-  await mkdir(DIST_DIR, { recursive: true });
-  const zipPath = join(DIST_DIR, "italy-trip-oct2026.zip");
-  await rm(zipPath, { force: true }); // start fresh; `zip` updates in place otherwise
-  log(`Packaging site/ → ${zipPath}`);
-  await new Promise<void>((resolve, reject) => {
-    // -r recursive, -X strip extra attrs, -q quiet, -x exclude macOS cruft.
-    const child = spawn(
-      "zip",
-      ["-r", "-X", "-q", zipPath, ".", "-x", ".DS_Store", "-x", "*/.DS_Store"],
-      { cwd: SITE_DIR }
-    );
-    child.on("error", reject);
-    child.on("close", (code) => {
-      if (code === 0) resolve();
-      else reject(new Error(`zip exited ${code}`));
-    });
-  });
-  log("Packaged. This zip is what you text/email — recipients unzip and open index.html.");
 }
 
 async function main() {
@@ -178,19 +209,31 @@ async function main() {
     case "build":
       await buildCommand();
       break;
-    case "package":
-      await packageCommand();
-      break;
     case "all": {
-      // Convenience: (re)generate the three starter cities, build, and package.
-      for (const c of ["Rome", "Naples", "Positano"]) await cityCommand(c);
+      // Ingest only cities that don't have data yet, then build. Existing
+      // data/<slug>.json files are never clobbered — they're hand-tweakable,
+      // so re-running `all` is safe and only fills in what's missing. To
+      // refresh ONE existing city, use `pnpm city "Name"`. Pass `--force` to
+      // re-fetch every city from scratch.
+      const force = rest.includes("--force");
+      for (const key of Object.keys(CITY_CONFIGS)) {
+        const cfg = CITY_CONFIGS[key];
+        if (!force && (await fileExists(join(DATA_DIR, `${cfg.slug}.json`)))) {
+          log(`skipping ${cfg.name} (already ingested — \`pnpm city "${cfg.name}"\` to refresh)`);
+          continue;
+        }
+        await cityCommand(key);
+      }
       await buildCommand();
-      await packageCommand();
       break;
     }
     default:
       console.error(
-        "Usage:\n  pnpm city \"Rome\"   fetch + curate one city\n  pnpm build          render data/*.json into the site\n  pnpm package        zip the site for sharing\n  pnpm all            do all of the above for the 3 starter cities"
+        "Usage:\n" +
+          '  pnpm city "Rome"     fetch + curate one city (creates or refreshes it)\n' +
+          "  pnpm build           render data/*.json into the site\n" +
+          "  pnpm all             ingest any cities missing data, then build (never clobbers existing)\n" +
+          "  pnpm all --force     re-fetch every known city from scratch, then build"
       );
       process.exit(1);
   }
