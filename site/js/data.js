@@ -510,23 +510,21 @@ window.__ITALY__ = {
       }
     },
     {
-      "slug": "positano",
-      "name": "Positano",
-      "region": "Amalfi Coast",
-      "tagline": "Pastel houses cascading down cliffs to a turquoise sea.",
-      "intro": "Positano is a town and comune (municipality) on the Amalfi Coast in the Province of Salerno in the region of Campania in southern Italy, mainly in an enclave in the hills leading down to the coast. It has 3,643 inhabitants.",
-      "lat": 40.63333333,
-      "lon": 14.48333333,
+      "slug": "pompeii",
+      "name": "Pompeii",
+      "region": "Campania",
+      "tagline": "A Roman city frozen in 79 AD by Vesuvius — the ultimate day trip.",
+      "intro": "Pompeii was a city in what is now the municipality of Pompei, near Naples, in the Campania region of Italy. Along with Herculaneum, Stabiae, and many surrounding villas, it was buried under 4 to 6 m of volcanic ash and pumice in the eruption of Mount Vesuvius in 79 AD.",
+      "lat": 40.75,
+      "lon": 14.48611111,
       "weather": {
         "label": "Early October",
-        "avgHighC": 22,
-        "avgLowC": 16,
-        "avgHighF": 72,
-        "avgLowF": 61,
-        "rainDayPct": 34,
-        "sampleYears": "2014–2024",
-        "seaTempC": 23,
-        "seaTempF": 73
+        "avgHighC": 23,
+        "avgLowC": 15,
+        "avgHighF": 73,
+        "avgLowF": 59,
+        "rainDayPct": 36,
+        "sampleYears": "2014–2024"
       },
       "sun": {
         "sunrise": "7:02 AM",
@@ -535,183 +533,166 @@ window.__ITALY__ = {
       },
       "pois": [
         {
-          "id": "positano-spiaggia-grande",
-          "name": "Spiaggia Grande",
-          "category": "coastal",
-          "blurb": "Positano's main beach, framed by the pastel amphitheater of town. A free public stretch sits beside rows of paid loungers; fishing boats and ferries share the shore. Best light is late afternoon as the cliffs glow.",
-          "lat": 40.6275,
-          "lon": 14.4847,
+          "id": "pompeii-amphitheatre",
+          "name": "Amphitheatre",
+          "category": "history",
+          "blurb": "This is in the most easterly corner of the excavated area, near the Sarno Gate entrance. It was completed in 80 BC, measures 135 x 104 metres and could hold about 20,000 people. It is the earliest surviving permanent amphitheatre in Italy and one of the best preserved anywhere. It was used for gladiator battles, other sports and spectacles involving wild animals.",
+          "lat": 40.7515,
+          "lon": 14.4947,
           "photo": {
-            "file": "assets/photos/positano/spiaggia-grande.webp",
-            "author": "Mihael Grmek",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_01.jpg",
-            "credit": "Mihael Grmek — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "positano-fornillo-beach",
-          "name": "Fornillo Beach",
-          "category": "coastal",
-          "blurb": "A quieter pebble cove a five-minute walk west along the cliffside Via Positanesi d'America path. Calmer water, a couple of low-key beach bars, and a local feel away from the main-beach crowds.",
-          "lat": 40.6286,
-          "lon": 14.481,
-          "photo": {
-            "file": "assets/photos/positano/fornillo-beach.webp",
-            "author": "Mihael Grmek",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_Fornillo_Beach.jpg",
-            "credit": "Mihael Grmek — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "positano-path-of-the-gods-sentiero-degli-dei",
-          "name": "Path of the Gods (Sentiero degli Dei)",
-          "category": "outdoors",
-          "blurb": "The Amalfi Coast's legendary cliff-top trail, running high above the sea from Bomerano to Nocelle near Positano. Roughly two to three hours of unforgettable coastal views; bring water and proper shoes.",
-          "lat": 40.631,
-          "lon": 14.453,
-          "photo": {
-            "file": "assets/photos/positano/path-of-the-gods-sentiero-degli-dei.webp",
-            "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+            "file": "assets/photos/pompeii/amphitheatre.webp",
+            "author": "Norbert Nagel",
             "license": "CC BY-SA 3.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentiero_degli_Dei_26_sopra_Positano_Campania.jpg",
-            "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. — CC BY-SA 3.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_02.jpg",
+            "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "positano-li-galli-islands",
-          "name": "Li Galli Islands",
-          "category": "coastal",
-          "blurb": "A tiny private archipelago off Positano, mythologized as the home of Homer's sirens. You can't land, but boat tours circle the islets and anchor nearby for a swim in deep blue water.",
-          "lat": 40.5783,
-          "lon": 14.435,
+          "id": "pompeii-house-of-the-vettii",
+          "name": "House of the Vettii",
+          "category": "art",
+          "blurb": "This is believed to have been the home of two brothers who were freed slaves and became very affluent. It contains many frescoes. In the vestibule there is a striking fresco of a well-endowed Priapus, God of Fertility and among the frescos in other parts of the building are illustrations of couples making love, of cupids and of mythological characters.",
+          "lat": 40.752,
+          "lon": 14.4847,
           "photo": {
-            "file": "assets/photos/positano/li-galli-islands.webp",
-            "author": "Gianfranco Vitolo",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Galli_visti_da_Torca_(34577357022).jpg",
-            "credit": "Gianfranco Vitolo — CC BY 2.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "positano-da-vincenzo",
-          "name": "Da Vincenzo",
-          "category": "food",
-          "blurb": "A family-run Positano favorite cooking the coast's seafood and house pastas for three generations — warm, unfussy, and reliably excellent. Book ahead in season.",
-          "photo": {
-            "file": "assets/photos/positano/da-vincenzo.webp",
-            "author": "8w9d",
-            "license": "CC0",
-            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alle_Vongole_-_Wiki_Loves_Sicilia.jpg",
-            "credit": "8w9d — CC0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "positano-la-tagliata",
-          "name": "La Tagliata",
-          "category": "food",
-          "blurb": "A hillside, family-run spot high above Positano serving a no-menu parade of homemade dishes with a jaw-dropping coastal panorama. They'll shuttle you up from town and back.",
-          "photo": {
-            "file": "assets/photos/positano/la-tagliata.webp",
-            "author": "Bruno Rijsman",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_14_(50558382446).jpg",
-            "credit": "Bruno Rijsman — CC BY-SA 2.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "positano-franco-s-bar",
-          "name": "Franco's Bar",
-          "category": "drink",
-          "blurb": "Le Sirenuse's cliff-edge cocktail bar — no reservations, first-come stools, and arguably the finest aperitivo view on the Amalfi Coast as the sun drops behind Li Galli.",
-          "photo": {
-            "file": "assets/photos/positano/franco-s-bar.webp",
-            "author": "JeCCo",
-            "license": "CC BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_Sunset.JPG",
-            "credit": "JeCCo — CC BY 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "positano-roman-archaeological-museum-and-villa-mar",
-          "name": "Roman archaeological museum and villa (MAR)",
-          "category": "history",
-          "blurb": "Nestled beneath the Church of Santa Maria Assunta in the heart of Positano is a luxurious Roman villa, dating back to the 1st century AD, which was buried under volcanic debris from the catastrophic eruption of Mount Vesuvius in 79 AD. Discovered in 2003 during restoration work following a flood, the villa was meticulously excavated and opened to the public in 2018. Visitors can explore a richly frescoed triclinium (dining room), adorned with vibrant wall paintings and intricate mosaic floors, preserved remarkably well under layers of ash and pumice.",
-          "lat": 40.628547,
-          "lon": 14.486567,
-          "photo": {
-            "file": "assets/photos/positano/roman-archaeological-museum-and-villa-mar.webp",
-            "author": "Zde",
+            "file": "assets/photos/pompeii/house-of-the-vettii.webp",
+            "author": "Argo Navis",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sculptures,_Hellenistic_and_Roman,_Archaeological_Museum_of_Milos,_152583.jpg",
-            "credit": "Zde — CC BY-SA 4.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_of_the_Vettii,_Pompeii,_20230623_133502_09.jpg",
+            "credit": "Argo Navis — CC BY-SA 4.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "positano-collegiata-di-santa-maria-assunta",
-          "name": "Collegiata di Santa Maria Assunta",
+          "id": "pompeii-shrine-of-the-virgin-of-the-rosary-of-pompei",
+          "name": "Shrine of the Virgin of the Rosary of Pompei",
           "category": "history",
-          "blurb": "This is one of the most famous attractions in Positano. The old church, boasting a majestic dome, was built in the 1920s and is the location of the famous 13th-century Byzantine icon, the Madonna di Positano.",
-          "lat": 40.6284,
-          "lon": 14.486783,
+          "blurb": "A church which is a place of pilgrimage for Roman Catholics. For others, it is not a must-see, but should you arrive or leave via the Pompei Santuario station on the Circumvesuviana, rather than Pompei Scavi, you may find it worth at least a brief look inside at this place of veneration of the Virgin Mary.",
+          "lat": 40.75,
+          "lon": 14.500556,
           "photo": {
-            "file": "assets/photos/positano/collegiata-di-santa-maria-assunta.webp",
-            "author": "LorenzoSan84017",
+            "file": "assets/photos/pompeii/shrine-of-the-virgin-of-the-rosary-of-pompei.webp",
+            "author": "The Banner",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Our_Lady_Star_of_the_Sea_Quilty.jpg",
+            "credit": "The Banner — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "pompeii-baths",
+          "name": "Baths",
+          "category": "history",
+          "blurb": "There are several baths to be inspected. The Forum Baths are just north of the forum and close to the restaurant. They are well-preserved and roofed. Be careful not to miss them as the entranceway is a long passage with no indication of the delights inside. The Central Baths occupy a much larger area but are less well-preserved. Close to these are the Stabian baths which have some interesting decorations and give a good idea of how baths used to function in Roman times.",
+          "photo": {
+            "file": "assets/photos/pompeii/baths.webp",
+            "author": "Adam Harangozó",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_Collegiata_di_Santa_Maria_Assunta_-_2023-09-14_10-29-29_001.jpg",
-            "credit": "LorenzoSan84017 — CC BY-SA 4.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suburban_Baths,_Pompeii_03.jpg",
+            "credit": "Adam Harangozó — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "pompeii-temple-of-apollo",
+          "name": "Temple of Apollo",
+          "category": "history",
+          "blurb": "This is to the north of the Basilica on the western side of the Forum. It has the oldest remains discovered, with some, including Etruscan items, dating back to 575BC, although the layout we see now was later than that.",
+          "lat": 40.7492,
+          "lon": 14.4844,
+          "photo": {
+            "file": "assets/photos/pompeii/temple-of-apollo.webp",
+            "author": "Marco Ober",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Apollo_-_Tempio_di_Apollo,_Pompeii_(5139).jpg",
+            "credit": "Marco Ober — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "pompeii-lupanar",
+          "name": "Lupanar",
+          "category": "history",
+          "blurb": "An ancient brothel with pornographic frescoes over the entrance to each room, presumably indicating the services on offer. Even allowing for the smaller size of ancient Romans the beds seem rather small.",
+          "lat": 40.7503,
+          "lon": 14.4868
+        },
+        {
+          "id": "pompeii-villa-dei-misteri",
+          "name": "Villa dei Misteri",
+          "category": "history",
+          "blurb": "One of the \"suburban houses\", with curious frescoes, perhaps of women being initiated into the Cult of Dionysus. Contains one of the finest fresco cycles in Italy, as well as humorous ancient graffiti.",
+          "lat": 40.7537,
+          "lon": 14.4774
+        },
+        {
+          "id": "pompeii-great-palaestra",
+          "name": "Great Palaestra",
+          "category": "history",
+          "blurb": "This occupies a large area opposite the Amphitheatre. The central area was used for sporting activities and there was a pool in the middle. On three sides are lengthy internal porticos or colonnades.",
+          "lat": 40.750722,
+          "lon": 14.493875
+        },
+        {
+          "id": "pompeii-house-of-the-faun",
+          "name": "House of the Faun",
+          "category": "culture",
+          "blurb": "This is named after a statue of a dancing faun found on the site. It is considered to be an excellent example of the fusion of Italian and Greek architectural styles, and occupies an entire block.",
+          "lat": 40.7513,
+          "lon": 14.4845,
+          "photo": {
+            "file": "assets/photos/pompeii/house-of-the-faun.webp",
+            "author": "Gary Todd from Xinzheng, China",
+            "license": "Public domain",
+            "licenseUrl": "",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_House_of_the_Faun_(48443668886).jpg",
+            "credit": "Gary Todd from Xinzheng, China — Public domain (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "pompeii-theatre",
+          "name": "Theatre",
+          "category": "outdoors",
+          "blurb": "Theatre built in the hollow of a hill for acoustic advantage; it seated 5,000.",
+          "photo": {
+            "file": "assets/photos/pompeii/theatre.webp",
+            "author": "Sylvhem",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Th%C3%A9%C3%A2tre_de_Pomp%C3%A9i.JPG",
+            "credit": "Sylvhem — CC BY-SA 3.0 (Wikimedia Commons)"
           }
         }
       ],
       "categories": [
-        "coastal",
         "outdoors",
         "history",
-        "food",
-        "drink"
+        "art",
+        "culture"
       ],
       "itinerary": [],
       "transport": [
-        "Reach it by ferry from Naples, Sorrento, or Amalfi — the most scenic arrival.",
-        "The SITA bus winds the coastal road; driving is slow and parking scarce.",
-        "Expect lots of stairs — Positano is vertical. Wear good shoes.",
-        "Boats and water taxis hop to nearby beaches and the Li Galli islets."
+        "Circumvesuviana from Naples or Sorrento stops at Pompei Scavi.",
+        "Allow at least half a day; the archaeological site is vast."
       ],
       "foodNotes": [
-        "Seafood-forward: spaghetti alle vongole, fried anchovies, grilled local catch.",
-        "Lemons are everywhere — try delizia al limone dessert and house-made limoncello.",
-        "Cliffside terraces serve long lunches with Amalfi Coast wine and a sea view."
-      ],
-      "beachNotes": [
-        "Spiaggia Grande is the main beach below town — part free, part paid loungers.",
-        "Fornillo beach is quieter, a short cliff path west of the main beach.",
-        "Boat trips reach Arienzo ('the 300-steps beach') and hidden coves toward Praiano.",
-        "Early-October sea is still swimmable (~73–75°F); afternoons are golden for photos."
+        "Eat in modern Pompei town or pack water and snacks — the site is huge and hot."
       ],
       "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
       "hero": {
-        "file": "assets/photos/positano/positano-hero.webp",
-        "author": "Roweromaniak",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_J03-0D.jpg",
-        "credit": "Roweromaniak — CC BY-SA 4.0 (Wikimedia Commons)"
+        "file": "assets/photos/pompeii/pompeii-hero.webp",
+        "author": "Norbert Nagel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_08.jpg",
+        "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
       },
       "map": {
-        "file": "assets/maps/positano.webp",
-        "z": 13,
-        "worldLeft": 1132017,
-        "worldTop": 788719,
+        "file": "assets/maps/pompeii.webp",
+        "z": 15,
+        "worldLeft": 4531122,
+        "worldTop": 3152167,
         "w": 1600,
         "h": 1200,
         "attribution": "© OpenStreetMap contributors"
@@ -984,571 +965,6 @@ window.__ITALY__ = {
       }
     },
     {
-      "slug": "amalfi",
-      "name": "Amalfi",
-      "region": "Amalfi Coast",
-      "tagline": "Once a maritime republic, now the coast's namesake jewel.",
-      "intro": "Amalfi is a town and comune in the province of Salerno, in the region of Campania, Italy, on the Gulf of Salerno. It lies at the mouth of a deep ravine, at the foot of Monte Cerreto, surrounded by dramatic cliffs and coastal scenery. The town of Amalfi was the capital of the maritime republic known as the Duchy of Amalfi, an important trading power in the Mediterranean between 839 and around 1200. It has 4,611 inhabitants.",
-      "lat": 40.63367,
-      "lon": 14.60262,
-      "weather": {
-        "label": "Early October",
-        "avgHighC": 23,
-        "avgLowC": 16,
-        "avgHighF": 73,
-        "avgLowF": 61,
-        "rainDayPct": 35,
-        "sampleYears": "2014–2024",
-        "seaTempC": 23,
-        "seaTempF": 73
-      },
-      "sun": {
-        "sunrise": "7:01 AM",
-        "sunset": "6:38 PM",
-        "goldenHourEvening": "6:02 PM"
-      },
-      "pois": [
-        {
-          "id": "amalfi-santa-maria-del-bando",
-          "name": "Santa Maria del Bando",
-          "category": "history",
-          "blurb": "Santa Maria del Bando is a small, scenic chapel perched high above Amalfi, near the ancient watchtower of Pontone. Dating back to the 12th century, it is named after a legend in which the Virgin Mary saved a man wrongfully sentenced to death by publicly banning, or proclaiming his innocence. The chapel is accessible via a steep footpath and rewards visitors with sweeping views of the Amalfi Coast, the Valle delle Ferriere, and the Gulf of Salerno.",
-          "lat": 40.636611,
-          "lon": 14.605972
-        },
-        {
-          "id": "amalfi-that-s-amore-cycling-excursion",
-          "name": "That's Amore Cycling Excursion",
-          "category": "outdoors",
-          "blurb": "Offer in every season exclusive guided and customized cycling exploration of the coast : short and easier route and a longer or more demanding route for the keener cyclists. Booking Required."
-        },
-        {
-          "id": "amalfi-charter-la-dolce-vita",
-          "name": "Charter La Dolce Vita",
-          "category": "outdoors",
-          "blurb": "Offer private luxury daily, weekly or overnight motor-yacht charter tours,"
-        },
-        {
-          "id": "amalfi-cloister-of-paradise",
-          "name": "Cloister of Paradise",
-          "category": "history",
-          "blurb": "Next to the cathedral, was also built in the 13th century. It is home to old mosaics and paintings, and 120 columns built in the Arabic style.",
-          "lat": 40.63477,
-          "lon": 14.60317
-        },
-        {
-          "id": "amalfi-arsenal-of-amalfi",
-          "name": "Arsenal of Amalfi",
-          "category": "art",
-          "blurb": "A former shipyard from the medieval Republic of Amalfi, it now houses a museum about the republic’s history.",
-          "lat": 40.633897,
-          "lon": 14.60212,
-          "photo": {
-            "file": "assets/photos/amalfi/arsenal-of-amalfi.webp",
-            "author": "Marynolli",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porta_arsenale.jpg",
-            "credit": "Marynolli — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "amalfi-amalfi-cathedral",
-          "name": "Amalfi Cathedral",
-          "category": "history",
-          "blurb": "Built in the 13th century. You can see its magnificent bell tower from the harbour.",
-          "lat": 40.634444,
-          "lon": 14.603056,
-          "photo": {
-            "file": "assets/photos/amalfi/amalfi-cathedral.webp",
-            "author": "Marco Ober",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Cathedral_-_Duomo_di_Amalfi_(4908).jpg",
-            "credit": "Marco Ober — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "amalfi-angelo-fusco-jewellery",
-          "name": "Angelo Fusco Jewellery",
-          "category": "culture",
-          "blurb": "Unique handcrafted fine jewels, corals and cameos.",
-          "lat": 40.633923,
-          "lon": 14.602584
-        },
-        {
-          "id": "amalfi-paper-mill-museum",
-          "name": "Paper Mill Museum",
-          "category": "art",
-          "blurb": "",
-          "lat": 40.63971,
-          "lon": 14.600144,
-          "photo": {
-            "file": "assets/photos/amalfi/paper-mill-museum.webp",
-            "author": "Johan Gørbitz",
-            "license": "Public domain",
-            "licenseUrl": "",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johan_G%C3%B8rbitz_-_The_Valley_of_the_Mills_near_Amalfi_-_NMK.2005.0036_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
-            "credit": "Johan Gørbitz — Public domain (Wikimedia Commons)"
-          }
-        }
-      ],
-      "categories": [
-        "outdoors",
-        "history",
-        "art",
-        "culture"
-      ],
-      "itinerary": [],
-      "transport": [
-        "Ferry hub for the coast — connections to Positano, Salerno, and Capri.",
-        "SITA buses link Amalfi to Ravello and along the coastal road."
-      ],
-      "foodNotes": [
-        "Scialatielli ai frutti di mare (fresh pasta with seafood) is the signature dish.",
-        "Sfusato lemons flavor everything from pasta to granita."
-      ],
-      "beachNotes": [
-        "The town beach sits right by the ferry dock; nearby Atrani is quieter."
-      ],
-      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
-      "hero": {
-        "file": "assets/photos/amalfi/amalfi-hero.webp",
-        "author": "Mайкл Гиммельфарб",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast,_Italy_Panoramic.jpg",
-        "credit": "Mайкл Гиммельфарб — CC BY-SA 4.0 (Wikimedia Commons)"
-      },
-      "map": {
-        "file": "assets/maps/amalfi.webp",
-        "z": 16,
-        "worldLeft": 9068360,
-        "worldTop": 6311981,
-        "w": 1600,
-        "h": 1200,
-        "attribution": "© OpenStreetMap contributors"
-      }
-    },
-    {
-      "slug": "pompeii",
-      "name": "Pompeii",
-      "region": "Campania",
-      "tagline": "A Roman city frozen in 79 AD by Vesuvius — the ultimate day trip.",
-      "intro": "Pompeii was a city in what is now the municipality of Pompei, near Naples, in the Campania region of Italy. Along with Herculaneum, Stabiae, and many surrounding villas, it was buried under 4 to 6 m of volcanic ash and pumice in the eruption of Mount Vesuvius in 79 AD.",
-      "lat": 40.75,
-      "lon": 14.48611111,
-      "weather": {
-        "label": "Early October",
-        "avgHighC": 23,
-        "avgLowC": 15,
-        "avgHighF": 73,
-        "avgLowF": 59,
-        "rainDayPct": 36,
-        "sampleYears": "2014–2024"
-      },
-      "sun": {
-        "sunrise": "7:02 AM",
-        "sunset": "6:39 PM",
-        "goldenHourEvening": "6:02 PM"
-      },
-      "pois": [
-        {
-          "id": "pompeii-amphitheatre",
-          "name": "Amphitheatre",
-          "category": "history",
-          "blurb": "This is in the most easterly corner of the excavated area, near the Sarno Gate entrance. It was completed in 80 BC, measures 135 x 104 metres and could hold about 20,000 people. It is the earliest surviving permanent amphitheatre in Italy and one of the best preserved anywhere. It was used for gladiator battles, other sports and spectacles involving wild animals.",
-          "lat": 40.7515,
-          "lon": 14.4947,
-          "photo": {
-            "file": "assets/photos/pompeii/amphitheatre.webp",
-            "author": "Norbert Nagel",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_02.jpg",
-            "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "pompeii-house-of-the-vettii",
-          "name": "House of the Vettii",
-          "category": "art",
-          "blurb": "This is believed to have been the home of two brothers who were freed slaves and became very affluent. It contains many frescoes. In the vestibule there is a striking fresco of a well-endowed Priapus, God of Fertility and among the frescos in other parts of the building are illustrations of couples making love, of cupids and of mythological characters.",
-          "lat": 40.752,
-          "lon": 14.4847,
-          "photo": {
-            "file": "assets/photos/pompeii/house-of-the-vettii.webp",
-            "author": "Argo Navis",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_of_the_Vettii,_Pompeii,_20230623_133502_09.jpg",
-            "credit": "Argo Navis — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "pompeii-shrine-of-the-virgin-of-the-rosary-of-pompei",
-          "name": "Shrine of the Virgin of the Rosary of Pompei",
-          "category": "history",
-          "blurb": "A church which is a place of pilgrimage for Roman Catholics. For others, it is not a must-see, but should you arrive or leave via the Pompei Santuario station on the Circumvesuviana, rather than Pompei Scavi, you may find it worth at least a brief look inside at this place of veneration of the Virgin Mary.",
-          "lat": 40.75,
-          "lon": 14.500556,
-          "photo": {
-            "file": "assets/photos/pompeii/shrine-of-the-virgin-of-the-rosary-of-pompei.webp",
-            "author": "The Banner",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Our_Lady_Star_of_the_Sea_Quilty.jpg",
-            "credit": "The Banner — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "pompeii-baths",
-          "name": "Baths",
-          "category": "history",
-          "blurb": "There are several baths to be inspected. The Forum Baths are just north of the forum and close to the restaurant. They are well-preserved and roofed. Be careful not to miss them as the entranceway is a long passage with no indication of the delights inside. The Central Baths occupy a much larger area but are less well-preserved. Close to these are the Stabian baths which have some interesting decorations and give a good idea of how baths used to function in Roman times.",
-          "photo": {
-            "file": "assets/photos/pompeii/baths.webp",
-            "author": "Adam Harangozó",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suburban_Baths,_Pompeii_03.jpg",
-            "credit": "Adam Harangozó — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "pompeii-temple-of-apollo",
-          "name": "Temple of Apollo",
-          "category": "history",
-          "blurb": "This is to the north of the Basilica on the western side of the Forum. It has the oldest remains discovered, with some, including Etruscan items, dating back to 575BC, although the layout we see now was later than that.",
-          "lat": 40.7492,
-          "lon": 14.4844,
-          "photo": {
-            "file": "assets/photos/pompeii/temple-of-apollo.webp",
-            "author": "Marco Ober",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Apollo_-_Tempio_di_Apollo,_Pompeii_(5139).jpg",
-            "credit": "Marco Ober — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "pompeii-lupanar",
-          "name": "Lupanar",
-          "category": "history",
-          "blurb": "An ancient brothel with pornographic frescoes over the entrance to each room, presumably indicating the services on offer. Even allowing for the smaller size of ancient Romans the beds seem rather small.",
-          "lat": 40.7503,
-          "lon": 14.4868
-        },
-        {
-          "id": "pompeii-villa-dei-misteri",
-          "name": "Villa dei Misteri",
-          "category": "history",
-          "blurb": "One of the \"suburban houses\", with curious frescoes, perhaps of women being initiated into the Cult of Dionysus. Contains one of the finest fresco cycles in Italy, as well as humorous ancient graffiti.",
-          "lat": 40.7537,
-          "lon": 14.4774
-        },
-        {
-          "id": "pompeii-great-palaestra",
-          "name": "Great Palaestra",
-          "category": "history",
-          "blurb": "This occupies a large area opposite the Amphitheatre. The central area was used for sporting activities and there was a pool in the middle. On three sides are lengthy internal porticos or colonnades.",
-          "lat": 40.750722,
-          "lon": 14.493875
-        },
-        {
-          "id": "pompeii-house-of-the-faun",
-          "name": "House of the Faun",
-          "category": "culture",
-          "blurb": "This is named after a statue of a dancing faun found on the site. It is considered to be an excellent example of the fusion of Italian and Greek architectural styles, and occupies an entire block.",
-          "lat": 40.7513,
-          "lon": 14.4845,
-          "photo": {
-            "file": "assets/photos/pompeii/house-of-the-faun.webp",
-            "author": "Gary Todd from Xinzheng, China",
-            "license": "Public domain",
-            "licenseUrl": "",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_House_of_the_Faun_(48443668886).jpg",
-            "credit": "Gary Todd from Xinzheng, China — Public domain (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "pompeii-theatre",
-          "name": "Theatre",
-          "category": "outdoors",
-          "blurb": "Theatre built in the hollow of a hill for acoustic advantage; it seated 5,000.",
-          "photo": {
-            "file": "assets/photos/pompeii/theatre.webp",
-            "author": "Sylvhem",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Th%C3%A9%C3%A2tre_de_Pomp%C3%A9i.JPG",
-            "credit": "Sylvhem — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        }
-      ],
-      "categories": [
-        "outdoors",
-        "history",
-        "art",
-        "culture"
-      ],
-      "itinerary": [],
-      "transport": [
-        "Circumvesuviana from Naples or Sorrento stops at Pompei Scavi.",
-        "Allow at least half a day; the archaeological site is vast."
-      ],
-      "foodNotes": [
-        "Eat in modern Pompei town or pack water and snacks — the site is huge and hot."
-      ],
-      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
-      "hero": {
-        "file": "assets/photos/pompeii/pompeii-hero.webp",
-        "author": "Norbert Nagel",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_08.jpg",
-        "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
-      },
-      "map": {
-        "file": "assets/maps/pompeii.webp",
-        "z": 15,
-        "worldLeft": 4531122,
-        "worldTop": 3152167,
-        "w": 1600,
-        "h": 1200,
-        "attribution": "© OpenStreetMap contributors"
-      }
-    },
-    {
-      "slug": "procida",
-      "name": "Procida",
-      "region": "Bay of Naples",
-      "tagline": "A pocket-size island of pastel fishermen's houses and lemon gardens.",
-      "intro": "Procida is one of the Phlegraean Islands off the coast of Naples in southern Italy. The island is between Cape Miseno and the island of Ischia. With its tiny satellite island of Vivara, it is a comune (municipality) of the Metropolitan City of Naples, in the region of Campania.",
-      "lat": 40.758333,
-      "lon": 14.016667,
-      "weather": {
-        "label": "Early October",
-        "avgHighC": 22,
-        "avgLowC": 18,
-        "avgHighF": 72,
-        "avgLowF": 64,
-        "rainDayPct": 36,
-        "sampleYears": "2014–2024",
-        "seaTempC": 23,
-        "seaTempF": 73
-      },
-      "sun": {
-        "sunrise": "7:04 AM",
-        "sunset": "6:41 PM",
-        "goldenHourEvening": "6:04 PM"
-      },
-      "pois": [
-        {
-          "id": "procida-marina-corricella",
-          "name": "Marina Corricella",
-          "category": "coastal",
-          "blurb": "Procida's oldest fishing harbor — a sun-faded tumble of ochre, pink, and blue houses stacked above bobbing boats. Carless and impossibly photogenic, it's the postcard image of the island, best caught at golden hour from the steps above.",
-          "lat": 40.7607,
-          "lon": 14.026,
-          "photo": {
-            "file": "assets/photos/procida/marina-corricella.webp",
-            "author": "Repuli",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procidamarina.jpg",
-            "credit": "Repuli — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-marina-grande",
-          "name": "Marina Grande",
-          "category": "coastal",
-          "blurb": "The ferry harbor and lived-in heart of the island, fronted by a pastel wall of facades, café tables, and tackle shops. Your first and last view of Procida — and a fine spot for an aperitivo as the boats come and go.",
-          "lat": 40.766,
-          "lon": 14.041,
-          "photo": {
-            "file": "assets/photos/procida/marina-grande.webp",
-            "author": "Ekrem Canli",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Grande_(Procida)_2016_(2).jpg",
-            "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-marina-di-chiaiolella",
-          "name": "Marina di Chiaiolella",
-          "category": "coastal",
-          "blurb": "A rounded natural harbor on the island's quieter west side, ringed by seafood restaurants and moored sailboats, with the Vivara reserve arching off one end. The go-to for a long, unhurried lunch by the water.",
-          "lat": 40.7536,
-          "lon": 14.0125,
-          "photo": {
-            "file": "assets/photos/procida/marina-di-chiaiolella.webp",
-            "author": "User:Matthias Süßen",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida-Chiaiolella098.jpg",
-            "credit": "User:Matthias Süßen — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-cala-del-pozzo-vecchio",
-          "name": "Cala del Pozzo Vecchio",
-          "category": "coastal",
-          "blurb": "A dark-sand cove under crumbling tufa cliffs, immortalized as the beach in the film 'Il Postino'. Sheltered and atmospheric, it has the kind of faded, end-of-season beauty that defines Procida.",
-          "lat": 40.7635,
-          "lon": 14.0145,
-          "photo": {
-            "file": "assets/photos/procida/cala-del-pozzo-vecchio.webp",
-            "author": "Porfirio",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cala_Pozzo_Vecchio_-_Procida.jpg",
-            "credit": "Porfirio — CC BY 2.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-terra-murata",
-          "name": "Terra Murata",
-          "category": "history",
-          "blurb": "The fortified medieval citadel crowning the island's highest point — a maze of walls and tufa lanes raised against pirate raids. Its terraces give the definitive view straight down over Corricella's painted harbor.",
-          "lat": 40.7616,
-          "lon": 14.0291,
-          "photo": {
-            "file": "assets/photos/procida/terra-murata.webp",
-            "author": "Ekrem Canli",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra_Murata_(Procida),_2016.jpg",
-            "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-palazzo-d-avalos",
-          "name": "Palazzo d'Avalos",
-          "category": "history",
-          "blurb": "A 16th-century palace that became a royal residence and then, for nearly two centuries, the island's prison. Now open for atmospheric tours, it broods over Terra Murata with sweeping views across the bay.",
-          "lat": 40.7622,
-          "lon": 14.03,
-          "photo": {
-            "file": "assets/photos/procida/palazzo-d-avalos.webp",
-            "author": "Bernard Gagnon",
-            "license": "CC BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_d%27Avalos_(Procida)_01.jpg",
-            "credit": "Bernard Gagnon — CC BY 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-abbazia-di-san-michele-arcangelo",
-          "name": "Abbazia di San Michele Arcangelo",
-          "category": "culture",
-          "blurb": "The island's spiritual anchor, a 16th-century abbey on the Terra Murata cliffs with a gilded coffered ceiling and a warren of catacombs and hidden chapels below. Dedicated to Procida's protector, the Archangel Michael.",
-          "lat": 40.7619,
-          "lon": 14.0296,
-          "photo": {
-            "file": "assets/photos/procida/abbazia-di-san-michele-arcangelo.webp",
-            "author": "User:Matthias Süßen",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida-Abbazia_San_Michele_Arcangelo925.jpg",
-            "credit": "User:Matthias Süßen — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-chiesa-di-santa-maria-delle-grazie",
-          "name": "Chiesa di Santa Maria delle Grazie",
-          "category": "culture",
-          "blurb": "A pale-domed church above Corricella whose terrace is one of the best perches for taking in the painted harbor below. A quiet, luminous pause on the climb up to Terra Murata.",
-          "lat": 40.7606,
-          "lon": 14.027,
-          "photo": {
-            "file": "assets/photos/procida/chiesa-di-santa-maria-delle-grazie.webp",
-            "author": "Ekrem Canli",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_Santa_Maria_delle_Grazie_(1),_Procida.jpg",
-            "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-vivara",
-          "name": "Vivara",
-          "category": "outdoors",
-          "blurb": "A crescent islet linked to Procida by a footbridge — now a protected reserve of Mediterranean scrub and seabirds over an ancient volcanic crater. A short, wild escape from the harbors (check the open days before you go).",
-          "lat": 40.7475,
-          "lon": 14.008,
-          "photo": {
-            "file": "assets/photos/procida/vivara.webp",
-            "author": "Saverio.G",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_di_Vivara.jpg",
-            "credit": "Saverio.G — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "procida-insalata-di-limoni",
-          "name": "Insalata di limoni",
-          "category": "food",
-          "blurb": "Procida's enormous, thick-pith lemons become the island's signature dish — a salad of sliced lemon flesh dressed with chilli, garlic, mint, and oil. Bright, unexpected, and served all over the island.",
-          "photo": {
-            "file": "assets/photos/procida/insalata-di-limoni.webp",
-            "author": "liz west from Boxborough, MA, USA",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemons_-_Flickr_-_Muffet_(1).jpg",
-            "credit": "liz west from Boxborough, MA, USA — CC BY 2.0 (Wikimedia Commons)"
-          }
-        }
-      ],
-      "categories": [
-        "coastal",
-        "outdoors",
-        "history",
-        "culture",
-        "food"
-      ],
-      "itinerary": [],
-      "transport": [
-        "Ferries and hydrofoils from Naples (Molo Beverello / Calata Porta di Massa) reach Procida in ~40 min.",
-        "Boats also hop to Ischia in ~15 min — easy to pair the two islands.",
-        "The island is tiny — walk the harbors, or take the small buses and micro-taxis from Marina Grande.",
-        "No car needed; the lanes are narrow and the center is best explored on foot."
-      ],
-      "foodNotes": [
-        "Sea-to-table classics: spaghetti ai ricci (sea urchin), fritto misto, and the day's grilled catch.",
-        "The giant Procida lemon stars in 'insalata di limoni', a refreshing lemon-and-chilli salad.",
-        "'Lingua di bue' — a tongue-shaped lemon-cream pastry — is the island's sweet signature.",
-        "Cool the evening with a chilled Campanian Falanghina or a glass of local limoncello."
-      ],
-      "beachNotes": [
-        "Chiaiolella and Ciraccio on the west side have the widest sand and the best sunsets.",
-        "Cala del Pozzo Vecchio ('Il Postino' beach) is a dark-sand cove framed by tufa cliffs.",
-        "Spiaggia della Chiaia, down a long staircase, stays calm and family-friendly.",
-        "Early-October sea is still swimmable (~74°F) and the summer crowds have thinned."
-      ],
-      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
-      "hero": {
-        "file": "assets/photos/procida/procida-hero.webp",
-        "author": "Velvet",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida_Marina_Corricella.jpg",
-        "credit": "Velvet — CC BY-SA 4.0 (Wikimedia Commons)"
-      },
-      "map": {
-        "file": "assets/maps/procida.webp",
-        "z": 15,
-        "worldLeft": 4520299,
-        "worldTop": 3152004,
-        "w": 1600,
-        "h": 1200,
-        "attribution": "© OpenStreetMap contributors"
-      }
-    },
-    {
       "slug": "capri",
       "name": "Capri",
       "region": "Bay of Naples",
@@ -1806,574 +1222,541 @@ window.__ITALY__ = {
       }
     },
     {
-      "slug": "tropea",
-      "name": "Tropea",
-      "region": "Calabria",
-      "tagline": "A cliff-top old town above a sweep of white sand and turquoise sea.",
-      "intro": "Tropea is a resort town in the province of Vibo Valentia, in the Italian region of Calabria. It is one of I Borghi più belli d'Italia. It has 5,661 inhabitants.",
-      "lat": 38.67538,
-      "lon": 15.89479,
+      "slug": "amalfi",
+      "name": "Amalfi",
+      "region": "Amalfi Coast",
+      "tagline": "Once a maritime republic, now the coast's namesake jewel.",
+      "intro": "Amalfi is a town and comune in the province of Salerno, in the region of Campania, Italy, on the Gulf of Salerno. It lies at the mouth of a deep ravine, at the foot of Monte Cerreto, surrounded by dramatic cliffs and coastal scenery. The town of Amalfi was the capital of the maritime republic known as the Duchy of Amalfi, an important trading power in the Mediterranean between 839 and around 1200. It has 4,611 inhabitants.",
+      "lat": 40.63367,
+      "lon": 14.60262,
       "weather": {
         "label": "Early October",
         "avgHighC": 23,
-        "avgLowC": 18,
+        "avgLowC": 16,
         "avgHighF": 73,
-        "avgLowF": 64,
-        "rainDayPct": 40,
+        "avgLowF": 61,
+        "rainDayPct": 35,
         "sampleYears": "2014–2024",
-        "seaTempC": 24,
-        "seaTempF": 75
+        "seaTempC": 23,
+        "seaTempF": 73
       },
       "sun": {
-        "sunrise": "6:55 AM",
-        "sunset": "6:34 PM",
-        "goldenHourEvening": "5:59 PM"
+        "sunrise": "7:01 AM",
+        "sunset": "6:38 PM",
+        "goldenHourEvening": "6:02 PM"
       },
       "pois": [
         {
-          "id": "tropea-santa-maria-dell-isola",
-          "name": "Santa Maria dell'Isola",
-          "category": "coastal",
-          "blurb": "A medieval sanctuary perched on its own rocky islet between the town cliff and the beach — Tropea's defining image. Climb the cut-stone stairs through terraced gardens for a Tyrrhenian panorama in every direction.",
-          "lat": 38.6757,
-          "lon": 15.8967,
-          "photo": {
-            "file": "assets/photos/tropea/santa-maria-dell-isola.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Santa_Maria_dell%27Isola_-_1.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
+          "id": "amalfi-santa-maria-del-bando",
+          "name": "Santa Maria del Bando",
+          "category": "history",
+          "blurb": "Santa Maria del Bando is a small, scenic chapel perched high above Amalfi, near the ancient watchtower of Pontone. Dating back to the 12th century, it is named after a legend in which the Virgin Mary saved a man wrongfully sentenced to death by publicly banning, or proclaiming his innocence. The chapel is accessible via a steep footpath and rewards visitors with sweeping views of the Amalfi Coast, the Valle delle Ferriere, and the Gulf of Salerno.",
+          "lat": 40.636611,
+          "lon": 14.605972
         },
         {
-          "id": "tropea-spiaggia-della-rotonda",
-          "name": "Spiaggia della Rotonda",
-          "category": "coastal",
-          "blurb": "The luminous white-sand beach directly below the old town, lapped by water so clear it looks tropical. The classic spot to swim with the cliff, the cathedral, and Santa Maria dell'Isola rising overhead.",
-          "lat": 38.677,
-          "lon": 15.8975,
+          "id": "amalfi-that-s-amore-cycling-excursion",
+          "name": "That's Amore Cycling Excursion",
+          "category": "outdoors",
+          "blurb": "Offer in every season exclusive guided and customized cycling exploration of the coast : short and easier route and a longer or more demanding route for the keener cyclists. Booking Required."
+        },
+        {
+          "id": "amalfi-charter-la-dolce-vita",
+          "name": "Charter La Dolce Vita",
+          "category": "outdoors",
+          "blurb": "Offer private luxury daily, weekly or overnight motor-yacht charter tours,"
+        },
+        {
+          "id": "amalfi-cloister-of-paradise",
+          "name": "Cloister of Paradise",
+          "category": "history",
+          "blurb": "Next to the cathedral, was also built in the 13th century. It is home to old mosaics and paintings, and 120 columns built in the Arabic style.",
+          "lat": 40.63477,
+          "lon": 14.60317
+        },
+        {
+          "id": "amalfi-arsenal-of-amalfi",
+          "name": "Arsenal of Amalfi",
+          "category": "art",
+          "blurb": "A former shipyard from the medieval Republic of Amalfi, it now houses a museum about the republic’s history.",
+          "lat": 40.633897,
+          "lon": 14.60212,
           "photo": {
-            "file": "assets/photos/tropea/spiaggia-della-rotonda.webp",
-            "author": "Norbert Nagel",
+            "file": "assets/photos/amalfi/arsenal-of-amalfi.webp",
+            "author": "Marynolli",
             "license": "CC BY-SA 3.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_in_Tropea_-_Calabria_-_Italy_-_July_17th_2013_-_02.jpg",
-            "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porta_arsenale.jpg",
+            "credit": "Marynolli — CC BY-SA 3.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "tropea-capo-vaticano",
-          "name": "Capo Vaticano",
-          "category": "coastal",
-          "blurb": "A granite headland just south of town, ranked among Italy's finest beaches — a string of turquoise coves and white-sand pockets reached by paths down the cliffs. A short trip for a wilder, postcard swim.",
-          "lat": 38.6189,
-          "lon": 15.8281,
-          "photo": {
-            "file": "assets/photos/tropea/capo-vaticano.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ricadi_-_Capo_Vaticano_-_02.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "tropea-porto-di-tropea",
-          "name": "Porto di Tropea",
-          "category": "coastal",
-          "blurb": "The small marina at the foot of the cliffs, where fishing boats and pleasure craft tie up beneath the floodlit old town. A relaxed place for a sunset passeggiata and a seafood dinner by the water.",
-          "lat": 38.6797,
-          "lon": 15.8955,
-          "photo": {
-            "file": "assets/photos/tropea/porto-di-tropea.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Porto_al_tramonto.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "tropea-cattedrale-di-tropea",
-          "name": "Cattedrale di Tropea",
+          "id": "amalfi-amalfi-cathedral",
+          "name": "Amalfi Cathedral",
           "category": "history",
-          "blurb": "The Norman cathedral at the town's core, founded in the 12th century and rebuilt after earthquakes, guarding a venerated Byzantine icon and two undetonated WWII bombs by the door. A cool, solemn stop among the lanes.",
-          "lat": 38.6772,
-          "lon": 15.8989,
+          "blurb": "Built in the 13th century. You can see its magnificent bell tower from the harbour.",
+          "lat": 40.634444,
+          "lon": 14.603056,
           "photo": {
-            "file": "assets/photos/tropea/cattedrale-di-tropea.webp",
-            "author": "Maurizio Moro5153",
+            "file": "assets/photos/amalfi/amalfi-cathedral.webp",
+            "author": "Marco Ober",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duomo_di_Tropea.jpg",
-            "credit": "Maurizio Moro5153 — CC BY-SA 4.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Cathedral_-_Duomo_di_Amalfi_(4908).jpg",
+            "credit": "Marco Ober — CC BY-SA 4.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "tropea-corso-vittorio-emanuele",
-          "name": "Corso Vittorio Emanuele",
+          "id": "amalfi-angelo-fusco-jewellery",
+          "name": "Angelo Fusco Jewellery",
           "category": "culture",
-          "blurb": "The old town's pedestrian spine, lined with noble palazzi, gelaterias, and shops braiding the famous red onions into garlands. The stage for Tropea's evening stroll, ending at the cliff-edge belvederes.",
-          "lat": 38.6775,
-          "lon": 15.8983,
-          "photo": {
-            "file": "assets/photos/tropea/corso-vittorio-emanuele.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Corso_Vittorio_Emanuele.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
+          "blurb": "Unique handcrafted fine jewels, corals and cameos.",
+          "lat": 40.633923,
+          "lon": 14.602584
         },
         {
-          "id": "tropea-veduta-da-via-carmine",
-          "name": "Veduta da Via Carmine",
-          "category": "culture",
-          "blurb": "The cliff-top viewpoint where the town meets the void — pastel houses balanced on the tufa edge above the sea, with Santa Maria dell'Isola below. One of the most photographed panoramas on the whole coast.",
-          "lat": 38.6779,
-          "lon": 15.8978,
+          "id": "amalfi-paper-mill-museum",
+          "name": "Paper Mill Museum",
+          "category": "art",
+          "blurb": "",
+          "lat": 40.63971,
+          "lon": 14.600144,
           "photo": {
-            "file": "assets/photos/tropea/veduta-da-via-carmine.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Veduta_da_Via_Carmine_-_3.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "tropea-belvedere-del-cannone",
-          "name": "Belvedere del Cannone",
-          "category": "outdoors",
-          "blurb": "A small clifftop terrace built around an old cannon, framing the islet sanctuary and the bay in a single sweep. The prime perch for sunset, when the whole coast turns gold and rose.",
-          "lat": 38.6764,
-          "lon": 15.8973,
-          "photo": {
-            "file": "assets/photos/tropea/belvedere-del-cannone.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Belvedere_del_Cannone_-_2.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "tropea-cipolla-rossa-di-tropea",
-          "name": "Cipolla rossa di Tropea",
-          "category": "food",
-          "blurb": "Tropea's prized sweet red onion, an IGP product so mild it's eaten raw, candied into marmalade, and even churned into gelato. You'll see it braided in every shop window — buy a string to take home.",
-          "photo": {
-            "file": "assets/photos/tropea/cipolla-rossa-di-tropea.webp",
-            "author": "Maaimpex",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_Red_Onion.jpg",
-            "credit": "Maaimpex — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "tropea-nduja-calabrese",
-          "name": "'Nduja calabrese",
-          "category": "food",
-          "blurb": "Calabria's soft, fiery, spreadable salami, shot through with the region's hot peppers. Smear it on warm bread, stir it into pasta, or melt it over pizza — the unmistakable taste of the Calabrian table.",
-          "photo": {
-            "file": "assets/photos/tropea/nduja-calabrese.webp",
-            "author": "Alice Wiegand",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nduja_mit_Brot.jpg",
-            "credit": "Alice Wiegand — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "tropea-tartufo-di-pizzo",
-          "name": "Tartufo di Pizzo",
-          "category": "food",
-          "blurb": "In nearby Pizzo, the tartufo is a hand-formed ball of hazelnut and chocolate gelato with a molten cocoa heart, dusted in cocoa. A short trip up the coast for one of Calabria's great sweet rituals.",
-          "hiddenGem": true,
-          "photo": {
-            "file": "assets/photos/tropea/tartufo-di-pizzo.webp",
-            "author": "Filipa Gonçalves",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tartufo_nero_di_Pizzo.jpg",
-            "credit": "Filipa Gonçalves — CC BY-SA 2.0 (Wikimedia Commons)"
+            "file": "assets/photos/amalfi/paper-mill-museum.webp",
+            "author": "Johan Gørbitz",
+            "license": "Public domain",
+            "licenseUrl": "",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johan_G%C3%B8rbitz_-_The_Valley_of_the_Mills_near_Amalfi_-_NMK.2005.0036_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+            "credit": "Johan Gørbitz — Public domain (Wikimedia Commons)"
           }
         }
       ],
       "categories": [
-        "coastal",
         "outdoors",
         "history",
-        "culture",
-        "food"
+        "art",
+        "culture"
       ],
       "itinerary": [],
       "transport": [
-        "Tropea has its own rail station on the Tyrrhenian coastal line; trains link Lamezia Terme and Reggio Calabria.",
-        "Lamezia Terme (SUF) is the nearest airport, about an hour north by car or train.",
-        "The historic center sits on the cliff and is walkable; long staircases drop to the beach below.",
-        "Summer boats run to Capo Vaticano's coves and along the Coast of the Gods."
+        "Ferry hub for the coast — connections to Positano, Salerno, and Capri.",
+        "SITA buses link Amalfi to Ravello and along the coastal road."
       ],
       "foodNotes": [
-        "The sweet 'cipolla rossa di Tropea' (red onion) flavors everything from marmalade to gelato.",
-        "'Nduja, Calabria's fiery spreadable salami, turns up on bread, pasta, and pizza.",
-        "Swordfish, anchovies, and 'fileja' pasta with pork ragù are coastal-Calabrian staples.",
-        "Just up the coast in Pizzo, the 'tartufo' chocolate-and-hazelnut gelato bomb is a must."
+        "Scialatielli ai frutti di mare (fresh pasta with seafood) is the signature dish.",
+        "Sfusato lemons flavor everything from pasta to granita."
       ],
       "beachNotes": [
-        "The main town beach below Santa Maria dell'Isola has fine white sand and clear, shallow water.",
-        "Spiaggia della Rotonda and the marina beaches sit right under the old-town cliff.",
-        "Capo Vaticano, a short hop south, hides some of Calabria's most beautiful coves.",
-        "Early-October sea stays warm (~75°F) with far fewer crowds than August."
+        "The town beach sits right by the ferry dock; nearby Atrani is quieter."
       ],
       "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
       "hero": {
-        "file": "assets/photos/tropea/tropea-hero.webp",
-        "author": "Benjamin Smith",
+        "file": "assets/photos/amalfi/amalfi-hero.webp",
+        "author": "Mайкл Гиммельфарб",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Santa_Maria_dell%27Isola_al_tramonto.jpg",
-        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast,_Italy_Panoramic.jpg",
+        "credit": "Mайкл Гиммельфарб — CC BY-SA 4.0 (Wikimedia Commons)"
       },
       "map": {
-        "file": "assets/maps/tropea.webp",
-        "z": 13,
-        "worldLeft": 1140188,
-        "worldTop": 803510,
+        "file": "assets/maps/amalfi.webp",
+        "z": 16,
+        "worldLeft": 9068360,
+        "worldTop": 6311981,
         "w": 1600,
         "h": 1200,
         "attribution": "© OpenStreetMap contributors"
       }
     },
     {
-      "slug": "bagnara",
-      "name": "Bagnara Calabra",
-      "region": "Calabria",
-      "tagline": "A swordfishing town on the violet-hued Costa Viola.",
-      "intro": "Bagnara Calabra is a municipality in the Province of Reggio Calabria in Calabria, Southern Italy. It is located in the hills facing the Tyrrhenian Sea on the southern tip of the region, about 100 kilometres (62 mi) southwest of Catanzaro and about 25 kilometres (16 mi) northeast of Reggio Calabria. It has a population of 9,164.",
-      "lat": 38.287,
-      "lon": 15.808,
+      "slug": "positano",
+      "name": "Positano",
+      "region": "Amalfi Coast",
+      "tagline": "Pastel houses cascading down cliffs to a turquoise sea.",
+      "intro": "Positano is a town and comune (municipality) on the Amalfi Coast in the Province of Salerno in the region of Campania in southern Italy, mainly in an enclave in the hills leading down to the coast. It has 3,643 inhabitants.",
+      "lat": 40.63333333,
+      "lon": 14.48333333,
       "weather": {
         "label": "Early October",
-        "avgHighC": 23,
-        "avgLowC": 18,
-        "avgHighF": 73,
-        "avgLowF": 64,
-        "rainDayPct": 44,
+        "avgHighC": 22,
+        "avgLowC": 16,
+        "avgHighF": 72,
+        "avgLowF": 61,
+        "rainDayPct": 34,
         "sampleYears": "2014–2024",
-        "seaTempC": 24,
-        "seaTempF": 75
+        "seaTempC": 23,
+        "seaTempF": 73
       },
       "sun": {
-        "sunrise": "6:55 AM",
-        "sunset": "6:35 PM",
-        "goldenHourEvening": "5:59 PM"
+        "sunrise": "7:02 AM",
+        "sunset": "6:39 PM",
+        "goldenHourEvening": "6:02 PM"
       },
       "pois": [
         {
-          "id": "bagnara-spiaggia-di-bagnara",
-          "name": "Spiaggia di Bagnara",
+          "id": "positano-spiaggia-grande",
+          "name": "Spiaggia Grande",
           "category": "coastal",
-          "blurb": "The town beach unspools along the seafront promenade, a broad ribbon of sand and pebble backed by pastel houses and the headland. Easy, in-town swimming with the mountains tumbling almost to the water.",
-          "lat": 38.2875,
-          "lon": 15.808,
+          "blurb": "Positano's main beach, framed by the pastel amphitheater of town. A free public stretch sits beside rows of paid loungers; fishing boats and ferries share the shore. Best light is late afternoon as the cliffs glow.",
+          "lat": 40.6275,
+          "lon": 14.4847,
           "photo": {
-            "file": "assets/photos/bagnara/spiaggia-di-bagnara.webp",
-            "author": "Jacopo Werther",
+            "file": "assets/photos/positano/spiaggia-grande.webp",
+            "author": "Mihael Grmek",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungomare_di_Bagnara_Calabra_-_Province_of_Reggio_Calabria,_Italy_-_18_Oct._2014_-_(1).jpg",
-            "credit": "Jacopo Werther — CC BY-SA 4.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_01.jpg",
+            "credit": "Mihael Grmek — CC BY-SA 4.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "bagnara-costa-viola",
-          "name": "Costa Viola",
+          "id": "positano-fornillo-beach",
+          "name": "Fornillo Beach",
           "category": "coastal",
-          "blurb": "The 'Violet Coast' between Bagnara and Scilla, where steep terraced cliffs drop to a sea that glows purple at sunset. Some of Calabria's most dramatic shoreline, threaded by old fishermen's paths.",
-          "lat": 38.27,
-          "lon": 15.79,
+          "blurb": "A quieter pebble cove a five-minute walk west along the cliffside Via Positanesi d'America path. Calmer water, a couple of low-key beach bars, and a local feel away from the main-beach crowds.",
+          "lat": 40.6286,
+          "lon": 14.481,
           "photo": {
-            "file": "assets/photos/bagnara/costa-viola.webp",
-            "author": "Martuna.22",
+            "file": "assets/photos/positano/fornillo-beach.webp",
+            "author": "Mihael Grmek",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Costa_viola.jpg",
-            "credit": "Martuna.22 — CC BY-SA 4.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_Fornillo_Beach.jpg",
+            "credit": "Mihael Grmek — CC BY-SA 4.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "bagnara-torre-aragonese",
-          "name": "Torre Aragonese",
-          "category": "history",
-          "blurb": "The squat coastal watchtower, also called the Torre Ruggiero, raised to spot raiders approaching from the sea. A weathered survivor of the town's fortified past, looking out over the gulf.",
-          "lat": 38.2845,
-          "lon": 15.8035,
+          "id": "positano-path-of-the-gods-sentiero-degli-dei",
+          "name": "Path of the Gods (Sentiero degli Dei)",
+          "category": "outdoors",
+          "blurb": "The Amalfi Coast's legendary cliff-top trail, running high above the sea from Bomerano to Nocelle near Positano. Roughly two to three hours of unforgettable coastal views; bring water and proper shoes.",
+          "lat": 40.631,
+          "lon": 14.453,
           "photo": {
-            "file": "assets/photos/bagnara/torre-aragonese.webp",
-            "author": "Antonina Dattola",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_Aragonese_(Bagnara).jpg",
-            "credit": "Antonina Dattola — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "bagnara-chiesa-di-maria-ss-del-carmelo",
-          "name": "Chiesa di Maria SS. del Carmelo",
-          "category": "culture",
-          "blurb": "Bagnara's grand parish church, rebuilt after the region's devastating earthquakes, with a richly worked interior honoring the Madonna del Carmine. The focus of the town's feast-day processions.",
-          "lat": 38.288,
-          "lon": 15.8085,
-          "photo": {
-            "file": "assets/photos/bagnara/chiesa-di-maria-ss-del-carmelo.webp",
-            "author": "Domgio82",
+            "file": "assets/photos/positano/path-of-the-gods-sentiero-degli-dei.webp",
+            "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
             "license": "CC BY-SA 3.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bagnara_Calabra_(RC)_-_chiesa_di_Maria_Santissima_del_Carmelo_-_02.jpg",
-            "credit": "Domgio82 — CC BY-SA 3.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentiero_degli_Dei_26_sopra_Positano_Campania.jpg",
+            "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. — CC BY-SA 3.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "bagnara-pesce-spada-alla-bagnarese",
-          "name": "Pesce spada alla bagnarese",
-          "category": "food",
-          "blurb": "Swordfish is Bagnara's identity — hunted for centuries from long-prowed 'passerelle' boats in the strait. Eaten grilled, rolled into involtini, or with pasta, it's the dish that defines the town.",
-          "photo": {
-            "file": "assets/photos/bagnara/pesce-spada-alla-bagnarese.webp",
-            "author": "Emőke Dénes",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Xiphias_gladius_-_1.jpg",
-            "credit": "Emőke Dénes — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "bagnara-torrone-di-bagnara",
-          "name": "Torrone di Bagnara",
-          "category": "food",
-          "blurb": "An IGP almond nougat made here since the 1800s, in a hard 'martiniana' version and a soft, cocoa-and-spice 'torrefatto'. A sweet souvenir traditionally made by the town's women.",
-          "hiddenGem": true,
-          "photo": {
-            "file": "assets/photos/bagnara/torrone-di-bagnara.webp",
-            "author": "Nonolili",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nougat_artisanal.JPG",
-            "credit": "Nonolili — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        }
-      ],
-      "categories": [
-        "coastal",
-        "history",
-        "culture",
-        "food"
-      ],
-      "itinerary": [],
-      "transport": [
-        "Bagnara sits on the Tyrrhenian rail line between Reggio Calabria and Tropea; the station is a short walk from the seafront.",
-        "The A2 'Autostrada del Mediterraneo' passes just above town for drivers.",
-        "It's an easy day-trip pairing with Scilla, a few minutes south along the Costa Viola.",
-        "The center hugs the shore — flat and walkable along the lungomare."
-      ],
-      "foodNotes": [
-        "This is a historic swordfish port — 'pesce spada' grilled, in rolls (involtini), or with pasta.",
-        "Bagnara's almond 'torrone' is an IGP nougat, both the hard and the soft, cocoa-dusted kind.",
-        "Sea-urchin and anchovy pastas show up on summer menus along the coast.",
-        "Pair with a crisp Calabrian white or a sip of bergamot liqueur from down the coast."
-      ],
-      "beachNotes": [
-        "The long pebble-and-sand beach runs the length of the lungomare, right in town.",
-        "The Costa Viola's clear, deep water takes on a violet sheen at dusk — the coast's namesake.",
-        "Quieter coves hide north toward Palmi beneath the cliffs.",
-        "Early-October swimming is still pleasant (~74°F) with the beaches near-empty."
-      ],
-      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
-      "hero": {
-        "file": "assets/photos/bagnara/bagnara-hero.webp",
-        "author": "Jacopo Werther",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungomare_di_Bagnara_Calabra_-_Province_of_Reggio_Calabria,_Italy_-_18_Oct._2014.jpg",
-        "credit": "Jacopo Werther — CC BY-SA 4.0 (Wikimedia Commons)"
-      },
-      "map": {
-        "file": "assets/maps/bagnara.webp",
-        "z": 15,
-        "worldLeft": 4561653,
-        "worldTop": 3226861,
-        "w": 1600,
-        "h": 1200,
-        "attribution": "© OpenStreetMap contributors"
-      }
-    },
-    {
-      "slug": "scilla",
-      "name": "Scilla",
-      "region": "Calabria",
-      "tagline": "A castle, a fishing quarter on the rocks, and Homer's legendary strait.",
-      "intro": "Scilla is a town and comune in Calabria, Italy, administratively part of the Metropolitan City of Reggio Calabria. It is the traditional site of the sea monster Scylla of Greek mythology.",
-      "lat": 38.25067,
-      "lon": 15.71899,
-      "weather": {
-        "label": "Early October",
-        "avgHighC": 23,
-        "avgLowC": 17,
-        "avgHighF": 73,
-        "avgLowF": 63,
-        "rainDayPct": 39,
-        "sampleYears": "2014–2024",
-        "seaTempC": 24,
-        "seaTempF": 75
-      },
-      "sun": {
-        "sunrise": "6:56 AM",
-        "sunset": "6:35 PM",
-        "goldenHourEvening": "6:00 PM"
-      },
-      "pois": [
-        {
-          "id": "scilla-castello-ruffo",
-          "name": "Castello Ruffo",
-          "category": "history",
-          "blurb": "The cliff-top castle splitting the village in two, raised on the rock the ancients tied to the monster Scylla. Long a fortress and lighthouse, its ramparts give a commanding sweep over the strait toward Sicily.",
-          "lat": 38.2527,
-          "lon": 15.7148,
-          "photo": {
-            "file": "assets/photos/scilla/castello-ruffo.webp",
-            "author": "Cesare Barillà",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Castello_Ruffo_-_202208301303_3.jpg",
-            "credit": "Cesare Barillà — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "scilla-chianalea",
-          "name": "Chianalea",
+          "id": "positano-li-galli-islands",
+          "name": "Li Galli Islands",
           "category": "coastal",
-          "blurb": "Scilla's ancient fishermen's quarter — a 'little Venice' of tall houses rising straight from the sea, divided by alleys and tiny landings where boats are still moored at the doorsteps. The most enchanting corner of town.",
-          "lat": 38.2543,
-          "lon": 15.7165,
+          "blurb": "A tiny private archipelago off Positano, mythologized as the home of Homer's sirens. You can't land, but boat tours circle the islets and anchor nearby for a swim in deep blue water.",
+          "lat": 40.5783,
+          "lon": 14.435,
           "photo": {
-            "file": "assets/photos/scilla/chianalea.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Chianalea_-_1.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+            "file": "assets/photos/positano/li-galli-islands.webp",
+            "author": "Gianfranco Vitolo",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Galli_visti_da_Torca_(34577357022).jpg",
+            "credit": "Gianfranco Vitolo — CC BY 2.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "scilla-spiaggia-di-marina-grande",
-          "name": "Spiaggia di Marina Grande",
-          "category": "coastal",
-          "blurb": "The village's broad sand beach, curving below the castle with the strait shimmering ahead. Sheltered and shallow, it's the heart of summer life and an unbeatable place to swim under a fortress.",
-          "lat": 38.2533,
-          "lon": 15.7135,
+          "id": "positano-da-vincenzo",
+          "name": "Da Vincenzo",
+          "category": "food",
+          "blurb": "A family-run Positano favorite cooking the coast's seafood and house pastas for three generations — warm, unfussy, and reliably excellent. Book ahead in season.",
           "photo": {
-            "file": "assets/photos/scilla/spiaggia-di-marina-grande.webp",
-            "author": "Dega180",
+            "file": "assets/photos/positano/da-vincenzo.webp",
+            "author": "8w9d",
             "license": "CC0",
             "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiaggia_di_Scilla.JPG",
-            "credit": "Dega180 — CC0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alle_Vongole_-_Wiki_Loves_Sicilia.jpg",
+            "credit": "8w9d — CC0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "scilla-strait-of-messina",
-          "name": "Strait of Messina",
-          "category": "coastal",
-          "blurb": "The narrow channel between Calabria and Sicily, home in myth to the monsters Scylla and Charybdis. Its swirling currents and the silhouette of Etna across the water make for hypnotic gazing from the shore.",
-          "lat": 38.24,
-          "lon": 15.65,
-          "photo": {
-            "file": "assets/photos/scilla/strait-of-messina.webp",
-            "author": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated. This image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license.",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strait_of_Messina_13.jpg",
-            "credit": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated. This image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license. — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "scilla-chiesa-di-san-rocco",
-          "name": "Chiesa di San Rocco",
-          "category": "culture",
-          "blurb": "The village's hillside church, dedicated to the protector against plague, set on a small piazza that doubles as one of Scilla's finest free viewpoints over the rooftops and sea.",
-          "lat": 38.2531,
-          "lon": 15.7158,
-          "photo": {
-            "file": "assets/photos/scilla/chiesa-di-san-rocco.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Chiesa_di_San_Rocco_-_1.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "scilla-vista-da-via-de-nava",
-          "name": "Vista da Via de Nava",
-          "category": "culture",
-          "blurb": "The overlook on the town's upper road, where Chianalea, the castle, and the beach line up in a single, perfect frame. The picture every visitor stops to take on the way down to the water.",
-          "lat": 38.2538,
-          "lon": 15.716,
-          "photo": {
-            "file": "assets/photos/scilla/vista-da-via-de-nava.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Vista_da_Via_de_Nava.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "scilla-belvedere-di-piazza-san-rocco",
-          "name": "Belvedere di Piazza San Rocco",
-          "category": "outdoors",
-          "blurb": "A panoramic terrace high above the village that takes in the whole sweep of the strait, with Sicily and Etna on the horizon. The spot to linger as the Costa Viola turns violet at dusk.",
-          "lat": 38.253,
-          "lon": 15.7157,
-          "photo": {
-            "file": "assets/photos/scilla/belvedere-di-piazza-san-rocco.webp",
-            "author": "Benjamin Smith",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Vista_dalla_piazza_San_Rocco_-_1.jpg",
-            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "scilla-spaghetti-con-pesce-spada",
-          "name": "Spaghetti con pesce spada",
+          "id": "positano-la-tagliata",
+          "name": "La Tagliata",
           "category": "food",
-          "blurb": "Swordfish from the strait is Scilla's signature, harpooned in season from tall-masted 'passerella' boats. Served as pasta, in light involtini, or simply grilled — best eaten waterside in Chianalea.",
+          "blurb": "A hillside, family-run spot high above Positano serving a no-menu parade of homemade dishes with a jaw-dropping coastal panorama. They'll shuttle you up from town and back.",
           "photo": {
-            "file": "assets/photos/scilla/spaghetti-con-pesce-spada.webp",
-            "author": "Emőke Dénes",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Xiphias_gladius_-_1.jpg",
-            "credit": "Emőke Dénes — CC BY-SA 4.0 (Wikimedia Commons)"
+            "file": "assets/photos/positano/la-tagliata.webp",
+            "author": "Bruno Rijsman",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_14_(50558382446).jpg",
+            "credit": "Bruno Rijsman — CC BY-SA 2.0 (Wikimedia Commons)"
           }
         },
         {
-          "id": "scilla-tramonto-sulla-costa-viola",
-          "name": "Tramonto sulla Costa Viola",
-          "category": "coastal",
-          "blurb": "The reason the coast is called 'Violet' — the sun sinking behind the Sicilian mountains turns the sea and cliffs through shades of rose and purple. Watch it from the beach with the castle blazing above.",
-          "hiddenGem": true,
+          "id": "positano-franco-s-bar",
+          "name": "Franco's Bar",
+          "category": "drink",
+          "blurb": "Le Sirenuse's cliff-edge cocktail bar — no reservations, first-come stools, and arguably the finest aperitivo view on the Amalfi Coast as the sun drops behind Li Galli.",
           "photo": {
-            "file": "assets/photos/scilla/tramonto-sulla-costa-viola.webp",
-            "author": "AkakiBalanchivadze",
+            "file": "assets/photos/positano/franco-s-bar.webp",
+            "author": "JeCCo",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_Sunset.JPG",
+            "credit": "JeCCo — CC BY 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "positano-roman-archaeological-museum-and-villa-mar",
+          "name": "Roman archaeological museum and villa (MAR)",
+          "category": "history",
+          "blurb": "Nestled beneath the Church of Santa Maria Assunta in the heart of Positano is a luxurious Roman villa, dating back to the 1st century AD, which was buried under volcanic debris from the catastrophic eruption of Mount Vesuvius in 79 AD. Discovered in 2003 during restoration work following a flood, the villa was meticulously excavated and opened to the public in 2018. Visitors can explore a richly frescoed triclinium (dining room), adorned with vibrant wall paintings and intricate mosaic floors, preserved remarkably well under layers of ash and pumice.",
+          "lat": 40.628547,
+          "lon": 14.486567,
+          "photo": {
+            "file": "assets/photos/positano/roman-archaeological-museum-and-villa-mar.webp",
+            "author": "Zde",
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Scilla_Beach.jpg",
-            "credit": "AkakiBalanchivadze — CC BY-SA 4.0 (Wikimedia Commons)"
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sculptures,_Hellenistic_and_Roman,_Archaeological_Museum_of_Milos,_152583.jpg",
+            "credit": "Zde — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "positano-collegiata-di-santa-maria-assunta",
+          "name": "Collegiata di Santa Maria Assunta",
+          "category": "history",
+          "blurb": "This is one of the most famous attractions in Positano. The old church, boasting a majestic dome, was built in the 1920s and is the location of the famous 13th-century Byzantine icon, the Madonna di Positano.",
+          "lat": 40.6284,
+          "lon": 14.486783,
+          "photo": {
+            "file": "assets/photos/positano/collegiata-di-santa-maria-assunta.webp",
+            "author": "LorenzoSan84017",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_-_Collegiata_di_Santa_Maria_Assunta_-_2023-09-14_10-29-29_001.jpg",
+            "credit": "LorenzoSan84017 — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        }
+      ],
+      "categories": [
+        "coastal",
+        "outdoors",
+        "history",
+        "food",
+        "drink"
+      ],
+      "itinerary": [],
+      "transport": [
+        "Reach it by ferry from Naples, Sorrento, or Amalfi — the most scenic arrival.",
+        "The SITA bus winds the coastal road; driving is slow and parking scarce.",
+        "Expect lots of stairs — Positano is vertical. Wear good shoes.",
+        "Boats and water taxis hop to nearby beaches and the Li Galli islets."
+      ],
+      "foodNotes": [
+        "Seafood-forward: spaghetti alle vongole, fried anchovies, grilled local catch.",
+        "Lemons are everywhere — try delizia al limone dessert and house-made limoncello.",
+        "Cliffside terraces serve long lunches with Amalfi Coast wine and a sea view."
+      ],
+      "beachNotes": [
+        "Spiaggia Grande is the main beach below town — part free, part paid loungers.",
+        "Fornillo beach is quieter, a short cliff path west of the main beach.",
+        "Boat trips reach Arienzo ('the 300-steps beach') and hidden coves toward Praiano.",
+        "Early-October sea is still swimmable (~73–75°F); afternoons are golden for photos."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "hero": {
+        "file": "assets/photos/positano/positano-hero.webp",
+        "author": "Roweromaniak",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Positano_J03-0D.jpg",
+        "credit": "Roweromaniak — CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "map": {
+        "file": "assets/maps/positano.webp",
+        "z": 13,
+        "worldLeft": 1132017,
+        "worldTop": 788719,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "slug": "procida",
+      "name": "Procida",
+      "region": "Bay of Naples",
+      "tagline": "A pocket-size island of pastel fishermen's houses and lemon gardens.",
+      "intro": "Procida is one of the Phlegraean Islands off the coast of Naples in southern Italy. The island is between Cape Miseno and the island of Ischia. With its tiny satellite island of Vivara, it is a comune (municipality) of the Metropolitan City of Naples, in the region of Campania.",
+      "lat": 40.758333,
+      "lon": 14.016667,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 22,
+        "avgLowC": 18,
+        "avgHighF": 72,
+        "avgLowF": 64,
+        "rainDayPct": 36,
+        "sampleYears": "2014–2024",
+        "seaTempC": 23,
+        "seaTempF": 73
+      },
+      "sun": {
+        "sunrise": "7:04 AM",
+        "sunset": "6:41 PM",
+        "goldenHourEvening": "6:04 PM"
+      },
+      "pois": [
+        {
+          "id": "procida-marina-corricella",
+          "name": "Marina Corricella",
+          "category": "coastal",
+          "blurb": "Procida's oldest fishing harbor — a sun-faded tumble of ochre, pink, and blue houses stacked above bobbing boats. Carless and impossibly photogenic, it's the postcard image of the island, best caught at golden hour from the steps above.",
+          "lat": 40.7607,
+          "lon": 14.026,
+          "photo": {
+            "file": "assets/photos/procida/marina-corricella.webp",
+            "author": "Repuli",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procidamarina.jpg",
+            "credit": "Repuli — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-marina-grande",
+          "name": "Marina Grande",
+          "category": "coastal",
+          "blurb": "The ferry harbor and lived-in heart of the island, fronted by a pastel wall of facades, café tables, and tackle shops. Your first and last view of Procida — and a fine spot for an aperitivo as the boats come and go.",
+          "lat": 40.766,
+          "lon": 14.041,
+          "photo": {
+            "file": "assets/photos/procida/marina-grande.webp",
+            "author": "Ekrem Canli",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Grande_(Procida)_2016_(2).jpg",
+            "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-marina-di-chiaiolella",
+          "name": "Marina di Chiaiolella",
+          "category": "coastal",
+          "blurb": "A rounded natural harbor on the island's quieter west side, ringed by seafood restaurants and moored sailboats, with the Vivara reserve arching off one end. The go-to for a long, unhurried lunch by the water.",
+          "lat": 40.7536,
+          "lon": 14.0125,
+          "photo": {
+            "file": "assets/photos/procida/marina-di-chiaiolella.webp",
+            "author": "User:Matthias Süßen",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida-Chiaiolella098.jpg",
+            "credit": "User:Matthias Süßen — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-cala-del-pozzo-vecchio",
+          "name": "Cala del Pozzo Vecchio",
+          "category": "coastal",
+          "blurb": "A dark-sand cove under crumbling tufa cliffs, immortalized as the beach in the film 'Il Postino'. Sheltered and atmospheric, it has the kind of faded, end-of-season beauty that defines Procida.",
+          "lat": 40.7635,
+          "lon": 14.0145,
+          "photo": {
+            "file": "assets/photos/procida/cala-del-pozzo-vecchio.webp",
+            "author": "Porfirio",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cala_Pozzo_Vecchio_-_Procida.jpg",
+            "credit": "Porfirio — CC BY 2.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-terra-murata",
+          "name": "Terra Murata",
+          "category": "history",
+          "blurb": "The fortified medieval citadel crowning the island's highest point — a maze of walls and tufa lanes raised against pirate raids. Its terraces give the definitive view straight down over Corricella's painted harbor.",
+          "lat": 40.7616,
+          "lon": 14.0291,
+          "photo": {
+            "file": "assets/photos/procida/terra-murata.webp",
+            "author": "Ekrem Canli",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra_Murata_(Procida),_2016.jpg",
+            "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-palazzo-d-avalos",
+          "name": "Palazzo d'Avalos",
+          "category": "history",
+          "blurb": "A 16th-century palace that became a royal residence and then, for nearly two centuries, the island's prison. Now open for atmospheric tours, it broods over Terra Murata with sweeping views across the bay.",
+          "lat": 40.7622,
+          "lon": 14.03,
+          "photo": {
+            "file": "assets/photos/procida/palazzo-d-avalos.webp",
+            "author": "Bernard Gagnon",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_d%27Avalos_(Procida)_01.jpg",
+            "credit": "Bernard Gagnon — CC BY 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-abbazia-di-san-michele-arcangelo",
+          "name": "Abbazia di San Michele Arcangelo",
+          "category": "culture",
+          "blurb": "The island's spiritual anchor, a 16th-century abbey on the Terra Murata cliffs with a gilded coffered ceiling and a warren of catacombs and hidden chapels below. Dedicated to Procida's protector, the Archangel Michael.",
+          "lat": 40.7619,
+          "lon": 14.0296,
+          "photo": {
+            "file": "assets/photos/procida/abbazia-di-san-michele-arcangelo.webp",
+            "author": "User:Matthias Süßen",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida-Abbazia_San_Michele_Arcangelo925.jpg",
+            "credit": "User:Matthias Süßen — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-chiesa-di-santa-maria-delle-grazie",
+          "name": "Chiesa di Santa Maria delle Grazie",
+          "category": "culture",
+          "blurb": "A pale-domed church above Corricella whose terrace is one of the best perches for taking in the painted harbor below. A quiet, luminous pause on the climb up to Terra Murata.",
+          "lat": 40.7606,
+          "lon": 14.027,
+          "photo": {
+            "file": "assets/photos/procida/chiesa-di-santa-maria-delle-grazie.webp",
+            "author": "Ekrem Canli",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_Santa_Maria_delle_Grazie_(1),_Procida.jpg",
+            "credit": "Ekrem Canli — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-vivara",
+          "name": "Vivara",
+          "category": "outdoors",
+          "blurb": "A crescent islet linked to Procida by a footbridge — now a protected reserve of Mediterranean scrub and seabirds over an ancient volcanic crater. A short, wild escape from the harbors (check the open days before you go).",
+          "lat": 40.7475,
+          "lon": 14.008,
+          "photo": {
+            "file": "assets/photos/procida/vivara.webp",
+            "author": "Saverio.G",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_di_Vivara.jpg",
+            "credit": "Saverio.G — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "procida-insalata-di-limoni",
+          "name": "Insalata di limoni",
+          "category": "food",
+          "blurb": "Procida's enormous, thick-pith lemons become the island's signature dish — a salad of sliced lemon flesh dressed with chilli, garlic, mint, and oil. Bright, unexpected, and served all over the island.",
+          "photo": {
+            "file": "assets/photos/procida/insalata-di-limoni.webp",
+            "author": "liz west from Boxborough, MA, USA",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemons_-_Flickr_-_Muffet_(1).jpg",
+            "credit": "liz west from Boxborough, MA, USA — CC BY 2.0 (Wikimedia Commons)"
           }
         }
       ],
@@ -2386,37 +1769,37 @@ window.__ITALY__ = {
       ],
       "itinerary": [],
       "transport": [
-        "Scilla has a station on the Tyrrhenian line; Reggio Calabria is about 30 minutes south.",
-        "It's the southern anchor of the Costa Viola, an easy pairing with Bagnara just north.",
-        "Ferries across the Strait of Messina to Sicily leave from nearby Villa San Giovanni.",
-        "The village is steep and walkable; stairs link the castle, the beach, and the Chianalea lanes."
+        "Ferries and hydrofoils from Naples (Molo Beverello / Calata Porta di Massa) reach Procida in ~40 min.",
+        "Boats also hop to Ischia in ~15 min — easy to pair the two islands.",
+        "The island is tiny — walk the harbors, or take the small buses and micro-taxis from Marina Grande.",
+        "No car needed; the lanes are narrow and the center is best explored on foot."
       ],
       "foodNotes": [
-        "Swordfish rules the menus — 'spaghetti con pesce spada' and grilled steaks fresh off the strait.",
-        "Chianalea's tiny seafood trattorias serve the day's catch with their feet almost in the water.",
-        "Anchovies, sea urchin, and bergamot from the Reggio coast flavor local cooking.",
-        "Finish with a Calabrian gelato or a glass of crisp local white by the harbor."
+        "Sea-to-table classics: spaghetti ai ricci (sea urchin), fritto misto, and the day's grilled catch.",
+        "The giant Procida lemon stars in 'insalata di limoni', a refreshing lemon-and-chilli salad.",
+        "'Lingua di bue' — a tongue-shaped lemon-cream pastry — is the island's sweet signature.",
+        "Cool the evening with a chilled Campanian Falanghina or a glass of local limoncello."
       ],
       "beachNotes": [
-        "Marina Grande is a wide sand beach right below the castle, the village's main swimming spot.",
-        "The water of the Costa Viola is deep, clear, and famously clean.",
-        "Boats run from the beach to coves and along the violet cliffs toward Bagnara.",
-        "Early-October sea is still warm (~74°F) and the village is blissfully quiet."
+        "Chiaiolella and Ciraccio on the west side have the widest sand and the best sunsets.",
+        "Cala del Pozzo Vecchio ('Il Postino' beach) is a dark-sand cove framed by tufa cliffs.",
+        "Spiaggia della Chiaia, down a long staircase, stays calm and family-friendly.",
+        "Early-October sea is still swimmable (~74°F) and the summer crowds have thinned."
       ],
       "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
       "hero": {
-        "file": "assets/photos/scilla/scilla-hero.webp",
-        "author": "Martuna.22",
+        "file": "assets/photos/procida/procida-hero.webp",
+        "author": "Velvet",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_dal_belvedere.jpg",
-        "credit": "Martuna.22 — CC BY-SA 4.0 (Wikimedia Commons)"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procida_Marina_Corricella.jpg",
+        "credit": "Velvet — CC BY-SA 4.0 (Wikimedia Commons)"
       },
       "map": {
-        "file": "assets/maps/scilla.webp",
-        "z": 14,
-        "worldLeft": 2279075,
-        "worldTop": 1613603,
+        "file": "assets/maps/procida.webp",
+        "z": 15,
+        "worldLeft": 4520299,
+        "worldTop": 3152004,
         "w": 1600,
         "h": 1200,
         "attribution": "© OpenStreetMap contributors"
@@ -2696,6 +2079,1071 @@ window.__ITALY__ = {
         "w": 1600,
         "h": 1200,
         "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "slug": "scilla",
+      "name": "Scilla",
+      "region": "Calabria",
+      "tagline": "A castle, a fishing quarter on the rocks, and Homer's legendary strait.",
+      "intro": "Scilla is a town and comune in Calabria, Italy, administratively part of the Metropolitan City of Reggio Calabria. It is the traditional site of the sea monster Scylla of Greek mythology.",
+      "lat": 38.25067,
+      "lon": 15.71899,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 23,
+        "avgLowC": 17,
+        "avgHighF": 73,
+        "avgLowF": 63,
+        "rainDayPct": 39,
+        "sampleYears": "2014–2024",
+        "seaTempC": 24,
+        "seaTempF": 75
+      },
+      "sun": {
+        "sunrise": "6:56 AM",
+        "sunset": "6:35 PM",
+        "goldenHourEvening": "6:00 PM"
+      },
+      "pois": [
+        {
+          "id": "scilla-castello-ruffo",
+          "name": "Castello Ruffo",
+          "category": "history",
+          "blurb": "The cliff-top castle splitting the village in two, raised on the rock the ancients tied to the monster Scylla. Long a fortress and lighthouse, its ramparts give a commanding sweep over the strait toward Sicily.",
+          "lat": 38.2527,
+          "lon": 15.7148,
+          "photo": {
+            "file": "assets/photos/scilla/castello-ruffo.webp",
+            "author": "Cesare Barillà",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Castello_Ruffo_-_202208301303_3.jpg",
+            "credit": "Cesare Barillà — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-chianalea",
+          "name": "Chianalea",
+          "category": "coastal",
+          "blurb": "Scilla's ancient fishermen's quarter — a 'little Venice' of tall houses rising straight from the sea, divided by alleys and tiny landings where boats are still moored at the doorsteps. The most enchanting corner of town.",
+          "lat": 38.2543,
+          "lon": 15.7165,
+          "photo": {
+            "file": "assets/photos/scilla/chianalea.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Chianalea_-_1.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-spiaggia-di-marina-grande",
+          "name": "Spiaggia di Marina Grande",
+          "category": "coastal",
+          "blurb": "The village's broad sand beach, curving below the castle with the strait shimmering ahead. Sheltered and shallow, it's the heart of summer life and an unbeatable place to swim under a fortress.",
+          "lat": 38.2533,
+          "lon": 15.7135,
+          "photo": {
+            "file": "assets/photos/scilla/spiaggia-di-marina-grande.webp",
+            "author": "Dega180",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiaggia_di_Scilla.JPG",
+            "credit": "Dega180 — CC0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-strait-of-messina",
+          "name": "Strait of Messina",
+          "category": "coastal",
+          "blurb": "The narrow channel between Calabria and Sicily, home in myth to the monsters Scylla and Charybdis. Its swirling currents and the silhouette of Etna across the water make for hypnotic gazing from the shore.",
+          "lat": 38.24,
+          "lon": 15.65,
+          "photo": {
+            "file": "assets/photos/scilla/strait-of-messina.webp",
+            "author": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated. This image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license.",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strait_of_Messina_13.jpg",
+            "credit": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated. This image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license. — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-chiesa-di-san-rocco",
+          "name": "Chiesa di San Rocco",
+          "category": "culture",
+          "blurb": "The village's hillside church, dedicated to the protector against plague, set on a small piazza that doubles as one of Scilla's finest free viewpoints over the rooftops and sea.",
+          "lat": 38.2531,
+          "lon": 15.7158,
+          "photo": {
+            "file": "assets/photos/scilla/chiesa-di-san-rocco.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Chiesa_di_San_Rocco_-_1.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-vista-da-via-de-nava",
+          "name": "Vista da Via de Nava",
+          "category": "culture",
+          "blurb": "The overlook on the town's upper road, where Chianalea, the castle, and the beach line up in a single, perfect frame. The picture every visitor stops to take on the way down to the water.",
+          "lat": 38.2538,
+          "lon": 15.716,
+          "photo": {
+            "file": "assets/photos/scilla/vista-da-via-de-nava.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Vista_da_Via_de_Nava.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-belvedere-di-piazza-san-rocco",
+          "name": "Belvedere di Piazza San Rocco",
+          "category": "outdoors",
+          "blurb": "A panoramic terrace high above the village that takes in the whole sweep of the strait, with Sicily and Etna on the horizon. The spot to linger as the Costa Viola turns violet at dusk.",
+          "lat": 38.253,
+          "lon": 15.7157,
+          "photo": {
+            "file": "assets/photos/scilla/belvedere-di-piazza-san-rocco.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_-_Vista_dalla_piazza_San_Rocco_-_1.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-spaghetti-con-pesce-spada",
+          "name": "Spaghetti con pesce spada",
+          "category": "food",
+          "blurb": "Swordfish from the strait is Scilla's signature, harpooned in season from tall-masted 'passerella' boats. Served as pasta, in light involtini, or simply grilled — best eaten waterside in Chianalea.",
+          "photo": {
+            "file": "assets/photos/scilla/spaghetti-con-pesce-spada.webp",
+            "author": "Emőke Dénes",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Xiphias_gladius_-_1.jpg",
+            "credit": "Emőke Dénes — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "scilla-tramonto-sulla-costa-viola",
+          "name": "Tramonto sulla Costa Viola",
+          "category": "coastal",
+          "blurb": "The reason the coast is called 'Violet' — the sun sinking behind the Sicilian mountains turns the sea and cliffs through shades of rose and purple. Watch it from the beach with the castle blazing above.",
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/scilla/tramonto-sulla-costa-viola.webp",
+            "author": "AkakiBalanchivadze",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Scilla_Beach.jpg",
+            "credit": "AkakiBalanchivadze — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        }
+      ],
+      "categories": [
+        "coastal",
+        "outdoors",
+        "history",
+        "culture",
+        "food"
+      ],
+      "itinerary": [],
+      "transport": [
+        "Scilla has a station on the Tyrrhenian line; Reggio Calabria is about 30 minutes south.",
+        "It's the southern anchor of the Costa Viola, an easy pairing with Bagnara just north.",
+        "Ferries across the Strait of Messina to Sicily leave from nearby Villa San Giovanni.",
+        "The village is steep and walkable; stairs link the castle, the beach, and the Chianalea lanes."
+      ],
+      "foodNotes": [
+        "Swordfish rules the menus — 'spaghetti con pesce spada' and grilled steaks fresh off the strait.",
+        "Chianalea's tiny seafood trattorias serve the day's catch with their feet almost in the water.",
+        "Anchovies, sea urchin, and bergamot from the Reggio coast flavor local cooking.",
+        "Finish with a Calabrian gelato or a glass of crisp local white by the harbor."
+      ],
+      "beachNotes": [
+        "Marina Grande is a wide sand beach right below the castle, the village's main swimming spot.",
+        "The water of the Costa Viola is deep, clear, and famously clean.",
+        "Boats run from the beach to coves and along the violet cliffs toward Bagnara.",
+        "Early-October sea is still warm (~74°F) and the village is blissfully quiet."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "hero": {
+        "file": "assets/photos/scilla/scilla-hero.webp",
+        "author": "Martuna.22",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scilla_dal_belvedere.jpg",
+        "credit": "Martuna.22 — CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "map": {
+        "file": "assets/maps/scilla.webp",
+        "z": 14,
+        "worldLeft": 2279075,
+        "worldTop": 1613603,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "slug": "bagnara",
+      "name": "Bagnara Calabra",
+      "region": "Calabria",
+      "tagline": "A swordfishing town on the violet-hued Costa Viola.",
+      "intro": "Bagnara Calabra is a municipality in the Province of Reggio Calabria in Calabria, Southern Italy. It is located in the hills facing the Tyrrhenian Sea on the southern tip of the region, about 100 kilometres (62 mi) southwest of Catanzaro and about 25 kilometres (16 mi) northeast of Reggio Calabria. It has a population of 9,164.",
+      "lat": 38.287,
+      "lon": 15.808,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 23,
+        "avgLowC": 18,
+        "avgHighF": 73,
+        "avgLowF": 64,
+        "rainDayPct": 44,
+        "sampleYears": "2014–2024",
+        "seaTempC": 24,
+        "seaTempF": 75
+      },
+      "sun": {
+        "sunrise": "6:55 AM",
+        "sunset": "6:35 PM",
+        "goldenHourEvening": "5:59 PM"
+      },
+      "pois": [
+        {
+          "id": "bagnara-spiaggia-di-bagnara",
+          "name": "Spiaggia di Bagnara",
+          "category": "coastal",
+          "blurb": "The town beach unspools along the seafront promenade, a broad ribbon of sand and pebble backed by pastel houses and the headland. Easy, in-town swimming with the mountains tumbling almost to the water.",
+          "lat": 38.2875,
+          "lon": 15.808,
+          "photo": {
+            "file": "assets/photos/bagnara/spiaggia-di-bagnara.webp",
+            "author": "Jacopo Werther",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungomare_di_Bagnara_Calabra_-_Province_of_Reggio_Calabria,_Italy_-_18_Oct._2014_-_(1).jpg",
+            "credit": "Jacopo Werther — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "bagnara-costa-viola",
+          "name": "Costa Viola",
+          "category": "coastal",
+          "blurb": "The 'Violet Coast' between Bagnara and Scilla, where steep terraced cliffs drop to a sea that glows purple at sunset. Some of Calabria's most dramatic shoreline, threaded by old fishermen's paths.",
+          "lat": 38.27,
+          "lon": 15.79,
+          "photo": {
+            "file": "assets/photos/bagnara/costa-viola.webp",
+            "author": "Martuna.22",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Costa_viola.jpg",
+            "credit": "Martuna.22 — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "bagnara-torre-aragonese",
+          "name": "Torre Aragonese",
+          "category": "history",
+          "blurb": "The squat coastal watchtower, also called the Torre Ruggiero, raised to spot raiders approaching from the sea. A weathered survivor of the town's fortified past, looking out over the gulf.",
+          "lat": 38.2845,
+          "lon": 15.8035,
+          "photo": {
+            "file": "assets/photos/bagnara/torre-aragonese.webp",
+            "author": "Antonina Dattola",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_Aragonese_(Bagnara).jpg",
+            "credit": "Antonina Dattola — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "bagnara-chiesa-di-maria-ss-del-carmelo",
+          "name": "Chiesa di Maria SS. del Carmelo",
+          "category": "culture",
+          "blurb": "Bagnara's grand parish church, rebuilt after the region's devastating earthquakes, with a richly worked interior honoring the Madonna del Carmine. The focus of the town's feast-day processions.",
+          "lat": 38.288,
+          "lon": 15.8085,
+          "photo": {
+            "file": "assets/photos/bagnara/chiesa-di-maria-ss-del-carmelo.webp",
+            "author": "Domgio82",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bagnara_Calabra_(RC)_-_chiesa_di_Maria_Santissima_del_Carmelo_-_02.jpg",
+            "credit": "Domgio82 — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "bagnara-pesce-spada-alla-bagnarese",
+          "name": "Pesce spada alla bagnarese",
+          "category": "food",
+          "blurb": "Swordfish is Bagnara's identity — hunted for centuries from long-prowed 'passerelle' boats in the strait. Eaten grilled, rolled into involtini, or with pasta, it's the dish that defines the town.",
+          "photo": {
+            "file": "assets/photos/bagnara/pesce-spada-alla-bagnarese.webp",
+            "author": "Emőke Dénes",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hal_-_Xiphias_gladius_-_1.jpg",
+            "credit": "Emőke Dénes — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "bagnara-torrone-di-bagnara",
+          "name": "Torrone di Bagnara",
+          "category": "food",
+          "blurb": "An IGP almond nougat made here since the 1800s, in a hard 'martiniana' version and a soft, cocoa-and-spice 'torrefatto'. A sweet souvenir traditionally made by the town's women.",
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/bagnara/torrone-di-bagnara.webp",
+            "author": "Nonolili",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nougat_artisanal.JPG",
+            "credit": "Nonolili — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        }
+      ],
+      "categories": [
+        "coastal",
+        "history",
+        "culture",
+        "food"
+      ],
+      "itinerary": [],
+      "transport": [
+        "Bagnara sits on the Tyrrhenian rail line between Reggio Calabria and Tropea; the station is a short walk from the seafront.",
+        "The A2 'Autostrada del Mediterraneo' passes just above town for drivers.",
+        "It's an easy day-trip pairing with Scilla, a few minutes south along the Costa Viola.",
+        "The center hugs the shore — flat and walkable along the lungomare."
+      ],
+      "foodNotes": [
+        "This is a historic swordfish port — 'pesce spada' grilled, in rolls (involtini), or with pasta.",
+        "Bagnara's almond 'torrone' is an IGP nougat, both the hard and the soft, cocoa-dusted kind.",
+        "Sea-urchin and anchovy pastas show up on summer menus along the coast.",
+        "Pair with a crisp Calabrian white or a sip of bergamot liqueur from down the coast."
+      ],
+      "beachNotes": [
+        "The long pebble-and-sand beach runs the length of the lungomare, right in town.",
+        "The Costa Viola's clear, deep water takes on a violet sheen at dusk — the coast's namesake.",
+        "Quieter coves hide north toward Palmi beneath the cliffs.",
+        "Early-October swimming is still pleasant (~74°F) with the beaches near-empty."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "hero": {
+        "file": "assets/photos/bagnara/bagnara-hero.webp",
+        "author": "Jacopo Werther",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lungomare_di_Bagnara_Calabra_-_Province_of_Reggio_Calabria,_Italy_-_18_Oct._2014.jpg",
+        "credit": "Jacopo Werther — CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "map": {
+        "file": "assets/maps/bagnara.webp",
+        "z": 15,
+        "worldLeft": 4561653,
+        "worldTop": 3226861,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "slug": "tropea",
+      "name": "Tropea",
+      "region": "Calabria",
+      "tagline": "A cliff-top old town above a sweep of white sand and turquoise sea.",
+      "intro": "Tropea is a resort town in the province of Vibo Valentia, in the Italian region of Calabria. It is one of I Borghi più belli d'Italia. It has 5,661 inhabitants.",
+      "lat": 38.67538,
+      "lon": 15.89479,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 23,
+        "avgLowC": 18,
+        "avgHighF": 73,
+        "avgLowF": 64,
+        "rainDayPct": 40,
+        "sampleYears": "2014–2024",
+        "seaTempC": 24,
+        "seaTempF": 75
+      },
+      "sun": {
+        "sunrise": "6:55 AM",
+        "sunset": "6:34 PM",
+        "goldenHourEvening": "5:59 PM"
+      },
+      "pois": [
+        {
+          "id": "tropea-santa-maria-dell-isola",
+          "name": "Santa Maria dell'Isola",
+          "category": "coastal",
+          "blurb": "A medieval sanctuary perched on its own rocky islet between the town cliff and the beach — Tropea's defining image. Climb the cut-stone stairs through terraced gardens for a Tyrrhenian panorama in every direction.",
+          "lat": 38.6757,
+          "lon": 15.8967,
+          "photo": {
+            "file": "assets/photos/tropea/santa-maria-dell-isola.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Santa_Maria_dell%27Isola_-_1.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-spiaggia-della-rotonda",
+          "name": "Spiaggia della Rotonda",
+          "category": "coastal",
+          "blurb": "The luminous white-sand beach directly below the old town, lapped by water so clear it looks tropical. The classic spot to swim with the cliff, the cathedral, and Santa Maria dell'Isola rising overhead.",
+          "lat": 38.677,
+          "lon": 15.8975,
+          "photo": {
+            "file": "assets/photos/tropea/spiaggia-della-rotonda.webp",
+            "author": "Norbert Nagel",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_in_Tropea_-_Calabria_-_Italy_-_July_17th_2013_-_02.jpg",
+            "credit": "Norbert Nagel — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-capo-vaticano",
+          "name": "Capo Vaticano",
+          "category": "coastal",
+          "blurb": "A granite headland just south of town, ranked among Italy's finest beaches — a string of turquoise coves and white-sand pockets reached by paths down the cliffs. A short trip for a wilder, postcard swim.",
+          "lat": 38.6189,
+          "lon": 15.8281,
+          "photo": {
+            "file": "assets/photos/tropea/capo-vaticano.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ricadi_-_Capo_Vaticano_-_02.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-porto-di-tropea",
+          "name": "Porto di Tropea",
+          "category": "coastal",
+          "blurb": "The small marina at the foot of the cliffs, where fishing boats and pleasure craft tie up beneath the floodlit old town. A relaxed place for a sunset passeggiata and a seafood dinner by the water.",
+          "lat": 38.6797,
+          "lon": 15.8955,
+          "photo": {
+            "file": "assets/photos/tropea/porto-di-tropea.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Porto_al_tramonto.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-cattedrale-di-tropea",
+          "name": "Cattedrale di Tropea",
+          "category": "history",
+          "blurb": "The Norman cathedral at the town's core, founded in the 12th century and rebuilt after earthquakes, guarding a venerated Byzantine icon and two undetonated WWII bombs by the door. A cool, solemn stop among the lanes.",
+          "lat": 38.6772,
+          "lon": 15.8989,
+          "photo": {
+            "file": "assets/photos/tropea/cattedrale-di-tropea.webp",
+            "author": "Maurizio Moro5153",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duomo_di_Tropea.jpg",
+            "credit": "Maurizio Moro5153 — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-corso-vittorio-emanuele",
+          "name": "Corso Vittorio Emanuele",
+          "category": "culture",
+          "blurb": "The old town's pedestrian spine, lined with noble palazzi, gelaterias, and shops braiding the famous red onions into garlands. The stage for Tropea's evening stroll, ending at the cliff-edge belvederes.",
+          "lat": 38.6775,
+          "lon": 15.8983,
+          "photo": {
+            "file": "assets/photos/tropea/corso-vittorio-emanuele.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Corso_Vittorio_Emanuele.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-veduta-da-via-carmine",
+          "name": "Veduta da Via Carmine",
+          "category": "culture",
+          "blurb": "The cliff-top viewpoint where the town meets the void — pastel houses balanced on the tufa edge above the sea, with Santa Maria dell'Isola below. One of the most photographed panoramas on the whole coast.",
+          "lat": 38.6779,
+          "lon": 15.8978,
+          "photo": {
+            "file": "assets/photos/tropea/veduta-da-via-carmine.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Veduta_da_Via_Carmine_-_3.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-belvedere-del-cannone",
+          "name": "Belvedere del Cannone",
+          "category": "outdoors",
+          "blurb": "A small clifftop terrace built around an old cannon, framing the islet sanctuary and the bay in a single sweep. The prime perch for sunset, when the whole coast turns gold and rose.",
+          "lat": 38.6764,
+          "lon": 15.8973,
+          "photo": {
+            "file": "assets/photos/tropea/belvedere-del-cannone.webp",
+            "author": "Benjamin Smith",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Belvedere_del_Cannone_-_2.jpg",
+            "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-cipolla-rossa-di-tropea",
+          "name": "Cipolla rossa di Tropea",
+          "category": "food",
+          "blurb": "Tropea's prized sweet red onion, an IGP product so mild it's eaten raw, candied into marmalade, and even churned into gelato. You'll see it braided in every shop window — buy a string to take home.",
+          "photo": {
+            "file": "assets/photos/tropea/cipolla-rossa-di-tropea.webp",
+            "author": "Maaimpex",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_Red_Onion.jpg",
+            "credit": "Maaimpex — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-nduja-calabrese",
+          "name": "'Nduja calabrese",
+          "category": "food",
+          "blurb": "Calabria's soft, fiery, spreadable salami, shot through with the region's hot peppers. Smear it on warm bread, stir it into pasta, or melt it over pizza — the unmistakable taste of the Calabrian table.",
+          "photo": {
+            "file": "assets/photos/tropea/nduja-calabrese.webp",
+            "author": "Alice Wiegand",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nduja_mit_Brot.jpg",
+            "credit": "Alice Wiegand — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "tropea-tartufo-di-pizzo",
+          "name": "Tartufo di Pizzo",
+          "category": "food",
+          "blurb": "In nearby Pizzo, the tartufo is a hand-formed ball of hazelnut and chocolate gelato with a molten cocoa heart, dusted in cocoa. A short trip up the coast for one of Calabria's great sweet rituals.",
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/tropea/tartufo-di-pizzo.webp",
+            "author": "Filipa Gonçalves",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tartufo_nero_di_Pizzo.jpg",
+            "credit": "Filipa Gonçalves — CC BY-SA 2.0 (Wikimedia Commons)"
+          }
+        }
+      ],
+      "categories": [
+        "coastal",
+        "outdoors",
+        "history",
+        "culture",
+        "food"
+      ],
+      "itinerary": [],
+      "transport": [
+        "Tropea has its own rail station on the Tyrrhenian coastal line; trains link Lamezia Terme and Reggio Calabria.",
+        "Lamezia Terme (SUF) is the nearest airport, about an hour north by car or train.",
+        "The historic center sits on the cliff and is walkable; long staircases drop to the beach below.",
+        "Summer boats run to Capo Vaticano's coves and along the Coast of the Gods."
+      ],
+      "foodNotes": [
+        "The sweet 'cipolla rossa di Tropea' (red onion) flavors everything from marmalade to gelato.",
+        "'Nduja, Calabria's fiery spreadable salami, turns up on bread, pasta, and pizza.",
+        "Swordfish, anchovies, and 'fileja' pasta with pork ragù are coastal-Calabrian staples.",
+        "Just up the coast in Pizzo, the 'tartufo' chocolate-and-hazelnut gelato bomb is a must."
+      ],
+      "beachNotes": [
+        "The main town beach below Santa Maria dell'Isola has fine white sand and clear, shallow water.",
+        "Spiaggia della Rotonda and the marina beaches sit right under the old-town cliff.",
+        "Capo Vaticano, a short hop south, hides some of Calabria's most beautiful coves.",
+        "Early-October sea stays warm (~75°F) with far fewer crowds than August."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "hero": {
+        "file": "assets/photos/tropea/tropea-hero.webp",
+        "author": "Benjamin Smith",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropea_-_Santa_Maria_dell%27Isola_al_tramonto.jpg",
+        "credit": "Benjamin Smith — CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "map": {
+        "file": "assets/maps/tropea.webp",
+        "z": 13,
+        "worldLeft": 1140188,
+        "worldTop": 803510,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "slug": "olbia",
+      "name": "Olbia & Costa Smeralda",
+      "region": "Sardinia",
+      "tagline": "Gateway to the Emerald Coast — granite bays, turquoise water, and the wildest sea in the Mediterranean.",
+      "intro": "Olbia is a city and comune (municipality), which along with Tempio Pausania is a co-capital of the Province of Gallura North-East Sardinia in the autonomous island region of Sardinia in Italy, in the historical region of Gallura. It has 61,739 inhabitants.",
+      "lat": 40.91666667,
+      "lon": 9.5,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 24,
+        "avgLowC": 16,
+        "avgHighF": 75,
+        "avgLowF": 61,
+        "rainDayPct": 22,
+        "sampleYears": "2014–2024",
+        "seaTempC": 21,
+        "seaTempF": 70
+      },
+      "sun": {
+        "sunrise": "7:22 AM",
+        "sunset": "6:58 PM",
+        "goldenHourEvening": "6:22 PM"
+      },
+      "pois": [
+        {
+          "id": "olbia-spiaggia-del-principe",
+          "name": "Spiaggia del Principe",
+          "category": "coastal",
+          "blurb": "Named for Aga Khan IV, who discovered the Costa Smeralda here in the 1960s and built a luxury resort empire around it. A crescent of fine white sand between sculpted granite boulders, with water that seems impossible in its clarity.",
+          "lat": 41.0636,
+          "lon": 9.3847,
+          "photo": {
+            "file": "assets/photos/olbia/spiaggia-del-principe.webp",
+            "author": "Ökologix",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gallura_banner.jpg",
+            "credit": "Ökologix — CC0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "olbia-liscia-ruja",
+          "name": "Liscia Ruja",
+          "category": "coastal",
+          "blurb": "The Costa Smeralda's longest beach — a broad sweep of pale sand and shallow water between two granite headlands. Wide enough to feel uncrowded even in season, and sheltered enough for easy swimming when the mistral picks up.",
+          "lat": 41.0533,
+          "lon": 9.3919
+        },
+        {
+          "id": "olbia-porto-cervo",
+          "name": "Porto Cervo",
+          "category": "culture",
+          "blurb": "The gilded heart of the Costa Smeralda — a purpose-built 1960s village of arched lanes and terracotta facades framing a harbor full of superyachts. Come for a coffee and a stroll, stay for the aperitivo and the boats.",
+          "lat": 41.1303,
+          "lon": 9.5239
+        },
+        {
+          "id": "olbia-capriccioli",
+          "name": "Capriccioli",
+          "category": "coastal",
+          "blurb": "A sheltered granite bay with small sandy pockets and brilliantly clear, calm water — one of the easier Costa Smeralda beaches to reach on foot from a small roadside car park. The rocky ledges reward snorkelers and those who stay for the afternoon light.",
+          "lat": 41.0997,
+          "lon": 9.4158
+        },
+        {
+          "id": "olbia-la-maddalena-archipelago",
+          "name": "La Maddalena Archipelago",
+          "category": "outdoors",
+          "blurb": "A national park of seven islands and dozens of islets north of Palau, with some of the most transparent water in Italy. Boat tours from Palau or Olbia visit the pink-tinged Spiaggia Rosa of Budelli and swim at Spargi's crystalline coves.",
+          "lat": 41.2138,
+          "lon": 9.4078,
+          "photo": {
+            "file": "assets/photos/olbia/la-maddalena-archipelago.webp",
+            "author": "Eppa00",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:3A4A3254.jpg",
+            "credit": "Eppa00 — CC0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "olbia-baja-sardinia",
+          "name": "Baja Sardinia",
+          "category": "coastal",
+          "blurb": "A small resort village between Porto Rotondo and Porto Cervo with a good beach, a marina, and a more relaxed atmosphere than its glamorous neighbors. A practical base with easy access to the coast's best roads and coves.",
+          "lat": 41.1547,
+          "lon": 9.4783,
+          "photo": {
+            "file": "assets/photos/olbia/baja-sardinia.webp",
+            "author": "horsch",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baja_Beach_Panorama_-_panoramio.jpg",
+            "credit": "horsch — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "olbia-pane-carasau",
+          "name": "Pane carasau",
+          "category": "food",
+          "blurb": "Sardinia's iconic crispy flatbread — fired twice in a wood oven until it shatters into paper-thin sheets. Served with olive oil and sea salt, topped with a slow-cooked egg (pane frattau), or alongside boards of local cured meats and cheese.",
+          "photo": {
+            "file": "assets/photos/olbia/pane-carasau.webp",
+            "author": "No machine-readable author provided. Shardan assumed (based on copyright claims).",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pane_carasadu1.JPG",
+            "credit": "No machine-readable author provided. Shardan assumed (based on copyright claims). — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "olbia-culurgiones",
+          "name": "Culurgiones",
+          "category": "food",
+          "blurb": "Hand-pleated pasta parcels sealed with a wheat-ear crimp and stuffed with potato, pecorino, and mint — one of Sardinia's most distinctive comfort dishes. Best from an agriturismo kitchen, served simply with tomato sauce and a wedge of pecorino."
+        },
+        {
+          "id": "olbia-cannonau-di-sardegna",
+          "name": "Cannonau di Sardegna",
+          "category": "drink",
+          "blurb": "Sardinia's great native red — dense, sun-baked, and related to Grenache but unmistakably its own. Poured at dinner tables across the island alongside roast lamb, porceddu from the fire, and the evening air cooling off the coast."
+        },
+        {
+          "id": "olbia-chiesa-di-stella-maris",
+          "name": "Chiesa di Stella Maris",
+          "category": "history",
+          "blurb": "The church is a landmark of Porto Cervo, built in the 1960s by the architect Michele Busiri Vici in so-called neo-Sardinian style which was inspired by the Nuragic monuments of Sardinia, the traditional architecture of the Greek islands and the Byzantine architecture of Orthodox Christianity. The church hosts the original of the Mater Dolorosa by El Greco. The church is decorated with sculptures, furniture and the bronze doors with Annunciation bas-reliefs by the sculptor Luciano Minguzzi. An 18th-century pipe organ is in there. The sculptures of St. Joseph and Pope Giovanni Paolo II by Pinuccio Sciola are installed outside. The architectural simplicity of the church contrasts with the luxury of the yacht marina and the jet set life around. The church's location offers panoramic views of the entire bay.",
+          "lat": 41.1333,
+          "lon": 9.53085
+        }
+      ],
+      "categories": [
+        "coastal",
+        "outdoors",
+        "history",
+        "culture",
+        "food",
+        "drink"
+      ],
+      "itinerary": [],
+      "transport": [
+        "Olbia Costa Smeralda Airport (OLB) sits 5 km from town; AeroItalia and others link it to Rome Fiumicino year-round.",
+        "A hire car is essential — the beaches are spread across 55 km of coast and buses are limited in October.",
+        "Porto Cervo and the main resort towns are 25–40 km north of Olbia along the SP73 coast road.",
+        "Palau (40 km north) is the ferry departure for the La Maddalena archipelago national park."
+      ],
+      "foodNotes": [
+        "Pane carasau, the paper-thin twice-fired Sardinian flatbread, is eaten with everything — drizzled with olive oil or torn beside cured meats.",
+        "Bottarga (cured grey-mullet roe) is grated over pasta or sliced thin with oil and lemon; seadas (fried cheese pastry under bitter Sardinian honey) closes the meal.",
+        "Culurgiones — pasta parcels crimped in a wheat-ear pattern, stuffed with potato and pecorino — are the island's great comfort dish.",
+        "Cannonau, Sardinia's dense sun-baked red, is the island's table wine; pair it with porceddu (roast suckling pig) at an agriturismo.",
+        "Drink chilled Vermentino di Gallura with the seafood — fresh catch from the Costa Smeralda boats or a bowl of fregola ai frutti di mare."
+      ],
+      "beachNotes": [
+        "The Costa Smeralda is ranked among Europe's most beautiful coasts — granite-sculpted bays, white sand, and water that shifts through every shade of turquoise.",
+        "Spiaggia del Principe and Liscia Ruja are the showstoppers north of Porto Cervo; arrive early as small car parks fill by mid-morning.",
+        "Capriccioli is more sheltered, with calm shallow water between low granite rocks — ideal for a long, easy swim.",
+        "In early October, sea temperatures sit around 72–74°F and the summer crowds thin sharply — peak prices drop but the coast stays stunning."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "map": {
+        "file": "assets/maps/olbia.webp",
+        "z": 12,
+        "worldLeft": 551036,
+        "worldTop": 392022,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      }
+    },
+    {
+      "slug": "alghero",
+      "name": "Alghero",
+      "region": "Sardinia",
+      "tagline": "A walled Catalan city on Sardinia's Coral Riviera, where Algherese is still spoken and the sea laps golden ramparts.",
+      "intro": "Alghero is a city and comune (municipality) in the Metropolitan City of Sassari in the northwest of the autonomous island region of Sardinia in Italy, next to the Mediterranean Sea. With a population of 41,765, it is the 5th-largest city in Sardinia.",
+      "lat": 40.56,
+      "lon": 8.315,
+      "weather": {
+        "label": "Early October",
+        "avgHighC": 23,
+        "avgLowC": 17,
+        "avgHighF": 73,
+        "avgLowF": 63,
+        "rainDayPct": 25,
+        "sampleYears": "2014–2024",
+        "seaTempC": 21,
+        "seaTempF": 70
+      },
+      "sun": {
+        "sunrise": "7:26 AM",
+        "sunset": "7:03 PM",
+        "goldenHourEvening": "6:27 PM"
+      },
+      "pois": [
+        {
+          "id": "alghero-centro-storico-old-town",
+          "name": "Centro Storico (Old Town)",
+          "category": "culture",
+          "blurb": "A labyrinth of cobbled lanes inside the walls where shop signs read in Catalan and balconies trail bougainvillea. Whimsical strung-up birdcages and lanterns make the narrow streets feel like an open-air stage.",
+          "lat": 40.5589,
+          "lon": 8.3155,
+          "photo": {
+            "file": "assets/photos/alghero/centro-storico-old-town.webp",
+            "author": "Mattambo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Ferret_Street_in_Alghero.jpg",
+            "credit": "Mattambo — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-bastioni-sea-walls",
+          "name": "Bastioni (Sea Walls)",
+          "category": "history",
+          "blurb": "Honey-coloured 16th-century ramparts rise straight from the rocks, their broad promenade hanging over the surf. It is Alghero's living room, where the whole town strolls at sunset above the breaking waves.",
+          "lat": 40.5582,
+          "lon": 8.3128
+        },
+        {
+          "id": "alghero-cattedrale-di-santa-maria",
+          "name": "Cattedrale di Santa Maria",
+          "category": "history",
+          "blurb": "The cathedral hides a Catalan-Gothic interior behind a stately neoclassical portico of fluted columns. Climb its octagonal bell tower for a rooftop panorama over the terracotta old town and the bay.",
+          "lat": 40.559,
+          "lon": 8.3146
+        },
+        {
+          "id": "alghero-chiesa-di-san-michele",
+          "name": "Chiesa di San Michele",
+          "category": "art",
+          "blurb": "The Jesuit church's glory is outside: a great dome sheathed in glazed majolica tiles laid in a dizzying diamond of red, green, yellow, and blue. It glints above the rooftops as Alghero's most photographed silhouette.",
+          "lat": 40.5586,
+          "lon": 8.316
+        },
+        {
+          "id": "alghero-torre-di-sulis",
+          "name": "Torre di Sulis",
+          "category": "history",
+          "blurb": "A squat, massive cylindrical tower anchoring the southern bastions, built to repel corsairs and later a prison. Its piazza is one of the old town's best vantage points over the open sea.",
+          "lat": 40.5575,
+          "lon": 8.314,
+          "photo": {
+            "file": "assets/photos/alghero/torre-di-sulis.webp",
+            "author": "Alexkom000",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-10-09_Alghero,_Torre_di_Sulis_1.jpg",
+            "credit": "Alexkom000 — CC BY 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-torre-di-porta-terra",
+          "name": "Torre di Porta Terra",
+          "category": "history",
+          "blurb": "The great landward gate-tower once sealed the only entrance through the walls, its stone scorched amber by centuries of sun. Known as the Jewish Tower, it recalls the medieval community that helped build it.",
+          "lat": 40.5601,
+          "lon": 8.3171
+        },
+        {
+          "id": "alghero-porto-di-alghero-marina",
+          "name": "Porto di Alghero (Marina)",
+          "category": "coastal",
+          "blurb": "A forest of sailboat masts and bobbing fishing gozzi fills the harbour beneath the old-town walls. It is the launch point for coastal cruises and the place to watch the catch come in at dusk.",
+          "lat": 40.561,
+          "lon": 8.312
+        },
+        {
+          "id": "alghero-capo-caccia",
+          "name": "Capo Caccia",
+          "category": "outdoors",
+          "blurb": "A vast limestone headland that rears out of the sea in sheer white cliffs, crowned by a lighthouse. The promontory shelters nesting griffon vultures and frames the Coral Riviera's most cinematic seascape.",
+          "lat": 40.564,
+          "lon": 8.168
+        },
+        {
+          "id": "alghero-grotta-di-nettuno-neptune-s-grotto",
+          "name": "Grotta di Nettuno (Neptune's Grotto)",
+          "category": "outdoors",
+          "blurb": "A spectacular sea cave at the foot of Capo Caccia, where floodlit stalactites and an emerald saltwater lake mirror the dripping vaults. Reach it by boat from the port or by descending the cliff staircase.",
+          "lat": 40.5586,
+          "lon": 8.1576,
+          "photo": {
+            "file": "assets/photos/alghero/grotta-di-nettuno-neptune-s-grotto.webp",
+            "author": "JYB Devot",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotta_di_Nettuno_873-874mod.jpg",
+            "credit": "JYB Devot — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-spiaggia-di-maria-pia",
+          "name": "Spiaggia di Maria Pia",
+          "category": "coastal",
+          "blurb": "A long crescent of pale sand backed by a fragrant umbrella-pine forest and low dunes. Its shallow, gently shelving water makes it the most relaxed swim close to town.",
+          "lat": 40.578,
+          "lon": 8.292,
+          "photo": {
+            "file": "assets/photos/alghero/spiaggia-di-maria-pia.webp",
+            "author": "Gianni Careddu",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alghero,_spiaggia_di_Maria_Pia_(01).jpg",
+            "credit": "Gianni Careddu — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-sella-mosca-vermentino",
+          "name": "Sella & Mosca / Vermentino",
+          "category": "drink",
+          "blurb": "Alghero's wine identity centres on crisp Vermentino and the rare Torbato, much of it from the historic Sella & Mosca estate north of town. A chilled glass beside grilled fish is the essential local ritual.",
+          "lat": 40.5933,
+          "lon": 8.2667,
+          "photo": {
+            "file": "assets/photos/alghero/sella-mosca-vermentino.webp",
+            "author": "Roberto Ventre",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermentino_di_Sardegna.jpg",
+            "credit": "Roberto Ventre — CC BY-SA 2.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-fregola-ai-frutti-di-mare",
+          "name": "Fregola ai frutti di mare",
+          "category": "food",
+          "blurb": "Toasted semolina pearls simmered with mussels, clams, and prawns in a saffron-gold broth, Sardinia's answer to a seafood risotto. It captures the island's grain-and-sea cooking in one bowl.",
+          "lat": 40.5589,
+          "lon": 8.3148,
+          "photo": {
+            "file": "assets/photos/alghero/fregola-ai-frutti-di-mare.webp",
+            "author": "Simon Legner (User:simon04)",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregola_ai_frutti_di_mare_(IMG_20260515_203730).jpg",
+            "credit": "Simon Legner (User:simon04) — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-escala-del-cabirol",
+          "name": "Escala del Cabirol",
+          "category": "outdoors",
+          "blurb": "A vertiginous staircase of 654 steps that zigzags down the sheer face of Capo Caccia to the grotto's mouth. The descent past the open Mediterranean is as breathtaking as the cave below.",
+          "lat": 40.5595,
+          "lon": 8.159,
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/alghero/escala-del-cabirol.webp",
+            "author": "Falk2",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:14_639_Escala_de_Cabirol.jpg",
+            "credit": "Falk2 — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-le-bombarde",
+          "name": "Le Bombarde",
+          "category": "coastal",
+          "blurb": "The locals' beach near Fertilia, with brilliant turquoise shallows and fine sand sheltered by a rocky point. Clear water and easy entry make it ideal for swimming and snorkeling.",
+          "lat": 40.5944,
+          "lon": 8.2386,
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/alghero/le-bombarde.webp",
+            "author": "Silvia Franceschetti",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Bombarde_-_panoramio.jpg",
+            "credit": "Silvia Franceschetti — CC BY-SA 3.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-spiaggia-del-lazzaretto",
+          "name": "Spiaggia del Lazzaretto",
+          "category": "coastal",
+          "blurb": "A small, sheltered cove tucked into green hills just past Le Bombarde, named for the old quarantine tower above. Calm and scenic, it rewards anyone willing to wander a little farther up the coast.",
+          "lat": 40.598,
+          "lon": 8.233,
+          "hiddenGem": true,
+          "photo": {
+            "file": "assets/photos/alghero/spiaggia-del-lazzaretto.webp",
+            "author": "Gianni Careddu",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alghero,_spiaggia_del_Lazzaretto_(01).jpg",
+            "credit": "Gianni Careddu — CC BY-SA 4.0 (Wikimedia Commons)"
+          }
+        },
+        {
+          "id": "alghero-spaghetti-ai-ricci-di-mare",
+          "name": "Spaghetti ai ricci di mare",
+          "category": "food",
+          "blurb": "Spaghetti tossed with the briny orange roe of freshly opened sea urchins, a delicacy harvested along this coast in the cooler months. Simple, intense, and unmistakably Algherese.",
+          "lat": 40.5592,
+          "lon": 8.3152,
+          "hiddenGem": true
+        }
+      ],
+      "categories": [
+        "coastal",
+        "outdoors",
+        "history",
+        "art",
+        "culture",
+        "food",
+        "drink"
+      ],
+      "itinerary": [],
+      "transport": [
+        "Alghero-Fertilia airport (AHO) sits 6 miles north; the local ASP/ARST bus and shared minibuses run into town, or it's a quick taxi.",
+        "The historic centre is car-free and entirely walkable; park outside the walls near the port or Via Garibaldi and explore on foot.",
+        "ARST buses connect Alghero to Sassari, Bosa, and the beaches at Fertilia, Maria Pia, and Le Bombarde in summer.",
+        "Reach Grotta di Nettuno by boat from the port (scenic ~45-min coastal cruise) or by car to Capo Caccia plus the cliff staircase."
+      ],
+      "foodNotes": [
+        "Aragosta alla catalana is the signature splurge: poached spiny lobster dressed simply with tomato, sweet onion, and olive oil, a Catalan legacy.",
+        "Order fregola ai frutti di mare (toasted Sardinian pasta-pearls in a saffron seafood broth) and spaghetti ai ricci di mare when sea urchins are in season.",
+        "Drink local whites from the Sella & Mosca estate just outside town: crisp Vermentino and the rare, aromatic Torbato grown almost only here.",
+        "Eat along the Bastioni or in the old-town lanes; finish with seadas, the fried pastry of soft cheese drizzled with bitter Sardinian honey."
+      ],
+      "beachNotes": [
+        "Spiaggia di Maria Pia, just southwest of town behind a pine-and-dune belt, has soft white sand and shallow, kid-friendly water.",
+        "Le Bombarde and the adjacent Lazzaretto cove (toward Fertilia) are the locals' favourites for clear turquoise swimming and snorkeling.",
+        "Early October is prime: thinning crowds and a sea still warm at around 72-73°F, comfortable for long swims.",
+        "The dramatic limestone cliffs of Capo Caccia drop straight into deep blue water, ideal for boat trips and viewing the Coral Riviera rather than sunbathing."
+      ],
+      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
+      "map": {
+        "file": "assets/maps/alghero.webp",
+        "z": 13,
+        "worldLeft": 1095762,
+        "worldTop": 788926,
+        "w": 1600,
+        "h": 1200,
+        "attribution": "© OpenStreetMap contributors"
+      },
+      "hero": {
+        "file": "assets/photos/alghero/alghero-hero.webp",
+        "author": "Basilicofresco",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bastioni_di_Alghero_e_il_campanile_di_Santa_Maria.jpg",
+        "credit": "Basilicofresco — CC BY-SA 4.0 (Wikimedia Commons)"
       }
     },
     {
@@ -2995,283 +3443,6 @@ window.__ITALY__ = {
         "w": 1600,
         "h": 1200,
         "attribution": "© OpenStreetMap contributors"
-      }
-    },
-    {
-      "slug": "alghero",
-      "name": "Alghero",
-      "region": "Sardinia",
-      "tagline": "A walled Catalan city on Sardinia's Coral Riviera, where Algherese is still spoken and the sea laps golden ramparts.",
-      "intro": "Alghero is a city and comune (municipality) in the Metropolitan City of Sassari in the northwest of the autonomous island region of Sardinia in Italy, next to the Mediterranean Sea. With a population of 41,765, it is the 5th-largest city in Sardinia.",
-      "lat": 40.56,
-      "lon": 8.315,
-      "weather": {
-        "label": "Early October",
-        "avgHighC": 23,
-        "avgLowC": 17,
-        "avgHighF": 73,
-        "avgLowF": 63,
-        "rainDayPct": 25,
-        "sampleYears": "2014–2024",
-        "seaTempC": 21,
-        "seaTempF": 70
-      },
-      "sun": {
-        "sunrise": "7:26 AM",
-        "sunset": "7:03 PM",
-        "goldenHourEvening": "6:27 PM"
-      },
-      "pois": [
-        {
-          "id": "alghero-centro-storico-old-town",
-          "name": "Centro Storico (Old Town)",
-          "category": "culture",
-          "blurb": "A labyrinth of cobbled lanes inside the walls where shop signs read in Catalan and balconies trail bougainvillea. Whimsical strung-up birdcages and lanterns make the narrow streets feel like an open-air stage.",
-          "lat": 40.5589,
-          "lon": 8.3155,
-          "photo": {
-            "file": "assets/photos/alghero/centro-storico-old-town.webp",
-            "author": "Mattambo",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Ferret_Street_in_Alghero.jpg",
-            "credit": "Mattambo — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-bastioni-sea-walls",
-          "name": "Bastioni (Sea Walls)",
-          "category": "history",
-          "blurb": "Honey-coloured 16th-century ramparts rise straight from the rocks, their broad promenade hanging over the surf. It is Alghero's living room, where the whole town strolls at sunset above the breaking waves.",
-          "lat": 40.5582,
-          "lon": 8.3128
-        },
-        {
-          "id": "alghero-cattedrale-di-santa-maria",
-          "name": "Cattedrale di Santa Maria",
-          "category": "history",
-          "blurb": "The cathedral hides a Catalan-Gothic interior behind a stately neoclassical portico of fluted columns. Climb its octagonal bell tower for a rooftop panorama over the terracotta old town and the bay.",
-          "lat": 40.559,
-          "lon": 8.3146
-        },
-        {
-          "id": "alghero-chiesa-di-san-michele",
-          "name": "Chiesa di San Michele",
-          "category": "art",
-          "blurb": "The Jesuit church's glory is outside: a great dome sheathed in glazed majolica tiles laid in a dizzying diamond of red, green, yellow, and blue. It glints above the rooftops as Alghero's most photographed silhouette.",
-          "lat": 40.5586,
-          "lon": 8.316
-        },
-        {
-          "id": "alghero-torre-di-sulis",
-          "name": "Torre di Sulis",
-          "category": "history",
-          "blurb": "A squat, massive cylindrical tower anchoring the southern bastions, built to repel corsairs and later a prison. Its piazza is one of the old town's best vantage points over the open sea.",
-          "lat": 40.5575,
-          "lon": 8.314,
-          "photo": {
-            "file": "assets/photos/alghero/torre-di-sulis.webp",
-            "author": "Alexkom000",
-            "license": "CC BY 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-10-09_Alghero,_Torre_di_Sulis_1.jpg",
-            "credit": "Alexkom000 — CC BY 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-torre-di-porta-terra",
-          "name": "Torre di Porta Terra",
-          "category": "history",
-          "blurb": "The great landward gate-tower once sealed the only entrance through the walls, its stone scorched amber by centuries of sun. Known as the Jewish Tower, it recalls the medieval community that helped build it.",
-          "lat": 40.5601,
-          "lon": 8.3171
-        },
-        {
-          "id": "alghero-porto-di-alghero-marina",
-          "name": "Porto di Alghero (Marina)",
-          "category": "coastal",
-          "blurb": "A forest of sailboat masts and bobbing fishing gozzi fills the harbour beneath the old-town walls. It is the launch point for coastal cruises and the place to watch the catch come in at dusk.",
-          "lat": 40.561,
-          "lon": 8.312
-        },
-        {
-          "id": "alghero-capo-caccia",
-          "name": "Capo Caccia",
-          "category": "outdoors",
-          "blurb": "A vast limestone headland that rears out of the sea in sheer white cliffs, crowned by a lighthouse. The promontory shelters nesting griffon vultures and frames the Coral Riviera's most cinematic seascape.",
-          "lat": 40.564,
-          "lon": 8.168
-        },
-        {
-          "id": "alghero-grotta-di-nettuno-neptune-s-grotto",
-          "name": "Grotta di Nettuno (Neptune's Grotto)",
-          "category": "outdoors",
-          "blurb": "A spectacular sea cave at the foot of Capo Caccia, where floodlit stalactites and an emerald saltwater lake mirror the dripping vaults. Reach it by boat from the port or by descending the cliff staircase.",
-          "lat": 40.5586,
-          "lon": 8.1576,
-          "photo": {
-            "file": "assets/photos/alghero/grotta-di-nettuno-neptune-s-grotto.webp",
-            "author": "JYB Devot",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotta_di_Nettuno_873-874mod.jpg",
-            "credit": "JYB Devot — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-spiaggia-di-maria-pia",
-          "name": "Spiaggia di Maria Pia",
-          "category": "coastal",
-          "blurb": "A long crescent of pale sand backed by a fragrant umbrella-pine forest and low dunes. Its shallow, gently shelving water makes it the most relaxed swim close to town.",
-          "lat": 40.578,
-          "lon": 8.292,
-          "photo": {
-            "file": "assets/photos/alghero/spiaggia-di-maria-pia.webp",
-            "author": "Gianni Careddu",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alghero,_spiaggia_di_Maria_Pia_(01).jpg",
-            "credit": "Gianni Careddu — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-sella-mosca-vermentino",
-          "name": "Sella & Mosca / Vermentino",
-          "category": "drink",
-          "blurb": "Alghero's wine identity centres on crisp Vermentino and the rare Torbato, much of it from the historic Sella & Mosca estate north of town. A chilled glass beside grilled fish is the essential local ritual.",
-          "lat": 40.5933,
-          "lon": 8.2667,
-          "photo": {
-            "file": "assets/photos/alghero/sella-mosca-vermentino.webp",
-            "author": "Roberto Ventre",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vermentino_di_Sardegna.jpg",
-            "credit": "Roberto Ventre — CC BY-SA 2.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-fregola-ai-frutti-di-mare",
-          "name": "Fregola ai frutti di mare",
-          "category": "food",
-          "blurb": "Toasted semolina pearls simmered with mussels, clams, and prawns in a saffron-gold broth, Sardinia's answer to a seafood risotto. It captures the island's grain-and-sea cooking in one bowl.",
-          "lat": 40.5589,
-          "lon": 8.3148,
-          "photo": {
-            "file": "assets/photos/alghero/fregola-ai-frutti-di-mare.webp",
-            "author": "Simon Legner (User:simon04)",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregola_ai_frutti_di_mare_(IMG_20260515_203730).jpg",
-            "credit": "Simon Legner (User:simon04) — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-escala-del-cabirol",
-          "name": "Escala del Cabirol",
-          "category": "outdoors",
-          "blurb": "A vertiginous staircase of 654 steps that zigzags down the sheer face of Capo Caccia to the grotto's mouth. The descent past the open Mediterranean is as breathtaking as the cave below.",
-          "lat": 40.5595,
-          "lon": 8.159,
-          "hiddenGem": true,
-          "photo": {
-            "file": "assets/photos/alghero/escala-del-cabirol.webp",
-            "author": "Falk2",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:14_639_Escala_de_Cabirol.jpg",
-            "credit": "Falk2 — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-le-bombarde",
-          "name": "Le Bombarde",
-          "category": "coastal",
-          "blurb": "The locals' beach near Fertilia, with brilliant turquoise shallows and fine sand sheltered by a rocky point. Clear water and easy entry make it ideal for swimming and snorkeling.",
-          "lat": 40.5944,
-          "lon": 8.2386,
-          "hiddenGem": true,
-          "photo": {
-            "file": "assets/photos/alghero/le-bombarde.webp",
-            "author": "Silvia Franceschetti",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Bombarde_-_panoramio.jpg",
-            "credit": "Silvia Franceschetti — CC BY-SA 3.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-spiaggia-del-lazzaretto",
-          "name": "Spiaggia del Lazzaretto",
-          "category": "coastal",
-          "blurb": "A small, sheltered cove tucked into green hills just past Le Bombarde, named for the old quarantine tower above. Calm and scenic, it rewards anyone willing to wander a little farther up the coast.",
-          "lat": 40.598,
-          "lon": 8.233,
-          "hiddenGem": true,
-          "photo": {
-            "file": "assets/photos/alghero/spiaggia-del-lazzaretto.webp",
-            "author": "Gianni Careddu",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alghero,_spiaggia_del_Lazzaretto_(01).jpg",
-            "credit": "Gianni Careddu — CC BY-SA 4.0 (Wikimedia Commons)"
-          }
-        },
-        {
-          "id": "alghero-spaghetti-ai-ricci-di-mare",
-          "name": "Spaghetti ai ricci di mare",
-          "category": "food",
-          "blurb": "Spaghetti tossed with the briny orange roe of freshly opened sea urchins, a delicacy harvested along this coast in the cooler months. Simple, intense, and unmistakably Algherese.",
-          "lat": 40.5592,
-          "lon": 8.3152,
-          "hiddenGem": true
-        }
-      ],
-      "categories": [
-        "coastal",
-        "outdoors",
-        "history",
-        "art",
-        "culture",
-        "food",
-        "drink"
-      ],
-      "itinerary": [],
-      "transport": [
-        "Alghero-Fertilia airport (AHO) sits 6 miles north; the local ASP/ARST bus and shared minibuses run into town, or it's a quick taxi.",
-        "The historic centre is car-free and entirely walkable; park outside the walls near the port or Via Garibaldi and explore on foot.",
-        "ARST buses connect Alghero to Sassari, Bosa, and the beaches at Fertilia, Maria Pia, and Le Bombarde in summer.",
-        "Reach Grotta di Nettuno by boat from the port (scenic ~45-min coastal cruise) or by car to Capo Caccia plus the cliff staircase."
-      ],
-      "foodNotes": [
-        "Aragosta alla catalana is the signature splurge: poached spiny lobster dressed simply with tomato, sweet onion, and olive oil, a Catalan legacy.",
-        "Order fregola ai frutti di mare (toasted Sardinian pasta-pearls in a saffron seafood broth) and spaghetti ai ricci di mare when sea urchins are in season.",
-        "Drink local whites from the Sella & Mosca estate just outside town: crisp Vermentino and the rare, aromatic Torbato grown almost only here.",
-        "Eat along the Bastioni or in the old-town lanes; finish with seadas, the fried pastry of soft cheese drizzled with bitter Sardinian honey."
-      ],
-      "beachNotes": [
-        "Spiaggia di Maria Pia, just southwest of town behind a pine-and-dune belt, has soft white sand and shallow, kid-friendly water.",
-        "Le Bombarde and the adjacent Lazzaretto cove (toward Fertilia) are the locals' favourites for clear turquoise swimming and snorkeling.",
-        "Early October is prime: thinning crowds and a sea still warm at around 72-73°F, comfortable for long swims.",
-        "The dramatic limestone cliffs of Capo Caccia drop straight into deep blue water, ideal for boat trips and viewing the Coral Riviera rather than sunbathing."
-      ],
-      "generatedFrom": "Wikivoyage & Wikipedia (CC BY-SA); photos via Wikimedia Commons",
-      "map": {
-        "file": "assets/maps/alghero.webp",
-        "z": 13,
-        "worldLeft": 1095762,
-        "worldTop": 788926,
-        "w": 1600,
-        "h": 1200,
-        "attribution": "© OpenStreetMap contributors"
-      },
-      "hero": {
-        "file": "assets/photos/alghero/alghero-hero.webp",
-        "author": "Basilicofresco",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bastioni_di_Alghero_e_il_campanile_di_Santa_Maria.jpg",
-        "credit": "Basilicofresco — CC BY-SA 4.0 (Wikimedia Commons)"
       }
     },
     {

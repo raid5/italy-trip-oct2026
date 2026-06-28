@@ -1530,6 +1530,112 @@ export const CITY_CONFIGS: Record<string, CityConfig> = {
       },
     ],
   },
+  olbia: {
+    slug: "olbia",
+    name: "Olbia & Costa Smeralda",
+    region: "Sardinia",
+    tagline: "Gateway to the Emerald Coast — granite bays, turquoise water, and the wildest sea in the Mediterranean.",
+    coastal: true,
+    wikivoyage: "Costa Smeralda",
+    wikipedia: "Olbia",
+    heroQuery: "Costa Smeralda Sardinia beach turquoise",
+    transport: [
+      "Olbia Costa Smeralda Airport (OLB) sits 5 km from town; AeroItalia and others link it to Rome Fiumicino year-round.",
+      "A hire car is essential — the beaches are spread across 55 km of coast and buses are limited in October.",
+      "Porto Cervo and the main resort towns are 25–40 km north of Olbia along the SP73 coast road.",
+      "Palau (40 km north) is the ferry departure for the La Maddalena archipelago national park.",
+    ],
+    foodNotes: [
+      "Pane carasau, the paper-thin twice-fired Sardinian flatbread, is eaten with everything — drizzled with olive oil or torn beside cured meats.",
+      "Bottarga (cured grey-mullet roe) is grated over pasta or sliced thin with oil and lemon; seadas (fried cheese pastry under bitter Sardinian honey) closes the meal.",
+      "Culurgiones — pasta parcels crimped in a wheat-ear pattern, stuffed with potato and pecorino — are the island's great comfort dish.",
+      "Cannonau, Sardinia's dense sun-baked red, is the island's table wine; pair it with porceddu (roast suckling pig) at an agriturismo.",
+      "Drink chilled Vermentino di Gallura with the seafood — fresh catch from the Costa Smeralda boats or a bowl of fregola ai frutti di mare.",
+    ],
+    beachNotes: [
+      "The Costa Smeralda is ranked among Europe's most beautiful coasts — granite-sculpted bays, white sand, and water that shifts through every shade of turquoise.",
+      "Spiaggia del Principe and Liscia Ruja are the showstoppers north of Porto Cervo; arrive early as small car parks fill by mid-morning.",
+      "Capriccioli is more sheltered, with calm shallow water between low granite rocks — ideal for a long, easy swim.",
+      "In early October, sea temperatures sit around 72–74°F and the summer crowds thin sharply — peak prices drop but the coast stays stunning.",
+    ],
+    curatedPois: [
+      {
+        name: "Spiaggia del Principe",
+        category: "coastal",
+        blurb:
+          "Named for Aga Khan IV, who discovered the Costa Smeralda here in the 1960s and built a luxury resort empire around it. A crescent of fine white sand between sculpted granite boulders, with water that seems impossible in its clarity.",
+        lat: 41.0636,
+        lon: 9.3847,
+        photoQuery: "Spiaggia del Principe Costa Smeralda Sardinia",
+      },
+      {
+        name: "Liscia Ruja",
+        category: "coastal",
+        blurb:
+          "The Costa Smeralda's longest beach — a broad sweep of pale sand and shallow water between two granite headlands. Wide enough to feel uncrowded even in season, and sheltered enough for easy swimming when the mistral picks up.",
+        lat: 41.0533,
+        lon: 9.3919,
+        photoQuery: "Liscia Ruja beach Sardinia Costa Smeralda",
+      },
+      {
+        name: "Porto Cervo",
+        category: "culture",
+        blurb:
+          "The gilded heart of the Costa Smeralda — a purpose-built 1960s village of arched lanes and terracotta facades framing a harbor full of superyachts. Come for a coffee and a stroll, stay for the aperitivo and the boats.",
+        lat: 41.1303,
+        lon: 9.5239,
+        photoQuery: "Porto Cervo harbor Sardinia",
+      },
+      {
+        name: "Capriccioli",
+        category: "coastal",
+        blurb:
+          "A sheltered granite bay with small sandy pockets and brilliantly clear, calm water — one of the easier Costa Smeralda beaches to reach on foot from a small roadside car park. The rocky ledges reward snorkelers and those who stay for the afternoon light.",
+        lat: 41.0997,
+        lon: 9.4158,
+        photoQuery: "Capriccioli beach Costa Smeralda Sardinia",
+      },
+      {
+        name: "La Maddalena Archipelago",
+        category: "outdoors",
+        blurb:
+          "A national park of seven islands and dozens of islets north of Palau, with some of the most transparent water in Italy. Boat tours from Palau or Olbia visit the pink-tinged Spiaggia Rosa of Budelli and swim at Spargi's crystalline coves.",
+        lat: 41.2138,
+        lon: 9.4078,
+        photoQuery: "La Maddalena archipelago Sardinia",
+      },
+      {
+        name: "Baja Sardinia",
+        category: "coastal",
+        blurb:
+          "A small resort village between Porto Rotondo and Porto Cervo with a good beach, a marina, and a more relaxed atmosphere than its glamorous neighbors. A practical base with easy access to the coast's best roads and coves.",
+        lat: 41.1547,
+        lon: 9.4783,
+        photoQuery: "Baja Sardinia beach Sardinia",
+      },
+      {
+        name: "Pane carasau",
+        category: "food",
+        blurb:
+          "Sardinia's iconic crispy flatbread — fired twice in a wood oven until it shatters into paper-thin sheets. Served with olive oil and sea salt, topped with a slow-cooked egg (pane frattau), or alongside boards of local cured meats and cheese.",
+        photoQuery: "pane carasau Sardinian flatbread",
+      },
+      {
+        name: "Culurgiones",
+        category: "food",
+        blurb:
+          "Hand-pleated pasta parcels sealed with a wheat-ear crimp and stuffed with potato, pecorino, and mint — one of Sardinia's most distinctive comfort dishes. Best from an agriturismo kitchen, served simply with tomato sauce and a wedge of pecorino.",
+        photoQuery: "culurgiones pasta Sardinia Ogliastra",
+      },
+      {
+        name: "Cannonau di Sardegna",
+        category: "drink",
+        blurb:
+          "Sardinia's great native red — dense, sun-baked, and related to Grenache but unmistakably its own. Poured at dinner tables across the island alongside roast lamb, porceddu from the fire, and the evening air cooling off the coast.",
+        photoQuery: "Cannonau wine Sardinia vineyard",
+      },
+    ],
+  },
   villasimius: {
     slug: "villasimius",
     name: "Villasimius",

@@ -35,6 +35,7 @@ const FALLBACK_COORDS: Record<string, [number, number]> = {
   cagliari: [39.2238, 9.1217],
   alghero: [40.5589, 8.3155],
   villasimius: [39.1408, 9.5219],
+  olbia: [41.05, 9.42],
 };
 
 // How many photos to fetch per category (keeps the page weight sensible).

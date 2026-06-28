@@ -6,19 +6,17 @@ import type { City, SiteData } from "./schema.js";
 const CITY_ORDER = [
   "rome",
   "naples",
-  "positano",
-  "sorrento",
-  "amalfi",
   "pompeii",
-  "procida",
+  "sorrento",
   "capri",
-  "tropea",
-  "bagnara",
-  "scilla",
+  "amalfi",
+  "positano",
+  "procida",
   "catania",
-  "cagliari",
-  "alghero",
-  "villasimius",
+  "scilla",
+  "bagnara",
+  "tropea",
+  "olbia",
 ];
 
 export async function buildSiteData(dataDir: string): Promise<SiteData> {
